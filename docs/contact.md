@@ -8,8 +8,6 @@ Also, if you have any kind of question or issue, please drop us a note so we can
 
 The EPFL Sustainability team
 
-![Get in touch](assets/images/Documentation.Calculateur.CO2_web_files/image004.png)
-
 ## Formulaire (option externe)
 
 Ce site est publié avec GitHub Pages et n’exécute pas de code serveur. Pour un véritable formulaire, utilisez un service dédié (ex: Formspree) et remplacez l’identifiant ci-dessous.
