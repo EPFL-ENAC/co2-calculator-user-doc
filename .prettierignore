@@ -3,6 +3,8 @@
 
 # Build and dependency files
 node_modules/
+site/
+/.venv/
 package-lock.json
 npm-shrinkwrap.json
 .python-version

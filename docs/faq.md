@@ -26,7 +26,9 @@ $$
 - <em>FE</em> : facteur d’émission de l’électricité (0.125 kg CO<sub>2</sub> eq/kWh, KBOB 2002).
 
 <!-- Table complète importée depuis la source HTML pour fidélité -->
+
 ## Tableau des puissances moyennes des équipements
+
 --8<-- "includes/faq-table.html"
 
 <p><b>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Facteurs d’émissions</b></p>

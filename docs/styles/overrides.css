@@ -24,7 +24,7 @@
 
 /* Optional: emphasize active tab */
 [data-md-color-scheme="default"] .md-tabs__link--active {
-  border-bottom: 2px solid #E1000F; /* EPFL red accent */
+  border-bottom: 2px solid #e1000f; /* EPFL red accent */
 }
 
 /* Align the Word-exported FAQ table to the right and control width */

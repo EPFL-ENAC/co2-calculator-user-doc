@@ -18,13 +18,14 @@ Ce site est publié avec GitHub Pages et n’exécute pas de code serveur. Pour 
   <label for="name">Nom</label><br>
   <input type="text" id="name" name="name" required style="width:100%;max-width:420px"><br><br>
 
-  <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" required style="width:100%;max-width:420px"><br><br>
+<label for="email">Email</label><br>
+<input type="email" id="email" name="email" required style="width:100%;max-width:420px"><br><br>
 
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" rows="6" required style="width:100%;max-width:600px"></textarea><br><br>
+<label for="message">Message</label><br>
+<textarea id="message" name="message" rows="6" required style="width:100%;max-width:600px"></textarea><br><br>
 
-  <button type="submit">Envoyer</button>
+<button type="submit">Envoyer</button>
+
 </form>
 
 > Astuce: créez un compte sur Formspree, remplacez `your-form-id` par votre ID et les messages vous seront envoyés par email.
