@@ -1,0 +1,61 @@
+site_name: CO2 Calculator — User Docs
+site_description: User documentation for the EPFL ENAC CO2 calculator.
+site_url: https://epfl-enac.github.io/co2-calculator-user-doc/
+repo_name: EPFL-ENAC/co2-calculator-user-doc
+repo_url: https://github.com/EPFL-ENAC/co2-calculator-user-doc
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+    - content.code.copy
+  logo: assets/logo/epfl-logo.svg
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.snippets:
+      base_path:
+        - docs
+      check_paths: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - styles/overrides.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Project Overview: project-overview.md
+  - Methodology: methodology.md
+  - FAQ: faq.md
+  - Acknowledgements: acknowledgements.md
+  - Contact: contact.md
