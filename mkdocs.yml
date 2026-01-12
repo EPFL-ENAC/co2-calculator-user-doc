@@ -1,8 +1,8 @@
 site_name: CO2 Calculator — User Docs
 site_description: User documentation for the EPFL ENAC CO2 calculator.
 site_url: https://epfl-enac.github.io/co2-calculator-user-doc/
-repo_name: EPFL-ENAC/co2-calculator-user-doc
-repo_url: https://github.com/EPFL-ENAC/co2-calculator-user-doc
+repo_name: EPFL-ENAC/co2-calculator
+repo_url: https://github.com/EPFL-ENAC/co2-calculator
 
 theme:
   name: material
@@ -11,16 +11,15 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.tabs
-    - navigation.footer
     - content.code.copy
     - toc.integrate
   logo: assets/logo/epfl-logo.svg
   favicon: assets/logo/epfl-logo.svg
   palette:
     - scheme: default
-      primary: red
+      primary: white
       accent: red
-      toggle:
+      toggle: 
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
@@ -52,8 +51,7 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
-extra_css:
-  - styles/overrides.css
+
 
 nav:
   - Home: index.md
