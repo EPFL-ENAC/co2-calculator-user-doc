@@ -13,6 +13,7 @@ theme:
     - navigation.tabs
     - navigation.footer
     - content.code.copy
+    - toc.integrate
   logo: assets/logo/epfl-logo.svg
   favicon: assets/logo/epfl-logo.svg
   palette:
@@ -31,6 +32,7 @@ theme:
 
 plugins:
   - search
+  - table-reader
 
 markdown_extensions:
   - admonition
@@ -38,23 +40,23 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.snippets:
       base_path:
         - docs
       check_paths: true
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - styles/overrides.css
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
   - Project Overview: project-overview.md
   - Methodology: methodology.md
   - FAQ: faq.md

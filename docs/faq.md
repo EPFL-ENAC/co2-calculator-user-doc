@@ -25,14 +25,10 @@ $$
 - 47 : nombre de semaines travaillées par an.
 - <em>FE</em> : facteur d’émission de l’électricité (0.125 kg CO<sub>2</sub> eq/kWh, KBOB 2002).
 
-<!-- Table complète importée depuis la source HTML pour fidélité -->
-
 ## Tableau des puissances moyennes des équipements
 
---8<-- "includes/faq-table.html"
+{{ read_csv('includes/table_factor.csv') }}
 
 <p><b>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Facteurs d’émissions</b></p>
 
 <p>Seul le facteur d’émission 0.125&nbsp;kg CO<sub>2</sub>&nbsp;eq / kWh (KBOB 2002) est utilisé dans ce module.</p>
-
-<p>Note : Les équations sont désormais saisies en LaTeX (rendu via MathJax) afin d’éviter toute dépendance à des images. Le tableau ci‑dessus reprend intégralement les valeurs de puissances du document source.</p>
