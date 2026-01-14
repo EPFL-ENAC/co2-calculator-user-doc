@@ -10,3 +10,4 @@ pymdown-extensions>=10,<11
 
 # Plugins configured in mkdocs.yml
 mkdocs-table-reader-plugin>=2,<3
+mkdocs-i18n-plugin>=0.15,<0.16
