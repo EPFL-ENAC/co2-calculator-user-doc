@@ -3,12 +3,12 @@ site_description: User documentation for the EPFL ENAC CO2 calculator.
 site_url: https://epfl-enac.github.io/co2-calculator-user-doc/
 repo_name: EPFL-ENAC/co2-calculator
 repo_url: https://github.com/EPFL-ENAC/co2-calculator
+docs_dir: docs/
 
 theme:
   name: material
   language: en
   features:
-    - navigation.instant
     - navigation.top
     - navigation.tabs
     - content.code.copy
@@ -32,6 +32,26 @@ theme:
 plugins:
   - search
   - table-reader
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: CO2 Calculator — User Docs
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Calculateur de CO2 — Documentation utilisateur
+          nav_translations:
+            Home: Accueil
+            Project Overview: Aperçu du projet
+            Methodology: Méthodologie
+            FAQ: FAQ
+            Acknowledgements: Remerciements
+            Contact: Contact
 
 markdown_extensions:
   - admonition
@@ -50,7 +70,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
 
 
 nav:

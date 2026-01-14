@@ -27,7 +27,7 @@ $$
 
 ## Tableau des puissances moyennes des équipements
 
-{{ read_csv('includes/table_factor.csv') }}
+{{ read_csv('../includes/table_factor.csv') }}
 
 <p><b>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Facteurs d’émissions</b></p>
 
