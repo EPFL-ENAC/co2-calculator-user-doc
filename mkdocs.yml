@@ -23,7 +23,7 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: red
+      primary: black
       accent: red
       toggle:
         icon: material/weather-sunny
@@ -49,6 +49,13 @@ plugins:
             Home: Accueil
             Project Overview: Aperçu du projet
             Methodology: Méthodologie
+            Modules specification: Spécification des modules
+            Headcount: Effectifs  
+            Infrastructure: Infrastructure
+            Professional travel: Voyages professionnels
+            Equipment: Équipements
+            Services: Services
+            Purchases: Achats
             FAQ: FAQ
             Acknowledgements: Remerciements
             Contact: Contact
@@ -76,6 +83,14 @@ nav:
   - Home: index.md
   - Project Overview: project-overview.md
   - Methodology: methodology.md
+  - Modules specification:
+      - Headcount: headcount.md
+      - Professional travel: professional-travel.md
+      - Infrastructure: infrastructure.md
+      - Equipment: equipment.md
+      - Purchases: purchases.md
+      - Services: services.md
+      - External clouds & IA: external-cloud.md
   - FAQ: faq.md
   - Acknowledgements: acknowledgements.md
   - Contact: contact.md
