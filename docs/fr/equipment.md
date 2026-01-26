@@ -1,5 +1,5 @@
 
-# Documentation module: exemple consommation électrique des équipements
+# Documentation module : exemple consommation électrique des équipements
 
 <p><b>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Données collectées</b></p>
 
