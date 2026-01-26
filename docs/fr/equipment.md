@@ -1,9 +1,9 @@
 
-# Documentation module : exemple consommation électrique des équipements
+# Documentation module : consommation électrique des équipements
 
 <p><b>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Données collectées</b></p>
 
-<p>L’inventaire des équipements disponible sur Sesame permet d’effectuer la liste des équipements scientifiques (&gt;10 000 CHF), des équipements IT et autres par laboratoire: <a href="https://sesame.epfl.ch/#Shell-home">https://sesame.epfl.ch/#Shell-home</a></p>
+<p>L’inventaire des équipements disponible sur Sesame permet d’effectuer la liste des équipements scientifiques (&gt;10'000 CHF), des équipements IT et autres par laboratoire: <a href="https://sesame.epfl.ch/#Shell-home">https://sesame.epfl.ch/#Shell-home</a></p>
 
 <p><b>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Méthodologie</b></p>
 
