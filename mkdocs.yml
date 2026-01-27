@@ -51,7 +51,8 @@ plugins:
             Methodology: Méthodologie
             Modules specification: Spécification des modules
             Headcount: Effectifs  
-            Infrastructure: Infrastructure
+            Buildings: Bâtiments
+            Processes: Procédés
             Professional travel: Voyages professionnels
             Equipment: Équipements
             Services: Services
@@ -86,7 +87,8 @@ nav:
   - Modules specification:
       - Headcount: headcount.md
       - Professional travel: professional-travel.md
-      - Infrastructure: infrastructure.md
+      - Buildings: building.md
+      - Processes: processes.md
       - Equipment: equipment.md
       - Purchases: purchases.md
       - Services: services.md
