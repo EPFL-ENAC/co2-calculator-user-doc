@@ -51,12 +51,13 @@ plugins:
             Methodology: Méthodologie
             Modules specification: Spécification des modules
             Headcount: Effectifs  
-            Buildings: Bâtiments
             Processes: Procédés
-            Professional travel: Voyages professionnels
+            Buildings: Bâtiments
             Equipment: Équipements
-            Services: Services
+            External clouds & IA: Clouds externes et IA 
+            Professional travel: Voyages professionnels
             Purchases: Achats
+            EPFL research facilities: Infrastructures de recherche EPFL
             FAQ: FAQ
             Acknowledgements: Remerciements
             Contact: Contact
@@ -86,13 +87,15 @@ nav:
   - Methodology: methodology.md
   - Modules specification:
       - Headcount: headcount.md
-      - Professional travel: professional-travel.md
-      - Buildings: building.md
       - Processes: processes.md
+      - Buildings: building.md
       - Equipment: equipment.md
-      - Purchases: purchases.md
-      - Services: services.md
       - External clouds & IA: external-cloud.md
-  - FAQ: faq.md
+      - Professional travel: professional-travel.md
+      - Purchases: purchases.md
+      - EPFL research facilities: services.md
+  - Data management: data-management.md 
+  - Resources: resources.md
   - Acknowledgements: acknowledgements.md
   - Contact: contact.md
+  - FAQ: faq.md
