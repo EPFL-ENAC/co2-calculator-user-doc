@@ -58,9 +58,12 @@ plugins:
             Professional travel: Voyages professionnels
             Purchases: Achats
             EPFL research facilities: Infrastructures de recherche EPFL
-            FAQ: FAQ
+            Data management: Gestion des données
+            Resources: Ressources 
             Acknowledgements: Remerciements
             Contact: Contact
+            FAQ: FAQ
+            
 
 markdown_extensions:
   - admonition
