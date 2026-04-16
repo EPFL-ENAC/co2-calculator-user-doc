@@ -58,6 +58,7 @@ plugins:
             Professional travel: Voyages professionnels
             Purchases: Achats
             EPFL research facilities: Infrastructures de recherche EPFL
+            Additional categories: Catégories additionnelles 
             Data management: Gestion des données
             Resources: Ressources 
             Acknowledgements: Remerciements
@@ -97,6 +98,7 @@ nav:
       - Professional travel: professional-travel.md
       - Purchases: purchases.md
       - EPFL research facilities: services.md
+      - Additional categories: additional-categories.md
   - Data management: data-management.md 
   - Resources: resources.md
   - Acknowledgements: acknowledgements.md
