@@ -1,10 +1,12 @@
-# 2. Méthodologie
+# 3. Méthodologie
 
-La partie « Méthodologie » ci-dessous précise et justifie les choix que nous avons faits, par volonté de totale transparence de la démarche.
+Le développement d’un tel outil pour évaluer les émissions liées aux activités de recherche exige une méthodologie particulièrement rigoureuse et pragmatique. Selon la disponibilité des données, certains choix quant aux hypothèses du calcul de l’empreinte ont dû être faits et sont détaillés ci-dessous et ce afin d’assurer une transparence totale. Pour chaque sous-module et module, la méthodologie ainsi que les références utilisées sont détaillées dans la partie "Spécification des modules”. 
 
-## 2.1 GHG Protocol
+## 3.1 Référentiel de calcul des émissions 
 
-The calculator follows the Greenhouse Gas Protocol, the international standard for calculating greenhouse gas emissions.
+Le calculateur CO2 s’appuie sur le Greenhouse Gas Protocol (GHG Protocol), la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
+
+Développé en 1998 par le World Resources Institute (WRI) et le World Business Council for Sustainable Development (WBCSD), le GHG Protocol est la norme de référence la plus largement reconnue et utilisée au niveau mondial pour la comptabilisation et le compte rendu des émissions de gaz à effet de serre. Il fournit aux organisations un cadre clair pour calculer les émissions liées à leurs activités et à leur chaîne de valeur, afin d’identifier des leviers de réduction. 
 
 ### À propos du GHG Protocol (FR)
 
