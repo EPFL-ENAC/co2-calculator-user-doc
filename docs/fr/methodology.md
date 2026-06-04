@@ -4,42 +4,44 @@ Le développement d’un tel outil pour évaluer les émissions liées aux activ
 
 ## 3.1 Référentiel de calcul des émissions 
 
-Le calculateur CO2 s’appuie sur le Greenhouse Gas Protocol (GHG Protocol), la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
+Le calculateur CO2 s’appuie sur le **[Greenhouse Gas Protocol (GHG Protocol)](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**, la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
 
 Développé en 1998 par le World Resources Institute (WRI) et le World Business Council for Sustainable Development (WBCSD), le GHG Protocol est la norme de référence la plus largement reconnue et utilisée au niveau mondial pour la comptabilisation et le compte rendu des émissions de gaz à effet de serre. Il fournit aux organisations un cadre clair pour calculer les émissions liées à leurs activités et à leur chaîne de valeur, afin d’identifier des leviers de réduction. 
 
-### À propos du GHG Protocol (FR)
+Cet ouil s’efforce de suivre le GHG Protocol avec la plus grande rigueur possible et détaillée ci-dessous, notamment via l’intégration des trois scopes d’émissions.
 
-Le GHG Protocol (Green House Gas Protocol) est une norme internationale pour la comptabilisation et la gestion des émissions de GES. Il a été élaboré par le World Resources Institute (WRI) et le World Business Council for Sustainable Development (WBCSD) en 1998. Il est une des normes les plus utilisées au niveau international pour mesurer et rapporter les émissions de GES. La précédente version (v4) du bilan GES réglementaire français était très proche du GHG Protocol.
+### Les trois scopes d’émissions
 
-Le protocole définit trois catégories d'émissions, appelées « scopes » :
+Le GHG Protocol distingue trois grandes catégories d’émissions, appelées scopes. 
 
-- **Scope 1** : les émissions directes de GES provenant des sources contrôlées par l'organisation, telles que les émissions de dioxyde de carbone (CO₂), de méthane (CH₄) et de protoxyde d'azote (N₂O) résultant des combustibles fossiles brûlés dans les installations de l'organisation, ou des émissions de CH₄ et N₂O provenant des procédés industriels.
-- **Scope 2** : les émissions indirectes de GES provenant de la production d'électricité, de chaleur ou de vapeur achetées par l'organisation.
-- **Scope 3** : toutes les autres émissions indirectes de GES qui résultent des activités de l'organisation (matières premières et produits achetés, transport des biens et des personnes, déchets, etc.).
+<img width="383" height="256" alt="image" src="https://github.com/user-attachments/assets/cac70157-c3c7-4f32-85d1-f931fa65a082" />
+        
+        Figure 2 :  The Greenhouse Gas Protocol Corporate Standard (2019, p. 26).
 
-Postes inclus dans l’outil (exemples) :
+#### Scope 1 – Émissions directes
+Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple :
+- La combustion de combustibles fossiles dans les bâtiments ou installations ;
+- Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
 
-- 3.1 : achats de produits ou services
-- 3.2 : émissions liées aux immobilisations de biens (émissions intégrées hors phase d’usage)
-- 3.3 : émissions « amont » liées à la chaîne de production d’énergie finale (extraction, transport, raffinage/traitement, distribution)
-- 3.4 : transport de marchandise amont
-- 3.5 : déchets (transport et traitement)
-- 3.6 : déplacements professionnels (déplacements, nuitées, défraiements)
-- 3.7 : déplacements domicile–travail
-- 3.8 : actifs en leasing amont (fabrication des biens loués)
-- 3.15 : investissements
+#### Scope 2 – Émissions indirectes liées à l’énergie
+Ce scope couvre les émissions associées à la production d’électricité, de chaleur ou de vapeur achetées et consommées par l’organisation.
 
-Pour les postes 1.1, 1.2, 2.1 et 2.2 (scopes 1 et 2), les émissions liées aux consommations d'énergie ont été calculées en utilisant les facteurs d'émission « hors amont ». Les émissions liées à « l'amont » des combustibles ont été comptabilisées dans le poste 3.3.
+#### Scope 3 – Autres émissions indirectes
+Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des activités de l’organisation, telles que :
+- Les achats de biens et services ;
+- Les voyages professionnels ;
+- La mobilité pendulaire ;
+- La gestion des déchets ; 
+D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
+
+## 3.2 Application du périmètre
+### Espace Calculateur CO2
+
+
+
 
 ![Schéma des scopes GHG Protocol](assets/images/image003.png)
 
 Voir aussi : **[GHG Protocol scope definition](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**
 
-### About the GHG Protocol (EN)
 
-The Greenhouse Gas Protocol is the world’s most widely known and adopted GHG emissions accounting standard and reporting guideline. It provides organizations with a clear framework for calculating emissions from their operations and value chains in order to identify opportunities for reduction. Our labs footprint calculation tool strives to follow the GHG Protocol as accurately as possible.
-
-## 2.2 System boundaries
-
-Contenu à venir.
