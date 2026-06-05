@@ -1,6 +1,6 @@
 # 2.	Aperçu du projet  
 ## 2.1 Contexte du projet
-Faisant partie de l’administration fédérale décentralisée, l’EPFL doit atteindre des objectifs de réduction des émissions de gaz à effet de serre ambitieux. En tant qu’institution académique, la part la plus importante de son empreinte environnementale vient de ses activités de recherche. Les laboratoires consomment en effet environ dix fois plus d'énergie que les bureaux classiques en raison par exemple de leurs besoins spécifiques en matière de ventilation, de l'utilisation d'équipements très gourmands ou encore pour la gestion des données dans les centres de calcul haute performance [1]. Au-delà de la consommation d’énergie, les achats ou les voyages pour ne citer qu’eux représentent une part importante des émissions de CO2 et un défi important en termes de réduction.
+Faisant partie de l’administration fédérale décentralisée, l’EPFL doit atteindre des objectifs de réduction des émissions de gaz à effet de serre ambitieux. En tant qu’institution académique, la part la plus importante de son empreinte environnementale vient de ses activités de recherche. Les laboratoires consomment en effet environ dix fois plus d'énergie que les bureaux classiques en raison par exemple de leurs besoins spécifiques en matière de ventilation, de l'utilisation d'équipements très gourmands ou encore pour la gestion des données dans les centres de calcul haute performance [1]. Au-delà de la consommation d’énergie, les achats ou les voyages pour ne citer qu’eux représentent une part importante des émissions de CO₂ et un défi important en termes de réduction.
 
 [1] Freese, T., Elzinga, N., Heinemann, M., Lerch, M. M., & Feringa, B. L. (2024). The relevance of sustainable laboratory practices. RSC Sustainability, 2(5), 1300-1336.
 
@@ -21,9 +21,9 @@ Enfin, l’outil développé par l’EPFL, est conçu pour s’adapter aux spéc
 
 ## 2.3 L’outil et ses fonctionnalités  
 
-L’outil calculateur CO2 possède deux espaces de travail : 
+L’outil calculateur CO₂ possède deux espaces de travail : 
 
-#### *Espace Calculateur CO2*
+#### *Espace Calculateur CO₂*
 
 Cet espace permet d’évaluer l’empreinte carbone de l’unité chaque année, sur la base de l’année civile antérieure (du 1er janvier au 31 décembre) et des modules suivants :
 - **Émissions de procédés**
@@ -37,9 +37,9 @@ Cet espace permet d’évaluer l’empreinte carbone de l’unité chaque année
 
 Cet espace permet en outre de suivre l’évolution des émissions de l’unité dans le temps. 
 
-#### *Espace Simulateur CO2*
+#### *Espace Simulateur CO₂*
 
-L’espace Simulateur CO2 possède deux fonctionnalités. 
+L’espace Simulateur CO₂ possède deux fonctionnalités. 
 La première fonctionnalité *Explorer* permet d’estimer l’empreinte d’un ou plusieurs modules spécifiques. La simulation est possible pour les modules suivants : 
 - **Émissions de procédés**
 - **Équipements**
@@ -49,7 +49,7 @@ La première fonctionnalité *Explorer* permet d’estimer l’empreinte d’un 
 
 La deuxième fonctionnalité *Planifier* permet d’estimer l’empreinte d’un projet de recherche en cours ou à venir. Il est particulièrement pertinent par exemple pour la demande d’une subvention ou d’une demande de fonds. 
 
-Dans la majorité des modules de cet espace, les données remontent automatiquement depuis le calculateur CO2 ne nécessitant qu’une validation, et seulement dans certains cas une saisie manuelle des informations doit être effectuée. 
+Dans la majorité des modules de cet espace, les données remontent automatiquement depuis le calculateur CO₂ ne nécessitant qu’une validation, et seulement dans certains cas une saisie manuelle des informations doit être effectuée. 
 
 ## 2.4 Objectifs de l’outil
 L’outil calculateur CO₂ open-source remplit les objectifs suivants :
@@ -83,9 +83,9 @@ L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherc
 
       Figure 1 : Approche GreenLabs EPFL
 
-Le calculateur CO2 permet d’anticiper les obligations futures en matière de suivi et de compte rendu des émissions carbones liées aux activités de recherche.
+Le calculateur CO₂ permet d’anticiper les obligations futures en matière de suivi et de compte rendu des émissions carbones liées aux activités de recherche.
 
-En complément, l’espace Simulation CO2 permet d’estimer l’empreinte carbone d’un ou plusieurs modules (par exemple : achat d’équipement, voyages professionnels, consommation électrique d’un équipement supplémentaire) ou d’un projet de recherche, et ainsi d’orienter les décisions à l’échelle d’un projet de recherche ou d’un module spécifique.
+En complément, l’espace *Simulation CO₂* permet d’estimer l’empreinte carbone d’un ou plusieurs modules (par exemple : achat d’équipement, voyages professionnels, consommation électrique d’un équipement supplémentaire) ou d’un projet de recherche, et ainsi d’orienter les décisions à l’échelle d’un projet de recherche ou d’un module spécifique.
 
 
 
