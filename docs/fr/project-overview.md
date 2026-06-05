@@ -61,7 +61,7 @@ L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 - Satisfaire les futures exigences européennes et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
 - Anticiper les évolutions légales contraignantes en dotant l’EPFL d’outil permettant de comprendre, cibler et diminuer ses émissions carbones.
 
-2.5 Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
+## 2.5 Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
 Le calculateur CO₂ s’inscrit pleinement dans la stratégie environnementale de l’École :
 - La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** ;
 - L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**
