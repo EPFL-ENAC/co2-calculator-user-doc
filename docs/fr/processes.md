@@ -7,7 +7,7 @@ Certaines activités de laboratoire émettent directement des gaz, comme par exe
 Les quantités de gaz émises par les émissions de procédés sont saisies manuellement.
 
 ### 3.	Facteurs d’émission
-Pour le CO2, CH4, N2O, les valeurs IPCC AR5 sont utilisées (GHG Protocol, 2024). Pour les fluides frigorigènes, les facteurs d’émissions transmis par le Labos 1point5 (2021, 2022) sont utilisés (voir tableaux des facteurs d’émissions dans la section 7 Annexe). Ces facteurs sont aussi basés sur IPCC AR5. 
+Pour le CO₂, CH₄, N₂O, les valeurs IPCC AR5 sont utilisées (GHG Protocol, 2024). Pour les fluides frigorigènes, les facteurs d’émissions transmis par le Labos 1point5 (2021, 2022) sont utilisés (voir tableaux des facteurs d’émissions dans la section 7 Annexe). Ces facteurs sont aussi basés sur IPCC AR5. 
 
 ### 4.	Méthodologie
 L’empreinte carbone de chaque émission de procédés 〖CF〗_(process_emission) est calculée comme le produit de la consommation d’émission de procédé en kg et le facteur d’émission correspondant.
