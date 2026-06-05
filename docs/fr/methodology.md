@@ -20,33 +20,33 @@ Le GHG Protocol distingue trois grandes catégories d’émissions, appelées sc
 
 #### Scope 1 – Émissions directes
 Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple :
-- La combustion de combustibles fossiles dans les bâtiments ou installations ;
-- Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
++ La combustion de combustibles fossiles dans les bâtiments ou installations ;
++ Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
 
 #### Scope 2 – Émissions indirectes liées à l’énergie
 Ce scope couvre les émissions associées à la production d’électricité, de chaleur ou de vapeur achetées et consommées par l’organisation.
 
 #### Scope 3 – Autres émissions indirectes
 Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des activités de l’organisation, telles que :
-- Les achats de biens et services ;
-- Les voyages professionnels ;
-- La mobilité pendulaire ;
-- La gestion des déchets ; 
++ Les achats de biens et services ;
++ Les voyages professionnels ;
++ La mobilité pendulaire ;
++ La gestion des déchets ; 
 D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
 
 ## 3.2 Application du périmètre
 ### Espace Calculateur CO₂
 
 Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche telles que :
-- **Émissions de procédés (Scope 1)**
-- **Bâtiments** – *Énergie de combustion* **(Scope 1)**
-- **Bâtiments** – *Locaux* **(Scope 1 et/ ou 2)**
-- **Équipements (Scope 2)**
-- **Clouds externes et IA (Scope 3)**
-- **Voyages professionnels (Scope 3)**
-- **Achats (Scope 3)**
-- **Infrastructures de recherche EPFL (Scope 3)**
-- **Catégories additionnelles** - *Pendularité, Alimentation, Déchets, Constructions et rénovations* **(Scope 3)**
++ **Émissions de procédés (Scope 1)**
++ **Bâtiments** – *Énergie de combustion* **(Scope 1)**
++ **Bâtiments** – *Locaux* **(Scope 1 et/ ou 2)**
++ **Équipements (Scope 2)**
++ **Clouds externes et IA (Scope 3)**
++ **Voyages professionnels (Scope 3)**
++ **Achats (Scope 3)**
++ **Infrastructures de recherche EPFL (Scope 3)**
++ **Catégories additionnelles** - *Pendularité, Alimentation, Déchets, Constructions et rénovations* **(Scope 3)**
 
 Certaines émissions liées aux Locaux dans le module **Bâtiments** peuvent aussi apparaitre dans le scope 1, selon la source de chauffage du bâtiment.
 
