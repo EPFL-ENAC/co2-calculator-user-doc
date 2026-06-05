@@ -64,10 +64,12 @@ L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 ## 2.5 Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
 Le calculateur CO₂ s’inscrit pleinement dans la stratégie environnementale de l’École :
 - La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** ;
-- L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**
+- L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** ;
 - Les futures exigences internationales et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
 
-La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** fixe des objectifs ambitieux en intégrant la durabilité dans les missions fondamentales de l’École : l’enseignement, la recherche et l’innovation. Elle prévoit également des mesures visant à réduire les impacts environnementaux liés au fonctionnement de l’institution. Ces objectifs incluent notamment :
+La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** fixe des objectifs ambitieux en intégrant la durabilité dans les missions fondamentales de l’École : l’enseignement, la recherche et l’innovation. Elle prévoit également des mesures visant à réduire les impacts environnementaux liés au fonctionnement de l’institution. 
+
+Ces objectifs incluent notamment :
 - Une réduction globale de 40 % des émissions de gaz à effet de serre d’ici 2030 par rapport à 2019 ;
 - Une réduction de 50 % des émissions liées à l’énergie par rapport à 2006 ;
 - Une réduction de 30 % des émissions liées aux voyages aériens par rapport à 2019 (objectifs définis au niveau fédéral). 
