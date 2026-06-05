@@ -21,7 +21,7 @@ Le module Émissions de procédés doit être rempli manuellement. La qualité d
 
 ### 6.	Références
 •	Greenhouse Gas Protocol (2024) : IPCC Global Warming Potential Values https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf
-•	Labos 1point5 :  Facteurs d'emission - version de juin 2021 et  Facteurs d'emission biens et services - version de janvier 2022. Pour les biens et services vous pouvez également consulter une discussion plus détaillée dans [De Paepe 2023] (https://www.biorxiv.org/content/10.1101/2023.04.04.535626v3).
+•	Labos 1point5 :  Facteurs d'emission - version de juin 2021 et  Facteurs d'emission biens et services - version de janvier 2022. Pour les biens et services vous pouvez également consulter une discussion plus détaillée dans [De Paepe 2023](https://www.biorxiv.org/content/10.1101/2023.04.04.535626v3).
 
 ### 7.	Annexe
 
