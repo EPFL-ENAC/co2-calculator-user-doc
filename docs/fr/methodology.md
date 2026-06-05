@@ -4,7 +4,7 @@ Le développement d’un tel outil pour évaluer les émissions liées aux activ
 
 ## 3.1 Référentiel de calcul des émissions 
 
-Le calculateur CO2 s’appuie sur le **[Greenhouse Gas Protocol (GHG Protocol)](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**, la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
+Le calculateur CO₂ s’appuie sur le **[Greenhouse Gas Protocol (GHG Protocol)](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**, la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
 
 Développé en 1998 par le World Resources Institute (WRI) et le World Business Council for Sustainable Development (WBCSD), le GHG Protocol est la norme de référence la plus largement reconnue et utilisée au niveau mondial pour la comptabilisation et le compte rendu des émissions de gaz à effet de serre. Il fournit aux organisations un cadre clair pour calculer les émissions liées à leurs activités et à leur chaîne de valeur, afin d’identifier des leviers de réduction. 
 
@@ -35,13 +35,8 @@ Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des
 D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
 
 ## 3.2 Application du périmètre
-### Espace Calculateur CO2
+### Espace Calculateur CO₂
 
 
-
-
-![Schéma des scopes GHG Protocol](assets/images/image003.png)
-
-Voir aussi : **[GHG Protocol scope definition](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**
 
 
