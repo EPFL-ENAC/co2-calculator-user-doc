@@ -9,4 +9,4 @@ Afin de mieux comprendre en donnant des ordres de grandeur et de mieux quantifie
 
 Sa conception repose sur une approche collaborative avec des laboratoires et plateformes de la faculté, le bureau Durabilité SV, des services centraux de la faculté et de l’EPFL, de l’association étudiante Zero Emission Group et d’externes en particulier le cabinet de conseil Quantis. Ce prototype a ensuite été testé dans une trentaine de laboratoires de l’EPFL, ouvrant la voie au développement d’un outil déployé à l’échelle de l’ensemble des facultés. 
 
-Plus d’informations : Calculateur CO2 SV 
+Plus d’informations : **[Calculateur CO2 SV]([https://www.epfl.ch/schools/sv/fr/science-de-la-vie/a-propos/bureau-de-durabilite/calculateur-co2/])**
