@@ -81,7 +81,8 @@ L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherc
 
  <img width="384" height="172" alt="image" src="https://github.com/user-attachments/assets/664aaca1-8502-42b9-96f6-faf1415ffe2d" />
 
-Figure 1 : Approche GreenLabs EPFL
+      Figure 1 : Approche GreenLabs EPFL
+
 Le calculateur CO2 permet d’anticiper les obligations futures en matière de suivi et de compte rendu des émissions carbones liées aux activités de recherche.
 
 En complément, l’espace Simulation CO2 permet d’estimer l’empreinte carbone d’un ou plusieurs modules (par exemple : achat d’équipement, voyages professionnels, consommation électrique d’un équipement supplémentaire) ou d’un projet de recherche, et ainsi d’orienter les décisions à l’échelle d’un projet de recherche ou d’un module spécifique.
