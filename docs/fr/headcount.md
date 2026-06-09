@@ -16,4 +16,4 @@ Les données relatives aux étudiantes et étudiants ne sont pas entièrement di
 
 
 ### 3. Référence
-Nomenclature SIUS : https://www.bfs.admin.ch/asset/en/18184339 	
+Nomenclature SIUS : [https://www.bfs.admin.ch/asset/en/18184339](https://www.bfs.admin.ch/asset/en/18184339)  	
