@@ -38,15 +38,15 @@ D'autres catégories présentes dans le GHG Protocol, comme les investissements,
 ### Espace Calculateur CO₂
 
 Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche telles que :
-+ **Émissions de procédés (Scope 1)**
-+ **Bâtiments** – *Énergie de combustion* **(Scope 1)**
-+ **Bâtiments** – *Locaux* **(Scope 1 et/ ou 2)**
-+ **Équipements (Scope 2)**
-+ **Clouds externes et IA (Scope 3)**
-+ **Voyages professionnels (Scope 3)**
-+ **Achats (Scope 3)**
-+ **Infrastructures de recherche EPFL (Scope 3)**
-+ **Catégories additionnelles** - *Pendularité, Alimentation, Déchets, Constructions et rénovations* **(Scope 3)**
+- **Émissions de procédés (Scope 1)**
+- **Bâtiments** – *Énergie de combustion* **(Scope 1)**
+- **Bâtiments** – *Locaux* **(Scope 1 et/ ou 2)**
+- **Équipements (Scope 2)**
+- **Clouds externes et IA (Scope 3)**
+- **Voyages professionnels (Scope 3)**
+- **Achats (Scope 3)**
+- **Infrastructures de recherche EPFL (Scope 3)**
+- **Catégories additionnelles** - *Pendularité, Alimentation, Déchets, Constructions et rénovations* **(Scope 3)**
 
 Certaines émissions liées aux Locaux dans le module **Bâtiments** peuvent aussi apparaitre dans le scope 1, selon la source de chauffage du bâtiment.
 
