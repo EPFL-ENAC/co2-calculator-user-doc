@@ -61,7 +61,7 @@ $$
 - $Q_{\text{category}}$ : correspond à la quantité d’une activité donnée dans la catégorie
 - $EF_{\text{category}}$ : représente le facteur d’émission de la catégorie
 
-Par exemple, pour le module **Équipements**, un incubateur qui est utilisé sur une année pour un total de 440 kWh émet 440  0,097 = 42.7 kg CO₂-eq, car le facteur d’émission d’un kWh du mix de consommation suisse est de 0,097 kg CO₂-eq (BAFU, 2025). 
+Par exemple, pour le module **Équipements**, un incubateur qui est utilisé sur une année pour un total de 440 kWh émet 440 x 0,097 = 42.7 kg CO₂-eq, car le facteur d’émission d’un kWh du mix de consommation suisse est de 0,097 kg CO₂-eq (BAFU, 2025). 
 
 Selon les données disponibles, il est parfois nécessaire d’effectuer des calculs afin d’obtenir la quantité de l’activité émettrice. Par exemple, dans le cas de l’incubateur ci-dessus, la quantité de kWh a été estimée sur la base de la puissance moyenne en standby en activité, et selon le rapport des heures d’utilisation par semaine. Plus de détails et d’information sur les choix et les méthodes de calcul sont accessibles dans l’onglet « Spécification des modules ».
 
