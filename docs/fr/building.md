@@ -79,7 +79,7 @@ Où :
 - Le facteur d’émission 0.097 kg CO₂-eq/kWh représente une moyenne annuelle suisse, et non du mix électrique au moment de l’utilisation de l’équipement.
 - La consommation de combustibles pour estimer les émissions de combustion d’énergie d’un système de chauffage non-centralisé doit être saisie manuellement. La qualité des résultats dépend donc de la qualité de cette donnée d’entrée.
   
-  ### 6. Références
+### 6. Références
 - Base de données interne relative aux surfaces des locaux Labos1point5 : [Facteurs d'emission - version de juin 2021](https://apps.labos1point5.org/static/carbon/FacteursEmission_GES1point5_Juin2021.pdf) et [Facteurs d'emission biens et services - version de janvier 2022](https://apps.labos1point5.org/static/carbon/FacteursEmission_BiensEtServices_janvier2022_FR.pdf). Pour les biens et services vous pouvez également consulter une discussion plus détaillée dans [De Paepe 2023].
 - Corporate Footprint Calculator v 1.0, [https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator](https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator)
 - BAFU 2025, [https://nexus.openlca.org/database/BAFU](https://nexus.openlca.org/database/BAFU)
