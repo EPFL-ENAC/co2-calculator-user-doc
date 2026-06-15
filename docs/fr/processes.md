@@ -10,16 +10,16 @@ Les quantités de gaz émises par les émissions de procédés sont saisies manu
 Pour le CO₂, CH₄, N₂O, les valeurs IPCC AR5 sont utilisées (GHG Protocol, 2024). Pour les fluides frigorigènes, les facteurs d’émissions transmis par le Labos 1point5 (2021, 2022) sont utilisés (voir tableaux des facteurs d’émissions dans la section 7 Annexe). Ces facteurs sont aussi basés sur IPCC AR5. 
 
 ### 4.	Méthodologie
-L’empreinte carbone de chaque émission de procédés $$CF_{\{process_emission}}$$ est calculée comme le produit de la consommation d’émission de procédé en kg et le facteur d’émission correspondant.
+L’empreinte carbone de chaque émission de procédés $$CF_{{process~emission}}$$ est calculée comme le produit de la consommation d’émission de procédé en kg et le facteur d’émission correspondant.
 
 $$
-CF_{\{process\_emission}} = Q_{\{process\_type}} \cdot EF_{\{process\_type}}
+CF_{process~emission} = Q_{\{process\_type}} \cdot EF_{\{process\_type}}
 $$
 
 Où :
-- $\{process\_type}$ : voir le Tableau 1 dans la section 7 (Annexe)  
-- $Q_{\{process\_type}}$ : quantité d’émission de procédé (kg), saisie manuellement  
-- $EF_{\{process\_type}}$ : facteur d’émission (kg CO₂-eq / kg)
+- ${process_{type}}$ : voir le Tableau 1 dans la section 7 (Annexe)  
+- $Q_{process\_type}$ : quantité d’émission de procédé (kg), saisie manuellement  
+- $EF_{process\_type}$ : facteur d’émission (kg CO₂-eq / kg)
 
 Le total des émissions de l'ensemble de chaque élément s'affiche en t CO₂-eq une fois le module validé.
 
