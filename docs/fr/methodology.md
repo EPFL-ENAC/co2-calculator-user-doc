@@ -19,8 +19,9 @@ Le GHG Protocol distingue trois grandes catégories d’émissions, appelées sc
         Figure 2 :  The Greenhouse Gas Protocol Corporate Standard (2019, p. 26).
 
 #### Scope 1 – Émissions directes
-Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple : 
-- La combustion de combustibles fossiles dans les bâtiments ou installations ; 
+Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple :
+
+- La combustion de combustibles fossiles dans les bâtiments ou installations ;
 - Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
 
 #### Scope 2 – Émissions indirectes liées à l’énergie
@@ -40,6 +41,7 @@ D'autres catégories présentes dans le GHG Protocol, comme les investissements,
 ### Espace Calculateur CO₂
 
 Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche telles que :
+
 - **Émissions de procédés (Scope 1)**
 - **Bâtiments** – *Énergie de combustion* **(Scope 1)**
 - **Bâtiments** – *Locaux* **(Scope 1 et/ ou 2)**
@@ -100,11 +102,13 @@ Plusieurs gaz contribuent à l'effet de serre, tels que le méthane (CH₄), l'o
 Après avoir validé tous les modules, l’utilisatrice ou l’utilisateur accède à la page des résultats. Cette page présente différentes visualisations et informations relatives au bilan carbone de l’unité.
 
 En particulier, un résumé en haut de la page, composé de trois encadrés qui affichent :
+
 - Le total des émissions en équivalent CO₂ pour l’unité ;
 - Le total par équivalent plein temps (EPT) ;
 - Une comparaison avec les années précédentes, lorsque ces données sont disponibles.
 
 Plusieurs graphes de synthèse :
+
 - Un diagramme en barres présentant les totaux par catégorie. Les résultats y sont visualisés à la fois par catégorie et par scope ;
 	Insérer image graphe résultats
 - Un diagramme en barres empilées montrant les émissions par EPT ;
