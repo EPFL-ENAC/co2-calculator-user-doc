@@ -36,42 +36,42 @@ Pour les émissions de combustion d’énergie de systèmes non-centralisés, le
 
 ***Sous-module Locaux***
 
-L’empreinte carbone de chaque local $$CF_{room}$$ est calculée comme le produit de la surface du local en m2 et la consommation de chauffage, refroidissement, ventilation et éclairage en kWh par m2 par type de salle et par bâtiment ainsi que le facteur d’émission de l’électricité suisse tel que :
+L’empreinte carbone de chaque local $CF_{rooms}$ est calculée comme le produit de la surface du local en m2 et la consommation de chauffage, refroidissement, ventilation et éclairage en kWh par m2 par type de salle et par bâtiment ainsi que le facteur d’émission de l’électricité suisse tel que :
 
 $$
-CF_{room} = Surface \cdot \left(
-Cons_{heating, building, room\_type} +
-Cons_{cooling, building, room\_type} +
-Cons_{ventilation, building, room\_type} +
-Cons_{lighting, building, room\_type}
+CF_{rooms} = Surface \cdot \left(
+Cons_{heating, building, room_{type}} +
+Cons_{cooling, building, room_{type}} +
+Cons_{ventilation, building, room_{type}} +
+Cons_{lighting, building, room_{type}}
 \right) \cdot EF_{electricity}
 $$
 
 Où :
--  $\{buildings}$ : bâtiment où les locaux de l’unité se situent  
-- $\{room_type}$: type de local parmi les catégories *bureau, divers, laboratoires, archives, bibliothèques, auditoires*  
-- $\{Surface}$: surface occupée (m²)  
 
-- $\{Cons\_{heating, building, room\_type}}$
-- $\{Cons\_{cooling, building, room\_type}}$
-- $\{Cons\_{ventilation, building, room\_type}}$
-- $\{Cons\_{lighting, building, room\_type}}$ 
-  : consommation électrique pour le chauffage, refroidissement, ventilation et éclairage du local (kWh/m²), extrapolée à partir des données de la VPO, selon le bâtiment et le type de salle  
-- $\{EF\_{electricity}}$ : facteur d’émission de l’électricité (0.097 kg CO₂-eq/kWh, BAFU, 2025)
+-  $buildings$ : bâtiment où les locaux de l’unité se situent  
+- $room_{type}$ : type de local parmi les catégories *bureau, divers, laboratoires, archives, bibliothèques, auditoires*  
+- $Surface$: surface occupée (m²)  
+- $Cons_{heating, building, room_{type}}$
+- $Cons_{cooling, building, room_{type}}$
+- $Cons_{ventilation, building, room_{type}}$
+- $Cons_{lighting, building, room_{type}}$ : consommation électrique pour le chauffage, refroidissement, ventilation et éclairage du local (kWh/m²), extrapolée à partir des données de la VPO, selon le bâtiment et le type de salle  
+- $EF_{electricity}$ : facteur d’émission de l’électricité (0.097 kg CO₂-eq/kWh, BAFU, 2025)
   
 
 ***Sous-module Émissions de combustion d’énergie***
 
-L’empreinte carbone $$CF_{combustion}$$ est calculée comme le produit de la quantité de consommation de combustible en kg ou kWh ou kWh et le facteur d’émission correspondant tel que :
+L’empreinte carbone $CF_{combustion}$ est calculée comme le produit de la quantité de consommation de combustible en kg ou kWh ou kWh et le facteur d’émission correspondant tel que :
 
 $$
-CF_{combustion} = Q_{\{fuel\_type}} \cdot EF_{\{fuel\_type}}
+CF_{combustion} = Q_{fuel_{type}} \cdot EF_{fuel_{type}}
 $$
 
 Où : 
-- $\{fuel_type}$ : type de combustible utilisé : gaz naturel, fioul domestique, biométhane, granulés de bois, plaquettes forestières et bois bûche
-- $\{Q_fuel_type}$: quantité de combustibles utilisée pour une source de chauffage non-centralisé en kg ou kWh saisie manuellement.
-- $\{EF_fuel_type}$: facteur d’émission de chaque combustible en kg CO₂-eq/kWh ou kg CO₂-ep/kg.
+
+- $fuel_{type}$ : type de combustible utilisé : gaz naturel, fioul domestique, biométhane, granulés de bois, plaquettes forestières et bois bûche
+- $Q_{{fuel}_{type}}$ : quantité de combustibles utilisée pour une source de chauffage non-centralisé en kg ou kWh saisie manuellement.
+- $EF_{{fuel}_{type}}$ : facteur d’émission de chaque combustible en kg CO₂-eq/kWh ou kg CO₂-ep/kg.
 
 ### 5. Limites
 - L’occupation en m2 donnée par la base de données interne relative aux surfaces des locaux peut ne pas être représentative de la réalité en cas de mutualisation ou prêt de locaux.
