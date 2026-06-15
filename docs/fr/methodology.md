@@ -19,8 +19,8 @@ Le GHG Protocol distingue trois grandes catégories d’émissions, appelées sc
         Figure 2 :  The Greenhouse Gas Protocol Corporate Standard (2019, p. 26).
 
 #### Scope 1 – Émissions directes
-Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple :
-- La combustion de combustibles fossiles dans les bâtiments ou installations ;
+Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple : 
+- La combustion de combustibles fossiles dans les bâtiments ou installations ; 
 - Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
 
 #### Scope 2 – Émissions indirectes liées à l’énergie
@@ -28,10 +28,12 @@ Ce scope couvre les émissions associées à la production d’électricité, de
 
 #### Scope 3 – Autres émissions indirectes
 Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des activités de l’organisation, telles que :
+
 - Les achats de biens et services ;
 - Les voyages professionnels ;
 - La mobilité pendulaire ;
-- La gestion des déchets ; 
+- La gestion des déchets ;
+  
 D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
 
 ## 3.2 Application du périmètre
