@@ -20,7 +20,7 @@ Où :
 
 - ${process_{type}}$ : voir le Tableau 1 dans la section 7 (Annexe)
 - $Q_{process_{type}}$ : quantité d’émission de procédé (kg), saisie manuellement 
-- $EF_{process_{type}}$ : facteur d’émission (kg CO₂-eq / kg)
+- $EF_{process_{type}}$ : facteur d’émission selon le type d'émission de procédé (kg CO₂-eq / kg)
 
 Le total des émissions de l'ensemble de chaque élément s'affiche en t CO₂-eq une fois le module validé.
 
