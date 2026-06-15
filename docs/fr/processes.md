@@ -12,15 +12,15 @@ Pour le CO₂, CH₄, N₂O, les valeurs IPCC AR5 sont utilisées (GHG Protocol,
 ### 4.	Méthodologie
 L’empreinte carbone de chaque émission de procédés $CF_{{process~emission}}$ est calculée comme le produit de la consommation d’émission de procédé en kg et le facteur d’émission correspondant.
 
-$$ 
-CF_{process~emission} = Q_{\{process\_type}} \cdot EF_{\{process\_type}} 
+$$
+CF_{process~emission} = Q_{{process_{type}}} \cdot EF_{{process_{type}}}
 $$
 
 Où : 
 
 - ${process_{type}}$ : voir le Tableau 1 dans la section 7 (Annexe)
-- $Q_{process\_type}$ : quantité d’émission de procédé (kg), saisie manuellement 
-- $EF_{process\_type}$ : facteur d’émission (kg CO₂-eq / kg)
+- $Q_{process_{type}}$ : quantité d’émission de procédé (kg), saisie manuellement 
+- $EF_{process_{type}}$ : facteur d’émission (kg CO₂-eq / kg)
 
 Le total des émissions de l'ensemble de chaque élément s'affiche en t CO₂-eq une fois le module validé.
 
