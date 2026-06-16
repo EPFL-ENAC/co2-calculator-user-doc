@@ -29,7 +29,7 @@ Dans cette première version, les usages ne sont pas différenciés (compute et 
 L’évaluation des impacts des différents types d’usage est en constante évolution, c’est pourquoi cette version de l’outil propose comme type d’usage : la génération de texte, de code et d’image. 
 
 
-|                              | Génération de texte (ex. résumé ~250 tokens) | Génération de code (ex. ~5000 tokens) | Génération d'image |
+|                              | Génération de texte (ex. résumé d'article ~250 tokens) | Génération de code (ex. aide à l'écriture de code d'une application ~5000 tokens) | Génération d'image |
 |------------------------------|---------------------------------------------|-------------------------------------|--------------------|
 | Facteur d’émission (kg CO₂-eq) | 7.5 × 10⁻⁶                                  | 1.5 × 10⁻⁴                          | 3.0 × 10⁻⁴         |
 
