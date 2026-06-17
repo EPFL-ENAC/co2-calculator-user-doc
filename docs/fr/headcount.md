@@ -1,5 +1,3 @@
-## 4.1 Personnel
-
 ### 1. Contexte
 Les données qui apparaissent dans le module **Personnel** sont utilisées pour calculer l’empreinte carbone des activités de recherche par équivalent plein-temps (EPT), et pour estimer certaines sources spécifiques d’émissions telles que dans le module **Catégories additionnelles** avec les sous-modules *Pendularité, Alimentation et Déchets*.
 
