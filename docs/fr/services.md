@@ -43,10 +43,10 @@ Ce module est particulier dans le sens où les facteurs d’émissions dépenden
 1. Les émissions des catégories ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***  
 2. L’utilisation par l’unité utilisatrice  
 
-- [Facteurs d’émissions Émissions de procédés](./processes.md#3.facteursd'emission)
-- [Facteurs d’émissions Bâtiments](./building.md#3.facteursd'emission)
-- [Facteurs d’émissions Équipements](./equipment.md#3.facteursd'emission)
-- [Facteurs d’émissions Achats](./purchases.md#3.facteursd'emission)
+- ***[Facteurs d’émissions Émissions de procédés](./processes.md#3.facteursd'emission)***
+- ***[Facteurs d’émissions Bâtiments](./building.md#3.facteursd'emission)***
+- ***[Facteurs d’émissions Équipements](./equipment.md#3.facteursd'emission)***
+- ***[Facteurs d’émissions Achats](./purchases.md#3.facteursd'emission)***
 
 
 
