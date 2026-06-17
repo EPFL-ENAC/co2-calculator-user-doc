@@ -87,7 +87,7 @@ Le total des émissions de CO₂ liées à la construction et rénovation $CF_{c
 
 $$
 CF_{construction}
-= \sum_{building}^{}\sum_{activity~type}^{}(Surface_{building} \cdot EF_{building, activity~type})
+= \sum_{building}^{}\sum_{activity~type}^{}(Surface_{building} \cdot EF_{building,activity~type})
 $$
 
 Où :
