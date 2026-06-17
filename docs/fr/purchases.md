@@ -1,5 +1,3 @@
-## 4.7 Achats
-
 ### 1.	Contexte
 Les achats représentent une part significative de l’empreinte carbone des activités de recherche, en particulier dans les environnements de laboratoire où les consommables, les produits chimiques et les équipements sont utilisés de manière intensive. Au-delà de leur usage direct, les biens achetés intègrent des émissions en amont liées à l’extraction des matières premières, à la fabrication, à l’emballage et au transport.
 
