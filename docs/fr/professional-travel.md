@@ -1,5 +1,3 @@
-## 4.6 Voyages professionnels  
-
 ### 1.	Contexte
 Les déplacements professionnels à l’EPFL sont effectués principalement en avion et en train. Les déplacements professionnels en avion sont réservés via l’agence de voyages de l’EPFL (LEX 5.6.2) et les données contenant les informations nécessaires au calcul de l’empreinte carbone sont donc récoltées automatiquement et utilisées dans ce module. Si des déplacements en avion ont été réservés hors agence de voyage central, ils peuvent être saisis manuellement. Les voyages en train doivent systématiquement être saisis manuellement. 
 
