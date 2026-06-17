@@ -1,5 +1,3 @@
-## 4.5 Clouds externes et IA
-
 ### 1.	Contexte 
 L’usage des clouds externes et de l’intelligence artificielle (IA) au sein de la communauté scientifique est en nette augmentation depuis quelques années. Dans ce module, les clouds externes pris en considération sont ceux des services de stockage et/ou de calculs externes, tels que AWS – Amazon, GCP – Google, etc.). Les données de Ll’utilisation de l’IA externe (agents tels que ChatGPT – OpenAI, Claude – Anthropic, etc.) sont saisies manuellement. 
 
