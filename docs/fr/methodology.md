@@ -1,8 +1,6 @@
-# 3. Méthodologie
-
 Le développement d’un tel outil pour évaluer les émissions liées aux activités de recherche exige une méthodologie particulièrement rigoureuse et pragmatique. Selon la disponibilité des données, certains choix quant aux hypothèses du calcul de l’empreinte ont dû être faits et sont détaillés ci-dessous et ce afin d’assurer une transparence totale. Pour chaque sous-module et module, la méthodologie ainsi que les références utilisées sont détaillées dans la partie "Spécification des modules”. 
 
-## 3.1 Référentiel de calcul des émissions 
+### 1. Référentiel de calcul des émissions 
 
 Le calculateur CO₂ s’appuie sur le **[Greenhouse Gas Protocol (GHG Protocol)](https://ghgprotocol.org/blog/you-too-can-master-value-chain-emissions)**, la norme internationale de référence pour le calcul et la comptabilisation des émissions de gaz à effet de serre (GES).
 
@@ -10,7 +8,7 @@ Développé en 1998 par le World Resources Institute (WRI) et le World Business 
 
 Cet ouil s’efforce de suivre le GHG Protocol avec la plus grande rigueur possible et détaillée ci-dessous, notamment via l’intégration des trois scopes d’émissions.
 
-### Les trois scopes d’émissions
+#### Les trois scopes d’émissions
 
 Le GHG Protocol distingue trois grandes catégories d’émissions, appelées scopes. 
 
@@ -18,16 +16,16 @@ Le GHG Protocol distingue trois grandes catégories d’émissions, appelées sc
         
         Figure 2 :  The Greenhouse Gas Protocol Corporate Standard (2019, p. 26).
 
-#### Scope 1 – Émissions directes
+##### Scope 1 – Émissions directes
 Il s’agit des émissions de GES provenant de sources directement contrôlées par l’organisation, par exemple :
 
 - La combustion de combustibles fossiles dans les bâtiments ou installations ;
 - Les émissions issues de procédés industriels, tels que le CO₂, le CH₄ et le N₂O.
 
-#### Scope 2 – Émissions indirectes liées à l’énergie
+##### Scope 2 – Émissions indirectes liées à l’énergie
 Ce scope couvre les émissions associées à la production d’électricité, de chaleur ou de vapeur achetées et consommées par l’organisation.
 
-#### Scope 3 – Autres émissions indirectes
+##### Scope 3 – Autres émissions indirectes
 Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des activités de l’organisation, telles que :
 
 - Les achats de biens et services ;
@@ -37,8 +35,8 @@ Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des
   
 D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
 
-## 3.2 Application du périmètre
-### Espace Calculateur CO₂
+### 2. Application du périmètre
+#### Espace Calculateur CO₂
 
 Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche telles que :
 
@@ -70,7 +68,7 @@ Par exemple, pour le module **Équipements**, un incubateur qui est utilisé sur
 Selon les données disponibles, il est parfois nécessaire d’effectuer des calculs afin d’obtenir la quantité de l’activité émettrice. Par exemple, dans le cas de l’incubateur ci-dessus, la quantité de kWh a été estimée sur la base de la puissance moyenne en standby en activité, et selon le rapport des heures d’utilisation par semaine. Plus de détails et d’information sur les choix et les méthodes de calcul sont accessibles dans l’onglet « Spécification des modules ».
 
 
-### Espace Simulateur CO₂
+#### Espace Simulateur CO₂
 
 L’espace *Simulateur CO₂* possède deux fonctionnalités.  
 
@@ -95,10 +93,10 @@ La fonctionnalité *Planifier* permet d’estimer l’empreinte d’un projet de
 
 L’accès à ces deux fonctionnalités dans l’espace *Simulateur CO₂* est individuel et les saisies ne remontent pas vers la ou le responsable d’unité. Les simulations peuvent cependant être sauvegardées et partagées via l’extraction en CSV ou PDF dans le cas où la personne cocherait l’option de partage. 
 
-## 3.3 Unité de mesure : kg CO₂-eq et t CO₂-eq
+### 3. Unité de mesure : kg CO₂-eq et t CO₂-eq
 Plusieurs gaz contribuent à l'effet de serre, tels que le méthane (CH₄), l'oxyde nitreux (N₂O) et le dioxyde de carbone (CO₂), pour n'en citer que quelques-uns. Ces différents gaz ont un potentiel de réchauffement global plus ou moins élevé. Le dioxyde de carbone, étant le gaz le plus connu, il sert de gaz de référence. Par conséquent, dans la comptabilisation des GES, les émissions sont exprimées soit en kilogrammes (kg CO₂-eq) ou en tonnes métriques (t CO₂-eq) d'équivalent CO₂. 
 
-## 3.4 Résultats 
+### 4. Résultats 
 Après avoir validé tous les modules, l’utilisatrice ou l’utilisateur accède à la page des résultats. Cette page présente différentes visualisations et informations relatives au bilan carbone de l’unité.
 
 En particulier, un résumé en haut de la page, composé de trois encadrés qui affichent :
@@ -122,20 +120,20 @@ Un focus spécifique sur le numérique est également proposé. Cette catégorie
 
 Enfin, la page peut inclure des graphes pour les catégories additionnelles, basées sur des données génériques et non pas sur des données spécifiques à l’unité. Une distribution des émissions y est présentée afin de sensibiliser l’utilisatrice ou l’utilisateur à la nature de ces émissions à l’échelle de l’institution et de fournir des ordres de grandeur supplémentaires. Il est possible de visualiser ou non ces catégories additionnelles en utilisant la coche prévue à cet effet.
 
-## 3.5 Mises à jour des résultats et facteurs d’émissions 
+### 5. Mises à jour des résultats et facteurs d’émissions 
 Les facteurs d’émissions font l’objet d’une revue annuelle. Lorsqu’une mise à jour est effectuée, elle s’applique uniquement à partir de l’année suivante, sans modification des données des années précédentes. 
 
 Exception : dans le cas où les facteurs d’émissions comportent des erreurs importantes et/ou si les **Infrastructures de recherche EPFL** ont mis à jour leur empreinte carbone en cours d’année, une rectification peut être effectuée par la Durabilité EPFL. Un message s’affichera alors dans la page d’accueil pour les unités utilisatrices concernées afin de garantir une transparence totale. 
 
-## 3.6 Limites 
+### 6. Limites 
 Cet outil, comme tout outil d’empreinte carbone, fournit des estimations, qui comportent une part d’incertitude. La fiabilité des résultats dépend également de la fiabilité des données primaires sur lesquelles se basent les calculs. Un besoin de nettoyage des données d’entrée peut s’avérer nécessaire pour affiner les résultats (ex : données d’inventaire).  Les résultats doivent donc être compris comme des ordres de grandeur, à interpréter avec précaution. Il s’agit par ailleurs d’une première itération, qui sera mise à jour et améliorée au fur et à mesure que de nouvelles données deviendront disponibles. 
 
-### Données d’inventaire
+#### Données d’inventaire
 Pour chaque module, les données les plus pertinentes à disposition au moment du calcul ont été utilisées. Toutefois, il peut arriver que ces données ne permettent que partiellement le calcul de l’empreinte carbone dans la catégorie désirée. Dans le cas où ces données ne sont pas disponibles, des approximations ont été réalisées à partir de données connexes, ou d’informations complémentaires.
 
 C’est pourquoi certains modules requièrent une saisie de données manuelle afin de permettre une estimation plus précise de l’empreinte carbone. Par ailleurs, une saisie manuelle est disponible dans la plupart des modules, afin de compléter les informations si des éléments importants manquent. Plus de détails propres à chaque module sont disponibles dans leur documentation respective.
 
-### Facteurs d’émission
+#### Facteurs d’émission
 Selon les modules et sous-modules de l’espace Calculateur CO₂, les facteurs d’émission les plus fiables et disponibles sont utilisés. Leur niveau de précision varie toutefois en fonction de la maturité des méthodes et de la complexité des activités : certains sont proches des données physiques (comme le mix électrique national), tandis que d’autres, donnent une estimation plus approximative (par exemple pour certains services numériques).
 
 De plus, les facteurs d’émission peuvent être calculés selon deux approches complémentaires.
@@ -149,11 +147,11 @@ L’approche monétaire introduit un niveau d’incertitude supplémentaire par 
 
 Enfin, il convient de noter que les facteurs d’émission comportent toujours une part d’incertitude. Issus de modélisations, ils reposent sur des hypothèses et peuvent, dans certains cas, constituer des approximations par rapport aux situations réelles auxquelles ils sont appliqués.
 
-### Degré de confiance
+#### Degré de confiance
 Pour l’ensemble de ces raisons, chaque module est associé à un degré de confiance. Celui-ci prend en compte notamment la qualité des données d’inventaire, leur précision et leur niveau de couverture, la précision des facteurs d’émission utilisés, ainsi que la méthode employée (par exemple : approche physique ou approche monétaire).
 
 
-### Résultats valables seulement en Suisse
+#### Résultats valables seulement en Suisse
 Les résultats affichés sont valables pour une structure implantée en Suisse. Pour un autre pays, les résultats ne seront pas totalement pertinents car certains facteurs d'émission sont propres à la Suisse. Cela concerne d'une part les facteurs d'émission liés à l'électricité : en Suisse, l'électricité est produite en grande majorité à partir de l'énergie hydraulique (environ 60%) et nucléaire (environ 30%), peu carbonée [2]. La Suisse importe aussi de l'électricité d'Allemagne, de France et d'Autriche, principalement en hiver pour combler un déficit de production. Cela inclut les consommations d'électricité au sein des industries et ménages, mais aussi toutes les émissions relatives à la mobilité électrique (train, tramway, métro, voiture électrique, etc.). D'autre part, les facteurs d'émission des réseaux de chaleur locaux sont aussi spécifiques au moyen de production : chaque réseau urbain de chaleur a un mix énergétique différent et donc un facteur d'émission propre. Il est toutefois possible pour une autre organisation qui souhaiterait utiliser l’outil d'entrer ses propres facteurs d’émission et donc de créer des résultats adaptés à la géographie de son activité.
 
 
