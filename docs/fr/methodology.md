@@ -125,6 +125,7 @@ Les facteurs d’émissions font l’objet d’une revue annuelle. Lorsqu’une 
 
 Exception : dans le cas où les facteurs d’émissions comportent des erreurs importantes et/ou si les **Infrastructures de recherche EPFL** ont mis à jour leur empreinte carbone en cours d’année, une rectification peut être effectuée par la Durabilité EPFL. Un message s’affichera alors dans la page d’accueil pour les unités utilisatrices concernées afin de garantir une transparence totale. 
 
+<a id="limites"></a>
 ### 6. Limites 
 Cet outil, comme tout outil d’empreinte carbone, fournit des estimations, qui comportent une part d’incertitude. La fiabilité des résultats dépend également de la fiabilité des données primaires sur lesquelles se basent les calculs. Un besoin de nettoyage des données d’entrée peut s’avérer nécessaire pour affiner les résultats (ex : données d’inventaire).  Les résultats doivent donc être compris comme des ordres de grandeur, à interpréter avec précaution. Il s’agit par ailleurs d’une première itération, qui sera mise à jour et améliorée au fur et à mesure que de nouvelles données deviendront disponibles. 
 
