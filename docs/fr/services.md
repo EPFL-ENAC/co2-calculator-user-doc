@@ -1,5 +1,3 @@
-## 4.8 Infrastructures de recherches EPFL 
-
 ### 1.	Contexte 
 Pour mener leurs activités de recherche, nombre de laboratoires mais aussi des institutions académiques externes, des entreprises et des startups utilisent les infrastructures de recherche mises à disposition par l’EPFL. Cela comprend par exemple des salles blanches, des centres de calculs de hautes performances, des services informatiques ou des animaleries, pour n'en nommer que quelques-unes. Cette mutualisation des ressources est un excellent moyen de réduire l'empreinte carbone.
 
