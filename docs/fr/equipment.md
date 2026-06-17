@@ -10,9 +10,11 @@ Les colonnes suivantes sont saisies manuellement :
 - Sous-classe : La saisie de la sous-classe pour les équipements est faite manuellement là où cette information est nécessaire.
 - Classe : La mise à jour de la classe est possible si celle de votre inventaire n'est pas appropriée. Attention cela ne mettra pas à jour l’inventaire. 
 
+<a id="facteurs"></a>
 ### 3.	Facteurs d’émissions
 Seul le facteur d’émission 0.097 kg CO2-eq/kWh (BAFU, 2025) est utilisé dans ce module.
 
+<a id="methodologie"></a>
 ### 4.	Méthodologie
 L’empreinte carbone $CF_{equipment}$ est calculée comme le produit de la puissance moyenne active et standby de l’équipement, les heures d’utilisation de chaque mode d’utilisation annuelle ainsi que le facteur d’émission de l’électricité suisse tel que :
 
