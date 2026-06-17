@@ -7,17 +7,17 @@ Plusieurs ressources et dispositifs internes sont disponibles pour accompagner l
 
 ### 1. Ressources internes 
 
-#### Stratégie et bilan carbone: 
+#### Stratégie et bilan carbone
 - [Stratégie Climat et Durabilité 2030 EPFL](https://www.epfl.ch/about/sustainability/fr/strategie/)
 - [Empreinte carbone EPFL](https://www.epfl.ch/about/data/fr/donnees-institutionnelles/statistiques-institutionnelles/statistiques-durabilite/)
 - [E-learning Durabilité EPFL](https://www.epfl.ch/about/sustainability/fr/strategie/e-learning-durabilite/)
 
-#### Dans les missions de l’EPFL : 
+#### Dans les missions de l’EPFL 
 - [Education](https://www.epfl.ch/about/sustainability/fr/durabilite-dans-leducation/)
 - [Recherche](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/#recherche)
 - [Innovation](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/#innovation)
 
-#### Domaines d’action : 
+#### Domaines d’action
 - [Énergie et bâtiments](https://www.epfl.ch/about/sustainability/fr/durabilite/energie-et-batiments/)
 - [Numérique responsable](https://www.epfl.ch/about/sustainability/fr/numerique-responsable/)
 - [Green Labs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)
