@@ -25,6 +25,7 @@ Pour chaque achat, les informations suivantes sont automatiquement intégrées �
 
 Le ***sous-module Achats centralisés*** est destiné à intégrer des éléments prédéfinis correspondant à des achats centralisés et/ou mutualisés entre plusieurs unités. Lorsque cela s’applique, la consommation annuelle pour ces éléments doit être renseignée.
 
+<a id="facteurs"></a>
 ### 3.	Facteurs d’émissions
 
 ***Sous-modules Achats standards***
@@ -36,6 +37,7 @@ Chaque article acheté se voit attribuer un facteur d’émission spécifique (k
 Chaque élément est associé à un facteur d’émission spécifique issu de la base de données [Ecoinvent](https://ecoinvent.org/) (2026).
 
 
+<a id="methodologie"></a>
 ### 4.	Méthodologie
 
 ***Sous-modules Achats standards***
