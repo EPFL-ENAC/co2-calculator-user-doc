@@ -3,6 +3,7 @@ Les données qui apparaissent dans le module **Personnel** sont utilisées pour 
 
 ### 2. Données collectées
 Les données de Personnel incluent l’ensemble des personnes travaillant dans chaque unité par année civile. Pour chaque personne, les informations suivantes sont affichées et visibles par la ou le responsable de l’unité ou sa ou son délégué :
+
 - Nom et Prénom
 - Fonction enregistrée (nomenclature SIUS)
 - SCIPER
