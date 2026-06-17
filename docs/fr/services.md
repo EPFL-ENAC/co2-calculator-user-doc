@@ -44,10 +44,10 @@ Ce module est particulier dans le sens où les facteurs d’émissions dépenden
 2. L’utilisation par l’unité utilisatrice  
 
 
-- ***[Voir Facteurs d’émissions Émissions de procédés](./processes.md#3-facteurs-démission)***
-- ***[Voir Facteurs d’émissions Bâtiments](./building.md#3-facteurs-démission)***
-- ***[Voir Facteurs d’émissions Équipements](./equipment.md#3-facteurs-démission)***
-- ***[Voir Facteurs d’émissions Achats](./purchases.md#3-facteurs-démission)***
+- ***[Voir Facteurs d’émissions Émissions de procédés](./processes.md#facteurs)***
+- ***[Voir Facteurs d’émissions Bâtiments](./building.md#facteurs)***
+- ***[Voir Facteurs d’émissions Équipements](./equipment.md#facteurs)***
+- ***[Voir Facteurs d’émissions Achats](./purchases.md#facteurs)***
 
 
 
@@ -85,10 +85,10 @@ Pour les animaleries, la méthode de calcul est similaire. Les émissions attrib
 
 Pour consulter la méthodologie de chaque catégorie considérée pour le calcul de l’empreinte carbone de l’infrastructure de recherche attribuée à son utilisation, veuillez consulter les liens ci-dessous : 
 
-- ***[Émissions de procédés](./processes.md#4-méthodologie)*** 
-- ***[Bâtiments](./building.md#4-méthodologie)***
-- ***[Équipements](./equipment.md#4-méthodologie)*** 
-- ***[Achats](./purchases.md#4-méthodologie)*** 
+- ***[Émissions de procédés](./processes.md#methodologie)*** 
+- ***[Bâtiments](./building.md#methodologie)***
+- ***[Équipements](./equipment.md#methodologie)*** 
+- ***[Achats](./purchases.md#methodologie)*** 
 
 
 ### 5. Limites
