@@ -51,6 +51,7 @@ Où :
 $$
 Amount_{item,euro,2019} =Amount_{item,currency,year} \cdot Ex_{currency,year} \cdot Inflation_{year,2019}
 $$
+
 - $item$ : article acheté par l’unité
 - $currency$ : devise appliquée pour l’achat de l’article
 - $year$ : l’année de référence
