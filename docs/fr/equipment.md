@@ -3,6 +3,7 @@ Des milliers d’équipements scientifiques, informatiques et autres sont réper
 
 ### 2.	Données collectées
 L’inventaire des équipements disponible sur le portail de gestion interne du personnel permet de connaitre la liste des équipements scientifiques (>10’000 CHF), des équipements IT et autres par unité.  
+
 Les colonnes suivantes sont saisies manuellement : 
 
 - Usage actif et usage standby : Il est recommandé de faire une estimation conservatrice (qui n'est pas sous-estimée). Si la puissance moyenne active ou standby de votre équipement est différente de celle utilisée par défaut, merci de contacter l’équipe dédiée à l’adresse suivante: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch).
@@ -22,6 +23,7 @@ CF_{equipment} = \frac{P_{equipment,active} \cdot H_{active} + P_{equipment,stan
 $$
 
 Où : 
+
 - $equipment$ : équipement utilisé dans l’unité
 - $active,stanby$ : mode d’utilisation d’équipement
 - $P_{equipment,active}$ et $P_{equipment,standby}$ : puissances moyennes en mode active et standby pour l’équipement exprimé en W et déterminées par l’équipe durabilité EPFL par mesure directe ou revue de littérature (voir section 7 Annexe)
