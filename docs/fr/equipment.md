@@ -1,5 +1,3 @@
-## 4.4 Équipements 
-
 ### 1.	Contexte 
 Des milliers d’équipements scientifiques, informatiques et autres sont répertoriés à l’EPFL dans l’inventaire des équipements. L’analyse de cette liste, combinée aux données de consommation électrique associées à leur utilisation, permet d’estimer les émissions de gaz à effet de serre liées à leur consommation électrique (Scope 2).
 
