@@ -1,20 +1,15 @@
-# CO2 Calculator — User Documentation
+# CO₂ Calculator User Documentation 
 
-Welcome! This site provides user-facing documentation for the EPFL ENAC CO2 calculator.
+### 1. Home 
 
-Use the sidebar to navigate or jump straight to Getting Started.
+Welcome! This page provides documentation for users of the EPFL CO₂ calculator.
 
-> Tip: Click the moon/sun icon to toggle dark mode.
+- Use the sidebar to navigate between the different tabs.
+- Tip: click on the moon/sun icon to change the theme and the letter icon to change the language.
 
-## What is this?
+### 2. What is it? 
+The CO₂ calculator helps estimate and understand carbon emissions related to various activities. This documentation explains how the tool works and how to use it effectively.
 
-The CO2 calculator helps estimate and understand carbon emissions for various activities. This documentation focuses on how to use the tool effectively.
+### 3. Getting help
 
-## Getting help
-
-- See Getting Started for basics and setup
-- Open an issue on GitHub if you spot a problem: https://github.com/EPFL-ENAC/co2-calculator-user-doc/issues
-
----
-
-Made with MkDocs and the Material theme.
+- Open a ticket if you identify or encounter an issue: [https://github.com/EPFL-ENAC/co2-calculator-user-doc/issues](https://github.com/EPFL-ENAC/co2-calculator-user-doc/issues)
