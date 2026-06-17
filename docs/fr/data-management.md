@@ -1,4 +1,4 @@
-### Gestion des droits et rôles
+### 1. Gestion des droits et rôles
 
 Dans l’outil calculateur CO₂, une gestion forte des droits et permissions de l’application sont établis afin de garantir une protection stricte des données et en particulier des données personnelles. Elle est établie avec 5 rôles différents d’utilisatrices et utilisateurs :
 
@@ -10,13 +10,13 @@ Dans l’outil calculateur CO₂, une gestion forte des droits et permissions de
 
 L’*espace Simulateur CO₂* est cependant accessible pour toutes et tous. 
 
-### Bonnes pratiques
+### 2. Bonnes pratiques
 Certaines données sont particulièrement sensibles, notamment les données personnelles liées aux ressources humaines ainsi qu’aux voyages professionnels. Il est donc essentiel de respecter certaines bonnes pratiques afin de garantir la confidentialité des informations :
 
 - Le rôle d’Utilisateur·rice principal·e ne doit être attribué qu’à un maximum de deux personnes.
 - La diffusion des résultats doit se faire uniquement sous forme de données agrégées, et non sur la base de données individuelles.
 
-### Stockage des données 
+### 3. Stockage des données 
 
 Les données sont maintenues et stockés en interne. La durée de rétention des données d’entrées et de sorties sont de dix ans. Pour les voyages professionnels, uniquement les années du voyage seront sauvegardées au-delà de l’année en cours (LEX 5.6.2, article 25 §3) et cela pendant cinq ans.
 
