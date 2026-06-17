@@ -43,10 +43,10 @@ Ce module est particulier dans le sens où les facteurs d’émissions dépenden
 1. Les émissions des catégories ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***  
 2. L’utilisation par l’unité utilisatrice  
 
-- ***[Facteurs d’émissions Émissions de procédés](./processes.md#3.facteursd'emission)***
-- ***[Facteurs d’émissions Bâtiments](./building.md#3.facteursd'emission)***
-- ***[Facteurs d’émissions Équipements](./equipment.md#3.facteursd'emission)***
-- ***[Facteurs d’émissions Achats](./purchases.md#3.facteursd'emission)***
+- ***[Facteurs d’émissions Émissions de procédés](./processes.md#3-facteurs-démission)***
+- ***[Facteurs d’émissions Bâtiments](./building.md#3-facteurs-démission)***
+- ***[Facteurs d’émissions Équipements](./equipment.md#3-facteurs-démission)***
+- ***[Facteurs d’émissions Achats](./purchases.md#3-facteurs-démission)***
 
 
 
@@ -84,20 +84,20 @@ Pour les animaleries, la méthode de calcul est similaire. Les émissions attrib
 
 Pour consulter la méthodologie de chaque catégorie considérée pour le calcul de l’empreinte carbone de l’infrastructure de recherche attribuée à son utilisation, veuillez consulter les liens ci-dessous : 
 
-- ***[Émissions de procédés](./processes.md)*** 
-- ***[Bâtiments](./building.md)***
-- ***[Équipements](./equipment.md)*** 
-- ***[Achats](./purchases.md)*** 
+- ***[Émissions de procédés](./processes.md#4-méthodologie)*** 
+- ***[Bâtiments](./building.md#4-méthodologie)***
+- ***[Équipements](./equipment.md#4-méthodologie)*** 
+- ***[Achats](./purchases.md#4-méthodologie)*** 
 
 
 ### 5. Limites
 
 Ce module possède un niveau d’incertitude élevé. En effet, l’attribution de l’empreinte carbone liée à l’utilisation des infrastructures de recherche EPFL repose sur les empreintes carbones des modules ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***, qui eux-mêmes possèdent leurs propres les limites.  
 
-- ***[Limites du module Émissions de procédés](./processes.md#5.limites)***
-- ***[Limites du module Bâtiments](./building.md#5.limites)***
-- ***[Limites du module Équipements](./equipment.md#5.limites)*** 
-- ***[Limites du module Achats](./purchases.md#5.limites)*** 
+- ***[Limites du module Émissions de procédés](./processes.md#5-limites)***
+- ***[Limites du module Bâtiments](./building.md#5-limites)***
+- ***[Limites du module Équipements](./equipment.md#5-limites)*** 
+- ***[Limites du module Achats](./purchases.md#5-limites)*** 
 
 Par ailleurs, l’espace Calculateur CO₂ repose sur des modules partiellement automatisés, qui utilisent par défaut les données remontées par chaque module. Ainsi, si les modules des infrastructures de recherche n’ont pas été validés, des erreurs peuvent subsister, ce qui peut influencer l’attribution de leur empreinte carbone aux unités utilisatrices.
 
