@@ -1,5 +1,3 @@
-## 4.3 Bâtiments 
-
 ### 1.	Contexte 
 L’empreinte carbone considérée dans le module **Bâtiments** comprend l’impact lié aux deux sous modules suivants : 
 
