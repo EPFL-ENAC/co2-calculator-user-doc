@@ -6,7 +6,7 @@ L’inventaire des équipements disponible sur le portail de gestion interne du 
 
 Les colonnes suivantes sont saisies manuellement : 
 
-- Usage actif et usage standby : Il est recommandé de faire une estimation conservatrice (qui n'est pas sous-estimée). Si la puissance moyenne active ou standby de votre équipement est différente de celle utilisée par défaut, merci de contacter l’équipe dédiée à l’adresse suivante: [CO2calculator@epfl.ch](mailto:CO2calculator@epfl.ch).
+- Usage actif et usage standby : Il est recommandé de faire une estimation conservatrice (qui n'est pas sous-estimée). Si la puissance moyenne active ou standby de votre équipement est différente de celle utilisée par défaut, merci de contacter l’équipe dédiée à l’adresse suivante: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch).
 - Sous-classe : La saisie de la sous-classe pour les équipements est faite manuellement là où cette information est nécessaire.
 - Classe : La mise à jour de la classe est possible si celle de votre inventaire n'est pas appropriée. Attention cela ne mettra pas à jour l’inventaire. 
 
@@ -35,7 +35,7 @@ Où :
 
 ### 5. Limites
 - Le temps d’utilisation utilisé par défaut étant basé sur des estimations génériques, ces données doivent être mises à jour pour être plus réalistes et donc plus précises.
-- Les puissances de chaque équipements ont été déterminées par la Durabilité EPFL par prise de mesure directe ou trouvée dans les revues de littérature. Ces données ne sont pas forcément représentatives de l’équipement utilisé, auquel cas il est recommandé de contacter l’équipe dédiée à l’adresse suivante : [CO2calculator@epfl.ch](mailto:CO2calculator@epfl.ch) pour effectuer la mise à jour.
+- Les puissances de chaque équipements ont été déterminées par la Durabilité EPFL par prise de mesure directe ou trouvée dans les revues de littérature. Ces données ne sont pas forcément représentatives de l’équipement utilisé, auquel cas il est recommandé de contacter l’équipe dédiée à l’adresse suivante : [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch) pour effectuer la mise à jour.
 - Le facteur d’émission 0.097 kg CO₂-eq/kWh est représentatif d’une moyenne annuelle, et non du mix électrique au moment de l’utilisation de l’équipement.
 
 ### 6. Références
