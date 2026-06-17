@@ -4,4 +4,4 @@ Nous serions ravis d'avoir de vos nouvelles ! Cet outil de calcul est en constan
 
 De plus, si vous avez des questions ou rencontrez des difficultés, n'hésitez pas à nous écrire afin que nous puissions vous aider. Nous vous répondrons dans les plus brefs délais. Merci !
 
-L'équipe Durabilité EPFL (co2calculator@epfl.ch)
+L'équipe Durabilité EPFL ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch))
