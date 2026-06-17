@@ -95,10 +95,10 @@ Pour consulter la méthodologie de chaque catégorie considérée pour le calcul
 
 Ce module possède un niveau d’incertitude élevé. En effet, l’attribution de l’empreinte carbone liée à l’utilisation des infrastructures de recherche EPFL repose sur les empreintes carbones des modules ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***, qui eux-mêmes possèdent leurs propres les limites.  
 
-- ***[Limites du module Émissions de procédés](./processes.md#5-limites)***
-- ***[Limites du module Bâtiments](./building.md#5-limites)***
-- ***[Limites du module Équipements](./equipment.md#5-limites)*** 
-- ***[Limites du module Achats](./purchases.md#5-limites)*** 
+- ***[Voir Limites du module Émissions de procédés](./processes.md#5-limites)***
+- ***[Voir Limites du module Bâtiments](./building.md#5-limites)***
+- ***[Voir Limites du module Équipements](./equipment.md#5-limites)*** 
+- ***[Voir Limites du module Achats](./purchases.md#5-limites)*** 
 
 Par ailleurs, l’espace Calculateur CO₂ repose sur des modules partiellement automatisés, qui utilisent par défaut les données remontées par chaque module. Ainsi, si les modules des infrastructures de recherche n’ont pas été validés, des erreurs peuvent subsister, ce qui peut influencer l’attribution de leur empreinte carbone aux unités utilisatrices.
 
