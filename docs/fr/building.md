@@ -18,6 +18,7 @@ Les données de consommation d’énergie (en kWh/m2) et des typologies de salle
 
 Les données de consommation d’énergie thermique centralisée pour le sous-module Émissions de combustion d’énergie sont saisies manuellement.
 
+<a id="facteurs"></a>
 ### 3.	Facteurs d’émissions
 
 ***Sous-module Locaux***
@@ -30,6 +31,7 @@ Pour la consommation d’énergie thermique centralisée, les facteurs d’émis
 
 Pour les émissions de combustion d’énergie de systèmes non-centralisés, les facteurs d’émissions de Labos1point5 (2021, 2022) sont utilisés (voir section 7 Annexe).  
 
+<a id="methodologie"></a>
 ### 4.	Méthodologie
 
 ***Sous-module Locaux***
