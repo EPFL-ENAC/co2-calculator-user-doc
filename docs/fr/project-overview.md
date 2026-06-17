@@ -1,10 +1,9 @@
-# 2.	Aperçu du projet  
-## 2.1 Contexte du projet
+### 1. Contexte du projet
 Faisant partie de l’administration fédérale décentralisée, l’EPFL doit atteindre des objectifs de réduction des émissions de gaz à effet de serre ambitieux. En tant qu’institution académique, la part la plus importante de son empreinte environnementale vient de ses activités de recherche. Les laboratoires consomment en effet environ dix fois plus d'énergie que les bureaux classiques en raison par exemple de leurs besoins spécifiques en matière de ventilation, de l'utilisation d'équipements très gourmands ou encore pour la gestion des données dans les centres de calcul haute performance [1]. Au-delà de la consommation d’énergie, les achats ou les voyages pour ne citer qu’eux représentent une part importante des émissions de CO₂ et un défi important en termes de réduction.
 
 [1] Freese, T., Elzinga, N., Heinemann, M., Lerch, M. M., & Feringa, B. L. (2024). The relevance of sustainable laboratory practices. RSC Sustainability, 2(5), 1300-1336.
 
-## 2.2 D’un prototype à un déploiement à large échelle  
+### 2. D’un prototype à un déploiement à large échelle  
 Afin de mieux comprendre en donnant des ordres de grandeur et de mieux quantifier l’empreinte carbone des laboratoires, un prototype du calculateur CO₂ a été développé en 2019 au sein de la Faculté des Sciences de la vie (SV) de l’EPFL. 
 
 Sa conception repose sur une approche collaborative avec des laboratoires et plateformes de la faculté, le bureau Durabilité SV, des services centraux de la faculté et de l’EPFL, de l’association étudiante Zero Emission Group et d’externes en particulier le cabinet de conseil Quantis. Ce prototype a ensuite été testé dans une trentaine de laboratoires de l’EPFL, ouvrant la voie au développement d’un outil déployé à l’échelle de l’ensemble des facultés. 
@@ -19,7 +18,7 @@ Un travail spécifique a également été mené avec le Swiss Data Science Cente
 
 Enfin, l’outil développé par l’EPFL, est conçu pour s’adapter aux spécificités des autres institutions académiques en particulier suisses.
 
-## 2.3 L’outil et ses fonctionnalités  
+### 3. L’outil et ses fonctionnalités  
 
 L’outil calculateur CO₂ possède deux espaces de travail : 
 
@@ -51,7 +50,7 @@ La deuxième fonctionnalité *Planifier* permet d’estimer l’empreinte d’un
 
 Dans la majorité des modules de cet espace, les données remontent automatiquement depuis le calculateur CO₂ ne nécessitant qu’une validation, et seulement dans certains cas une saisie manuelle des informations doit être effectuée. 
 
-## 2.4 Objectifs de l’outil
+### 4. Objectifs de l’outil
 L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 
 - Proposer une approche cohérente pour identifier et visualiser les principales sources d’émissions liées aux activités des laboratoires et leurs impacts.
@@ -61,7 +60,7 @@ L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 - Satisfaire les futures exigences européennes et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
 - Anticiper les évolutions légales contraignantes en dotant l’EPFL d’outil permettant de comprendre, cibler et diminuer ses émissions carbones.
 
-## 2.5 Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
+### 5. Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
 Le calculateur CO₂ s’inscrit pleinement dans la stratégie environnementale de l’École :
 - La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** ;
 - L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** ;
