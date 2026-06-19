@@ -44,6 +44,7 @@ This space also allows tracking the evolution of the unit’s emissions over tim
 The CO₂ Simulator space has two functionalities.
 
 The *Explore* functionality, allows estimating the footprint of one or more specific modules. Simulation is possible for the following modules:
+
 - **Process emissions**
 - **Equipment**
 - **Purchases**
@@ -95,7 +96,7 @@ Dans ce contexte, le calculateur CO₂ permet d’estimer l’empreinte carbone 
 
 L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**, inscrite dans cette stratégie a pour objectif de promouvoir des pratiques de recherche responsables sur les plans environnemental et social, sans compromettre la qualité scientifique et en respectant les limites planétaires. Elle vise à quantifier, analyser et optimiser les processus opérationnels des activités de recherche 
 
-<img width="902" height="402" alt="image" src="https://github.com/user-attachments/assets/90050d79-1111-489b-a0e8-ca92bfa9cc85" />
+<img width="451" height="201" alt="image" src="https://github.com/user-attachments/assets/90050d79-1111-489b-a0e8-ca92bfa9cc85" />
 
       Figure 1: EPFL GreenLabs approach 
 
