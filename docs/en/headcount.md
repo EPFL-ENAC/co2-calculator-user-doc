@@ -14,4 +14,4 @@ For individuals affiliated with multiple units, the FTE displayed corresponds to
 Data relating to students is not fully available in the correct format and must therefore be entered manually. The number of students must be entered as an aggregate value, corresponding to the total FTE of all students in the unit for the reference year, and not individually. 
 
 ### 3. Reference
-SHIS catalogue: ([https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.36347956.html](https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.36347956.html))
+SHIS catalogue: ([https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.36347956.html](https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.36347956.html)) 
