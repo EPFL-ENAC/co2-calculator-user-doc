@@ -97,68 +97,66 @@ The *Plan* functionality allows estimating the footprint of an ongoing or future
 
 Access to these two functionalities in the *CO₂ Simulator* space is individual, and entries are not reported back to the unit manager. Simulations can, however, be saved and shared via CSV or PDF export if the sharing option is selected.
 
---- 
-### 3. Unité de mesure : kg CO₂-eq et t CO₂-eq
-Plusieurs gaz contribuent à l'effet de serre, tels que le méthane (CH₄), l'oxyde nitreux (N₂O) et le dioxyde de carbone (CO₂), pour n'en citer que quelques-uns. Ces différents gaz ont un potentiel de réchauffement global plus ou moins élevé. Le dioxyde de carbone, étant le gaz le plus connu, il sert de gaz de référence. Par conséquent, dans la comptabilisation des GES, les émissions sont exprimées soit en kilogrammes (kg CO₂-eq) ou en tonnes métriques (t CO₂-eq) d'équivalent CO₂. 
+### 3. Unit of measurement: kg CO₂-eq and t CO₂-eq 
+Several gases contribute to the greenhouse effect, such as methane (CH₄), nitrous oxide (N₂O), and carbon dioxide (CO₂), among others. These gases have different global warming potentials. Carbon dioxide, being the most widely known gas, is used as the reference gas. Therefore, in greenhouse gas accounting, emissions are expressed either in kilograms (kg CO₂-eq) or metric tonnes (t CO₂-eq) of CO₂ equivalent.
 
-### 4. Résultats 
-Après avoir validé tous les modules, l’utilisatrice ou l’utilisateur accède à la page des résultats. Cette page présente différentes visualisations et informations relatives au bilan carbone de l’unité.
+### 4. Results 
+After validating all modules, the user can see the results of the unit carbon footprint calculation. This “Results” page presents various visualizations and information related to the unit’s carbon footprint. 
 
-En particulier, un résumé en haut de la page, composé de trois encadrés qui affichent :
+At the top of the page, a summary section displays three key indicators:
 
-- Le total des émissions en équivalent CO₂ pour l’unité ;
-- Le total par équivalent plein temps (EPT) ;
-- Une comparaison avec les années précédentes, lorsque ces données sont disponibles.
+- Total emissions expressed in CO₂ equivalents;
+- Emissions per ful-time equivalent (FTE);
+- Year-on-year comparison where data is available.
 
-Plusieurs graphes de synthèse :
+Several summary graphs:
 
-- Un diagramme en barres présentant les totaux par catégorie. Les résultats y sont visualisés à la fois par catégorie et par scope ;
-	Insérer image graphe résultats
-- Un diagramme en barres empilées montrant les émissions par EPT ;
-	Insérer image graphe émissions par EPT
-- Un graphe interactif permettant de visualiser, d’une part, la trajectoire idéale de réduction des émissions de l’institution afin de respecter ses objectifs climatiques et, d’autre part, la trajectoire correspondant à l’unité. Des curseurs permettent d’interagir avec le graphe afin de simuler la mise en œuvre d’actions susceptibles de réduire les émissions.
-	Insérer image graphe trajection réduction émissions 
+- A bar chart showing category’s totals. The results are displayed both by category and by scope; Insert image of results graph 
+- A stacked bar chart showing emissions per FTE; Insert image of emissions per FTE graph
+- An interactive graph allowing users to view, on the one hand, the institution’s ideal emissions reduction trajectory to meet its climate targets and, on the other hand, the trajectory corresponding to the unit. Sliders allow users to interact with the graph to simulate the implementation of actions likely to reduce emissions. Insert image of emissions reduction trajectory graph 
 
-La page présente ensuite un focus par catégorie, qui suit la structure des modules dans l’espace Calculateur CO₂. Pour chaque catégorie, des visualisations supplémentaires permettent d’examiner plus en détail la nature des contributions aux émissions.
+The page then provides a breakdown by category, following the structure of the CO₂ Calculator modules. For each category, additional visualizations allow a detailed examination of the nature of the contributions to emissions.
 
-Un focus spécifique sur le numérique est également proposé. Cette catégorie apparaissant de manière transversale dans plusieurs modules, un résumé est présenté ici afin de permettre de visualiser l’ensemble de son impact pour l’unité.
+A specific IT-focus is also provided. As this category appears across several modules, a summary is presented here to enable users to visualize the unit’s overall impact.
 
-Enfin, la page peut inclure des graphes pour les catégories additionnelles, basées sur des données génériques et non pas sur des données spécifiques à l’unité. Une distribution des émissions y est présentée afin de sensibiliser l’utilisatrice ou l’utilisateur à la nature de ces émissions à l’échelle de l’institution et de fournir des ordres de grandeur supplémentaires. Il est possible de visualiser ou non ces catégories additionnelles en utilisant la coche prévue à cet effet.
+Finally, the page may include graphs for additional categories, based on generic data rather than unit-specific data. An emission breakdown is presented here to raise awareness of the nature of these emissions at the institutional level and to provide additional orders of magnitude. These additional categories can be displayed or hidden using the tick box provided for this purpose.
 
-### 5. Mises à jour des résultats et facteurs d’émissions 
-Les facteurs d’émissions font l’objet d’une revue annuelle. Lorsqu’une mise à jour est effectuée, elle s’applique uniquement à partir de l’année suivante, sans modification des données des années précédentes. 
+### 5. Updates of results and emission factors
 
-Exception : dans le cas où les facteurs d’émissions comportent des erreurs importantes et/ou si les **Infrastructures de recherche EPFL** ont mis à jour leur empreinte carbone en cours d’année, une rectification peut être effectuée par la Durabilité EPFL. Un message s’affichera alors dans la page d’accueil pour les unités utilisatrices concernées afin de garantir une transparence totale. 
+Emissions factors are reviewed annually. When an update is made, it applies only from the following year onwards, without altering data from previous years. 
 
-<a id="limites"></a>
-### 6. Limites 
-Cet outil, comme tout outil d’empreinte carbone, fournit des estimations, qui comportent une part d’incertitude. La fiabilité des résultats dépend également de la fiabilité des données primaires sur lesquelles se basent les calculs. Un besoin de nettoyage des données d’entrée peut s’avérer nécessaire pour affiner les résultats (ex : données d’inventaire).  Les résultats doivent donc être compris comme des ordres de grandeur, à interpréter avec précaution. Il s’agit par ailleurs d’une première itération, qui sera mise à jour et améliorée au fur et à mesure que de nouvelles données deviendront disponibles. 
+Exception: in the case of significant errors in emission factors and/or if **EPFL research facilities** have updated their carbon footprint during the year, a correction may be made by EPFL Sustainability. A message will appear on the homepage for affected units to ensure full transparency.
 
-#### Données d’inventaire
-Pour chaque module, les données les plus pertinentes à disposition au moment du calcul ont été utilisées. Toutefois, il peut arriver que ces données ne permettent que partiellement le calcul de l’empreinte carbone dans la catégorie désirée. Dans le cas où ces données ne sont pas disponibles, des approximations ont été réalisées à partir de données connexes, ou d’informations complémentaires.
+<a id="limitations"></a>
+### 6. Limitations 
+Like any carbon footprint tool, this tool provides estimates that include a degree of uncertainty. The reliability of results also depends on the reliability of the primary data used in the calculations. Data cleaning may be necessary to refine results (e.g. inventory data). Results should therefore be interpreted as orders of magnitude and handled with caution. This is also the first iteration that will be updated and improved as new data becomes available.
 
-C’est pourquoi certains modules requièrent une saisie de données manuelle afin de permettre une estimation plus précise de l’empreinte carbone. Par ailleurs, une saisie manuelle est disponible dans la plupart des modules, afin de compléter les informations si des éléments importants manquent. Plus de détails propres à chaque module sont disponibles dans leur documentation respective.
+#### Inventory data
+For each module, the most relevant data available at the time of calculation has been used. However, it may be the case that this data only partially allows for the calculation of the carbon footprint in the desired category. Where such data is unavailable, approximations have been made using related data or supplementary information.
 
-#### Facteurs d’émission
-Selon les modules et sous-modules de l’espace Calculateur CO₂, les facteurs d’émission les plus fiables et disponibles sont utilisés. Leur niveau de précision varie toutefois en fonction de la maturité des méthodes et de la complexité des activités : certains sont proches des données physiques (comme le mix électrique national), tandis que d’autres, donnent une estimation plus approximative (par exemple pour certains services numériques).
+This is why some modules require manual data entry to improve estimation accuracy. Furthermore, manual entry is available in most modules to complete missing information. Further details specific to each module are available in their dedicated tabs.
 
-De plus, les facteurs d’émission peuvent être calculés selon deux approches complémentaires.
+#### Emission factors
+Depending on the modules and sub-modules within the CO₂ Calculator, the most reliable and available emission factors are used. However, their level of accuracy varies depending on the maturity of the methods and the complexity of the activities: some are close to physical data (such as the national electricity mix), whilst others provide a more approximate estimate (for example, for certain digital services). 
 
-- L’approche dite « physique » consiste à convertir des données mesurables (par exemple kWh consommés ou kilomètres parcourus) en émissions de CO₂ équivalent.
-- À l’inverse, l’approche « monétaire » repose sur la conversion de dépenses (en euros, ou autre devise) en émissions de CO₂ équivalent.
+Furthermore, emission factors can be calculated using two complementary approaches:
 
-Dans ce second cas, les facteurs d’émission sont ajustés pour tenir compte de l’inflation, afin de refléter les conditions économiques actuelles. Concrètement, dans cet outil, les facteurs exprimés dans une année de référence sont actualisés à l’aide des taux d’inflation fournis par la Banque centrale européenne entre 2019 et l’année considérée. Cette méthode permet de garantir la cohérence entre des facteurs historiques et des données financières actuelles.
+- The so-called ‘physical’ approach involves converting measurable data (e.g. kWh consumed or kilometers travelled) into CO₂ equivalent emissions.
+- Conversely, the ‘monetary’ approach is based on converting expenditure (in euros or another currency) into CO₂ equivalent emissions.
 
-L’approche monétaire introduit un niveau d’incertitude supplémentaire par rapport à l’approche physique. Cette approche est néanmoins privilégiée compte tenu de la disponibilité des données pour recourir à l’approche physique.  
+In the latter case, emission factors are adjusted to account for inflation, in order to reflect current economic conditions. In this tool, factors expressed in a reference year are updated using inflation rates provided by the European Central Bank between 2019 and the year considered. This ensures consistency between historical factors and current financial data.
 
-Enfin, il convient de noter que les facteurs d’émission comportent toujours une part d’incertitude. Issus de modélisations, ils reposent sur des hypothèses et peuvent, dans certains cas, constituer des approximations par rapport aux situations réelles auxquelles ils sont appliqués.
+The monetary approach introduces a higher level of uncertainty compared to the physical approach. However, it is often used due to limitations in data availability for physical calculations.
 
-#### Degré de confiance
-Pour l’ensemble de ces raisons, chaque module est associé à un degré de confiance. Celui-ci prend en compte notamment la qualité des données d’inventaire, leur précision et leur niveau de couverture, la précision des facteurs d’émission utilisés, ainsi que la méthode employée (par exemple : approche physique ou approche monétaire).
+Finally, it should be noted that emission factors always include a degree of uncertainty. Based on modeling, they rely on assumptions and may, in some cases, represent approximations of real-world situations.
 
+#### Confidence level
+For the reasons cited above, each module is associated with a degree of confidence. This considers, the quality of the inventory data, its accuracy and coverage, the accuracy of the used emission factors, and the method employed (e.g. physical approach or monetary approach).
 
-#### Résultats valables seulement en Suisse
-Les résultats affichés sont valables pour une structure implantée en Suisse. Pour un autre pays, les résultats ne seront pas totalement pertinents car certains facteurs d'émission sont propres à la Suisse. Cela concerne d'une part les facteurs d'émission liés à l'électricité : en Suisse, l'électricité est produite en grande majorité à partir de l'énergie hydraulique (environ 60%) et nucléaire (environ 30%), peu carbonée [2]. La Suisse importe aussi de l'électricité d'Allemagne, de France et d'Autriche, principalement en hiver pour combler un déficit de production. Cela inclut les consommations d'électricité au sein des industries et ménages, mais aussi toutes les émissions relatives à la mobilité électrique (train, tramway, métro, voiture électrique, etc.). D'autre part, les facteurs d'émission des réseaux de chaleur locaux sont aussi spécifiques au moyen de production : chaque réseau urbain de chaleur a un mix énergétique différent et donc un facteur d'émission propre. Il est toutefois possible pour une autre organisation qui souhaiterait utiliser l’outil d'entrer ses propres facteurs d’émission et donc de créer des résultats adaptés à la géographie de son activité.
+#### Results valid only in Switzerland
 
+Please note that the results shown are valid only for a facility located in Switzerland. If used in another country, the results may not be fully accurate, as certain emission factors are specific to the Swiss context. 
+
+This applies, on the one hand, to emission factors related to electricity: in Switzerland, around 60% of electricity is generated from hydropower and around 30% from nuclear power, which are low-carbon sources [2]. Switzerland also imports electricity from Germany, France and Austria, mainly in winter to make up for a shortfall in production. This includes electricity consumption by industry and households, as well as all emissions related to electric transport (trains, trams, metros, electric cars, etc.). Furthermore, the emission factors for local heating networks are also specific to the means of production: each district heating network has a different energy mix and therefore its own emission factor. Organization based outside Switzerland can still use the tool by entering their own emission factors, allowing them to  generate results tailored to the geographical context.
 
 [2] https://www.energie-environnement.ch/eclairage-electricite-du-menage/mix-electrique-et-mix-energetique
