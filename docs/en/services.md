@@ -28,8 +28,8 @@ Part of the carbon footprint of research facilities is allocated to the user uni
 An allocation key is applied for the use of research facilities. This is based on:
 
 - Total invoicing (internal and external clients)
-- Hours of use of EPFL research facilities
-- The number of animal housing used
+- Usage hours of EPFL research facilities
+- The number of animal housings used by the unit
 
 As the rate is differentiated for external units, a calculation is carried out subsequently to allocate the footprint at a standardised price level between internal and external user units. 
 
@@ -38,78 +38,68 @@ The data required for these calculations is derived from billing data or provide
 
 ### 3.	Emission factors 
 
+This module is unique in that the emission factors depend on several factors: 
+1. Emissions from the categories **Process Emissions, Buildings, Equipment and Purchases** of the research facility
+2. The allocation key of the facility for the user unit. 
 
-Ce module est particulier dans le sens où les facteurs d’émissions dépendent de plusieurs facteurs :
-
-1. Les émissions des catégories ***Process emissions***, ***Buildings***, ***Equipment*** et ***Purchases***  
-2. L’utilisation par l’unité utilisatrice  
-
-
-- ***[Voir Facteurs d’émissions Process emissions](./processes.md#facteurs)***
-- ***[Voir Facteurs d’émissions Buildings](./building.md#facteurs)***
-- ***[Voir Facteurs d’émissions Equipment](./equipment.md#facteurs)***
-- ***[Voir Facteurs d’émissions Purchases](./purchases.md#facteurs)***
-
-
+- ***[See Process emissions Emission factors](./processes.md#factors)***
+- ***[See Buildings Emission factors](./building.md#factors)***
+- ***[See Equipment Emission factors](./equipment.md#factors)***
+- ***[See Purchases Emission factors](./purchases.md#factors)***
 
 
 ### 4.	Methodology
 
-L’empreinte carbone associée à l’utilisation d’une infrastructure de recherche est calculée à partir de l’empreinte carbone des modules suivants de l’infrastructure : ***Process emissions***, ***Buildings***, ***Equipment*** et les ***Purchases***. 
+The carbon footprint associated with the use of a research facility is calculated based on the carbon footprint of the following modules: ***Process emissions, Buildings, Equipment and Purchases***. 
 
-Le taux d’utilisation d’une unité utilisatrice par rapport à une infrastructure de recherche EPFL $UsageRate_{RF,unit}$  correspond à la part de son utilisation totale par rapport à l’ensemble des unités utilisatrices (interne et externe) de l’infrastructure de recherche concernée. Ce taux d’utilisation annuel est exprimé en fonction des données disponibles (facturations, heures d’utilisation ou nombre d’hébergements), selon la formule suivante :
+The usage rate of a user unit in relation to an EPFL research facility $UsageRate_{RF,unit}$ corresponds to the proportion of its total usage relative to all user units (internal and external) of the research facility in question. This annual usage rate is expressed based on available data (invoices, hours of use or number of hostings), according to the following formula:
 
 $$
 UsageRate_{RF,unit} = \frac{Usage_{RF,unit}}{\sum_{unit}^{}Usage_{RF,unit}}
 $$
 
-Où :
+Where:
 
-- $RF$ : l’infrastructure de recherche concerné
-- $unit$ : l’unité utilisatrice
-- $Usage_{RF,unit}$ : utilisation de l’infrastructure de recherche EPFL par rapport à l’unité et selon l’année de référence (facturation, heures d’utilisation ou nombre d’hébergements)
+- $RF$: the research infrastructure in question
+- $unit$: the user unit
+- $Usage_{RF,unit}$: use of EPFL research facilities by unit and by reference year (invoicing, hours of use or number of hostings)
 
-
-La part d’empreinte carbone attribuable à une unité utilisatrice $CF_{RF~attribution,unit}$  est ensuite déterminée en multipliant cette empreinte par le taux d’utilisation spécifique de l’unité, selon la formule suivante :
+The proportion of the carbon footprint attributable to a user unit $CF_{RF~attribution,unit}$ is then determined by multiplying this footprint by the unit’s specific usage rate, according to the following formula:
 
 $$
 CF_{RF~attribution,unit} = CF_{RF~attribution,total} \cdot UsageRate_{RF,unit}
 $$
 
-Où :
+Where:
 
-- $CF_{RF~attribution,total}$ : l’empreinte carbone de l’infrastructure de recherche à attribuer aux unités utilisatrices
-- $UsageRate_{RF,unit}$ : taux d’utilisation spécifique de l’unité utilisatrice 
+- $CF_{RF~attribution,total}$: the carbon footprint of the research infrastructure to be allocated to the user units
+- $UsageRate_{RF,unit}$: the user unit’s specific usage rate  
 
+The calculation method for animal facilities follows the same logic. Emissions are allocated to each user unit based on its level of use, measured by the number of animal housings. This allows the total carbon footprint of the facility to be distributed proportionally among all user units.
 
-Pour les animaleries, la méthode de calcul est similaire. Les émissions attribuées à une unité utilisatrice sont calculées en fonction de son niveau d’utilisation de l’animalerie concernée. Cette utilisation est basée sur le nombre d’hébergements et permet de répartir l’empreinte carbone de l’animalerie en question entre les différentes unités utilisatrices.
+To grasp the methodology for each category used in the calculation of the research infrastructure carbon footprint, please refer to the links below: 
 
-Pour consulter la méthodologie de chaque catégorie considérée pour le calcul de l’empreinte carbone de l’infrastructure de recherche attribuée à son utilisation, veuillez consulter les liens ci-dessous : 
-
-- ***[Process emissions](./processes.md#methodologie)*** 
-- ***[Buildings](./building.md#methodologie)***
-- ***[Equipment](./equipment.md#methodologie)*** 
-- ***[Purchases](./purchases.md#methodologie)*** 
+- ***[Process emissions](./processes.md#methodology)*** 
+- ***[Buildings](./building.md#methodology)***
+- ***[Equipment](./equipment.md#methodology)*** 
+- ***[Purchases](./purchases.md#methodology)*** 
 
 
 ### 5. Limitations
 
-Ce module possède un niveau d’incertitude élevé. En effet, l’attribution de l’empreinte carbone liée à l’utilisation des infrastructures de recherche EPFL repose sur les empreintes carbones des modules ***Process emissions***, ***Buildings***, ***Equipment*** et ***Purchases***, qui eux-mêmes possèdent leurs propres les limites.  
+This module has a high level of uncertainty as it is based on the carbon footprints of the **Process Emissions, Buildings, Equipment and Purchasing** modules, which themselves have their own limitations.  
+- ***[See Limitations from Process emissions module](./processes.md#5-limites)***
+- ***[See Limitations from Buildings module](./building.md#5-limites)***
+- ***[See Limitations from Equipment module](./equipment.md#5-limites)*** 
+- ***[See Limitations from Purchases module](./purchases.md#5-limites)*** 
 
-- ***[Voir Limites du module Process emissions](./processes.md#5-limites)***
-- ***[Voir Limites du module Buildings](./building.md#5-limites)***
-- ***[Voir Limites du module Equipment](./equipment.md#5-limites)*** 
-- ***[Voir Limites du module Purchases](./purchases.md#5-limites)*** 
+Furthermore, the CO₂ Calculator section relies on partially automated modules, which by default use the data reported by each module. Thus, if the research facilities considered modules have not been validated, errors may remain, which can affect the allocation of their carbon footprint to the user units.
 
-Par ailleurs, l’espace Calculateur CO₂ repose sur des modules partiellement automatisés, qui utilisent par défaut les données remontées par chaque module. Ainsi, si les modules des infrastructures de recherche n’ont pas été validés, des erreurs peuvent subsister, ce qui peut influencer l’attribution de leur empreinte carbone aux unités utilisatrices.
+Furthermore, certains limitations are associated with the allocation key, based primarily on financial data, except for certain platforms where the number of used hours or the number of housings are considered. 
 
-De plus, il y a des limites liées à la clé de répartition qui repose principalement sur les données monétaires à l’exception de certaines plateformes où le nombre d’heures d’utilisation ou le nombre d’hébergements sont considérés. 
-
-- Les données de facturation sont un premier indicateur pour l’utilisation des infrastructures de recherche. Cependant, il y a de nombreuses limites, notamment dues à la tarification différenciée entre les unités internes et externes et même entre unités internes faisant partie de différentes facultés ou services.
-- Les heures d’utilisation sont des indicateurs plus pertinents avec moins d’incertitude et sont priorisés si les infrastructures de recherche possèdent ces données pour l’ensemble des unités utilisatrices. 
+- Billing data is a primary indicator of research infrastructure usage. However, there are numerous limitations, particularly due to the differentiated pricing between internal and external units and even between internal units belonging to different faculties or departments.
+- Usage hours are more relevant indicators with less uncertainty and are prioritised if the research infrastructure holds this data for all user units. 
 
 
 ### 6. References
-- La méthodologie de ce module a été développée en se référant pour une partie à la méthodologie développée par Labos1point5 dans le GES1point5 [https://apps.labos1point5.org/documentation/carbon/ges-calculating-methods](https://apps.labos1point5.org/documentation/carbon/ges-calculating-methods) et affinée au contexte EPFL par le GT infrastructures de recherche. 
-
-
+- The methodology for this module was developed partly by drawing on the methodology developed by Labos1point5 within GES1point5 [https://apps.labos1point5.org/documentation/carbon/ges-calculating-methods](https://apps.labos1point5.org/documentation/carbon/ges-calculating-methods) and refined for the EPFL context by the EPFL Research Facility Working Group. 
