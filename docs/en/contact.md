@@ -1,13 +1,7 @@
-# Contact
+# Contact us
 
-## Get in touch
+We’d love to hear from you! This calculator is constantly evolving, so please feel free to share your suggestions and feedback with us.
 
-We’d love to hear from you! This calculation tool is in constant evolution, so feel free to share suggestions and comments.
+Furthermore, if you have any questions or encounter any difficulties, please do not hesitate to write to us so that we can help you! We will reply as soon as possible. Thank you! 
 
-Also, if you have any kind of question or issue, please drop us a note so we can try to help! We’ll get back to you shortly. Thanks!
-
-The EPFL Sustainability team
-
-## Email direct
-
-Si vous préférez, écrivez-nous par email: [remplacez-avec-votre-email@example.org](mailto:remplacez-avec-votre-email@example.org)
+The EPFL Sustainability Team ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch))
