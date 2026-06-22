@@ -1,69 +1,67 @@
 ### 1.	Context
-Professional travel at EPFL is mainly undertaken by plane and train. Professional plane trips are booked through EPFL’s travel agency (LEX 5.6.2), and the data containing the information required to calculate the carbon footprint is therefore collected automatically and used in this module. If planes have been booked outside the central travel agency, they must be entered manually. Train journeys must be entered manually.
+Professional travel at EPFL is mainly undertaken by plane and train. Professional plane trips are booked through EPFL travel agency (LEX 5.6.2), and the data containing the information required to calculate the carbon footprint is therefore collected automatically and used in this module. If planes have been booked outside the central travel agency, they must be entered manually. Train journeys must be entered manually.
 
 ### 2.	Data collected 
-Data relating to air travel is provided by EPFL’s central travel agency and contains specific details such as the date, duration, departure and destination, class, distance, plane number, etc. This set of data is supplemented using the Atmosfair API to calculate the carbon footprint per flight in kg CO₂-eq.  
+Data relating to air travel is provided by EPFL central travel agency and contains specific details such as the date, duration, departure and destination, class, distance, plane number, etc. This set of data is supplemented using the Atmosfair API to calculate the carbon footprint per flight in kg CO₂-eq.  
 -> More information about the [Atmosfair calculation methodology](https://www.atmosfair.de/en/standards/emissions_calculation/)
 
 For plane or train travel booked outside the central agency, the data must be entered manually: departure and arrival cities, travel dates, as well as the number of passengers and class. 
 
 ### 3.	Emission factors 
 
---- 
+For flights booked through the central travel agency, the emission factors for plane carbon footprint come from Atmosfair database. These factors consider the specific characteristics of the plane, such as distance, class, as well as aircraft type, number of passengers, altitude, cargo load, etc. All these aspects are considered when determining the quantity of emissions associated with the journey. The radiative forcing index (RFI)[3] used in the carbon footprint is 2.7.
 
-For flights booked via the travel agency, the emission factors for plane carbon footprint come from Atmosfair database. These factors consider the specific characteristics of the plane, such as distance, class, as well as aircraft type, number of passengers, altitude, cargo load, etc. All these aspects are considered when determining the quantity of emissions associated with the journey. The radiative forcing index (RFI) used in the carbon footprint is 2.7.
+[3] One metric, known as the Radiative Forcing Index (RFI), is based on the radiative forcing of pollutants—that is, the direct change in the atmosphere’s energy balance caused by the introduced pollutant. The RFI expresses, for a specific point in time (e.g., 2015), the ratio of these changes in the energy balance caused by the pollutants present in the atmosphere at that time as a result of global aviation. The ratio is currently about 3 to 1 (factor of 3). This means that the direct warming effect of all aviation pollutants (non-CO₂ and CO₂) is three times greater than that of CO₂ alone (IPCC, 1999) (Atmosfair, 2023)
 
-For plane and train travels entered manually, the emission factors in kg CO₂-eq/km travelled come from Mobitool database. 
+For plane and train travels entered manually, the emission factors come from the [Transportation Environmental Calculator](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=a0aa611ca3b1a5821782143404a2d0f1), a tool developed by Swissenergy. 
 
 - The flight emission factors in kg CO₂-eq/km depend on the destination (Europe or intercontinental) and the class (economy, professional, etc.)
 - For train travels, these factors depend on the country railways (Switzerland, Germany, Austria, Italy, France or the rest of the world. An average of regional and long-distance traffic is considered.
 
 ### 4.	Methodology
 
-Les déplacements en avion réservés via l’agence de voyage central EPFL sont remontés automatiquement dans l’outil, avec l’estimation des émissions associées. 
+Plane travel booked via the EPFL central travel agency is automatically entered into the tool, along with an estimate of the associated emissions. 
 
-En ce qui concerne les déplacements en avion réservés hors de l’agence de voyage central et les déplacements en train, les données sont saisies manuellement. 
+Travel data must be entered manually for flights booked outside the central travel agency and for all train journeys.
 
 ***Plane sub-module (manual entry)***
 
-L’empreinte carbone de chaque voyage $CF_{plane}$ est calculée comme le produit de la distance entre ville de départ et l’arrivé, le facteur d’émission associé, et le multiplicateur de forçage radiatif tel que :
+The carbon footprint of each journey $CF_{plane}$ is calculated as the product of the distance between the departure and arrival cities, the associated emission factor, and the radiative forcing multiplier, as follows:
 
 $$
 CF_{plane} = Distance \cdot EF_{classe} \cdot RFI
 $$
 
-Où : 
+Where: 
 
-- $Distance$ : distance entre le point de départ et d’arrivée en km
-- $classe$ : classe d'un billet
-- $EF_{classe}$  : facteur d’émission de l’avion selon la classe en kg CO₂-eq/km
-- $RFI$ : en anglais « radiative forcing index » qui représente le multiplicateur de forçage radiatif . 
+- $Distance$: distance between the point of departure and arrival in km. 
+- $classe$: ticket class. 
+- $EF_{classe}$: aircraft emission factor according to class in kg CO₂-eq/km. 
+- $RFI$: the ‘radiative forcing index’ (RFI), which represents the radiative forcing multiplier. 
 
-Ici, un RFI de 2.7 est considéré. 
+Here, an RFI of 2.7 is used. 
 
 ***Train sub-module (manual entry)***
 
-L’empreinte carbone de chaque voyage $CF_{train}$ est calculée comme le produit de la distance entre ville de départ et l’arrivé et le facteur d’émission associé tel que : 
+The carbon footprint of each journey $CF_{train}$  is calculated as the product of the distance between the departure and arrival cities and the associated emission factor, as follows: 
 
 $$
 CF_{train} = Distance \cdot EF_{train}
 $$
 
-Où : 
-- $Distance$ : distance entre le point de départ et arrivé en km
-- $EF_{train}$  : facteur d’émission du voyage en train en kg CO₂-eq/km
+Where: 
+- $Distance$: distance between the departure and arrival points in km
+- $EF_{train}$: emission factor for the train journey in kg CO₂-eq/km
 
-
-Le calculateur additionne alors l’impact total des déplacements professionnels :  déplacements en avion effectués via l’agence de voyage central et déplacements en avion et en train saisis manuellement. 
-
+The calculator then adds up the total impact of all professional travels: flights booked via the central travel agency and flights and train journeys entered manually. 
 
 
 ### 5. Limitations
-- Ce module présente un degré de confiance élevé, car les données relatives aux déplacements en avion sont collectées par l’agence de voyages, permettant d’avoir des données sources robustes, précises et presque complètes (on estime que 90 % des voyages en avion du personnel sont couverts). De plus, les facteurs d’émission utilisés pour ces déplacements proviennent de la base de données Atmosfair, qui les adapte en fonction de paramètres très précis du vol, tels que la distance, la classe, mais aussi le taux de remplissage de l’avion, la charge de fret, le modèle d’avion, etc.
-- Pour tous les autres déplacements, les données étant saisies manuellement, a qualité des résultats finaux dépend donc de la qualité des données entrées. 
+- This module has a high degree of reliability, as data on air travel is collected by the travel agency, providing robust, accurate and almost complete source data (it is estimated that 90% of staff air travel is covered). Furthermore, the emission factors used for these journeys are sourced from the Atmosfair database, which adjusts them according to very specific flight parameters, such as distance, class, as well as the aircraft’s load factor, cargo load, aircraft model, etc.
+- For remaining journeys entered manually, the quality of the final results therefore depends on the quality of the data entered. 
 
 
 ### 6. References
-- Méthodologie Atmosfair [https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf](https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf) et [https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf](https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf)
-- Mobitool v3.1, [https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd)
+- Atmosfair methodology 2023 [https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf](https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf) et [https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf](https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf)
+- Transportation Environmental Calculator, [https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd)
 
