@@ -71,14 +71,14 @@ Le calcul de l’empreinte carbone est effectué à partir du nombre d’EPT dan
 
 $$
 CF_{AI} 
-=EPT_{AI_{provider,type}} \cdot Frequency_{AI_{provider,type}} \cdot EF_{AI_{provider,type}}
+=FTE_{AI_{provider,type}} \cdot Frequency_{AI_{provider,type}} \cdot EF_{AI_{provider,type}}
 $$
 
 Où : 
 
 - $AI_{provider}$ : fournisseur du service d’IA
 - $type$ : type de service utilisé (génération de texte, de code ou d’image(
-- $EPT_{AI_{provider,type}}$ : nombre d’EPT pour un type de service fourni par un fournisseur
+- $FTE_{AI_{provider,type}}$ : nombre d’équivalent plein-temps (EPT) pour un type de service fourni par un fournisseur
 - $Frequency_{AI_{provider,type}}$ : nombre d’utilisation par EPT par jour pour un type de service fourni par un fournisseur. Il s’agit de la fréquence d’utilisation par EPT par jour renseignée par les utilisateur·rices multipliés par 235 (5 jours x 47 semaines travaillées).
 - $EF_{AI_{provider,type}}$ : facteur d’émission d’utilisation d'un type de service fourni par un fournisseur en kg CO₂-eq)
 
