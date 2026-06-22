@@ -1,33 +1,46 @@
+### 1.	Context
+Thousands of scientific, IT and other equipment items are listed in the EPFL equipment inventory. The electricity consumption data associated with their use, allows to estimate the greenhouse gas emissions related to their electricity consumption (Scope 2). 
 
-# Documentation module: consommation électrique des équipements
 
-<p><b>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Données collectées</b></p>
+### 2.	Data collected 
 
-<p>L’inventaire des équipements disponible sur Sesame permet d’effectuer la liste des équipements scientifiques (&gt;10'000 CHF), des équipements IT et autres par laboratoire: <a href="https://sesame.epfl.ch/#Shell-home">https://sesame.epfl.ch/#Shell-home</a></p>
+The equipment inventory available on the internal staff management portal provides a list of scientific equipment (>CHF 10,000), IT equipment and other items by unit. 
 
-<p><b>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Méthodologie</b></p>
+The following columns are entered manually: 
 
-<p>La puissance moyenne « actif » et « veille » de chaque équipement est multipliée par les heures d’utilisation hebdomadaires, par le nombre de semaines travaillées et par le facteur d’émission de l’électricité suisse :</p>
+- Active and standby power consumption: It is recommended to use a conservative estimate (which is not underestimated). If the average active or standby power consumption of your equipment differs from the default value, please contact the dedicated team at the following address: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch).
+- Subclass: The subclass for equipment is entered manually where this information is required.
+- Class: You can update the class if the one in your inventory is not appropriate. Please note that this will not update the inventory. 
+
+<a id="factors"></a>
+### 3.	Emission factors
+Only the emission factor of 0.097 kg CO₂-eq/kWh (BAFU, 2025) is used in this module.
+
+<a id="methodology"></a>
+### 4.	Methodology
+The carbon footprint related to the use of equipment $CF_{equipment}$ is calculated as the product of the average active and standby power of the equipment, the hours of use for each annual usage mode, and the emission factor for Swiss electricity, as follows:
 
 $$
-E_i\;[\mathrm{kWh/an}] = \frac{\big(P_{i,\mathrm{actif}}\;[\mathrm{W}]\cdot h_{i,\mathrm{actif}}\;[\mathrm{h/sem}] + P_{i,\mathrm{veille}}\;[\mathrm{W}]\cdot h_{i,\mathrm{veille}}\;[\mathrm{h/sem}]\big)\cdot 47\;[\mathrm{sem/an}]}{1000}
+CF_{equipment} = \frac{P_{equipment,active} \cdot H_{active} + P_{equipment,standby} \cdot H_{standby}}{1000}
+\cdot Weeksperyear
+\cdot EF_{electricity}
 $$
 
-$$
-\mathrm{GES}_i\;[\mathrm{kg\,CO_2\,eq/an}] = E_i\;[\mathrm{kWh/an}]\cdot FE\;[\mathrm{kg\,CO_2\,eq/kWh}]
-$$
+Where: 
 
-<p><b>Définitions</b></p>
+- $equipment$: equipment used in the unit.
+- $active,stanby$: equipment usage mode.
+- $P_{equipment,active}$ and $P_{equipment,standby}$: average active and standby power ratings for the equipment, expressed in W and determined by the EPFL sustainability team through direct measurement or a literature review (see Section 7, Appendix).
+- $H_{equipment,active}$ and $H_{equipment,standby}$: usage time in active and standby modes for the equipment in h/week, determined by the user.
+- $EF_{electricity}$: emission factor 0.097 kg CO2-eq/kWh (BAFU, 2025). 
 
-- <em>P<sub>i,actif</sub></em> et <em>P<sub>i,veille</sub></em> : puissances moyennes « actif » et « veille » (W), déterminées par l’équipe durabilité EPFL (mesures directes ou littérature) — valeurs présentées dans le tableau ci‑dessous.
-- <em>h<sub>i,actif</sub></em> et <em>h<sub>i,veille</sub></em> : heures hebdomadaires d’utilisation « actif » et « veille » (h/sem), saisies par l’utilisateur.
-- 47 : nombre de semaines travaillées par an.
-- <em>FE</em> : facteur d’émission de l’électricité (0.125 kg CO<sub>2</sub> eq/kWh, KBOB 2002).
 
-## Tableau des puissances moyennes des équipements
-??? abstract "Tableau des puissances moyennes des équipements"
-    {{ read_csv('../includes/table_factor.csv') }}
+### 5. Limitations
+- As the default usage time is based on generic estimates, these data must be updated to be more realistic and therefore more accurate.
+- The power ratings of each piece of equipment have been determined by EPFL Sustainability through direct measurement or sourced from the literature. These data are not necessarily representative of the equipment in use; in such cases, it is recommended to contact the dedicated team at the following address: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch) to carry out the update.
+- The emission factor of 0.097 kg CO₂-eq/kWh represents an annual average, not the electricity mix at the time the equipment is in use.
 
-<p><b>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Facteurs d’émissions</b></p>
 
-<p>Seul le facteur d’émission 0.125&nbsp;kg CO<sub>2</sub>&nbsp;eq / kWh (KBOB 2002) est utilisé dans ce module.</p>
+### 6. References
+- Corporate Footprint Calculator v 1.0, [https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator](https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator)
+- BAFU 2025, [https://nexus.openlca.org/database/BAFU](https://nexus.openlca.org/database/BAFU)
