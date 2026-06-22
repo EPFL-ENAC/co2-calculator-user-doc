@@ -37,6 +37,7 @@ $$
 
 
 Où :
+
 - $trans~type$ : transport public, vélo, voiture, marche à pied, etc
 - $N_{students}$  : nombre d’étudiants total par année de référence en EPT
 - $N_{staff}$ : nombre de membres du personnel total par année de référence en EPT
