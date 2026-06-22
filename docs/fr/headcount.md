@@ -5,7 +5,7 @@ Les données qui apparaissent dans le module **Personnel** sont utilisées pour 
 Les données de Personnel incluent l’ensemble des personnes travaillant dans chaque unité par année civile. Pour chaque personne, les informations suivantes sont affichées et visibles par la ou le responsable de l’unité ou sa ou son délégué :
 
 - Nom et Prénom
-- Fonction enregistrée (nomenclature SIUS)
+- Fonction enregistrée (nomenclature SIUS de l'Office fédéral de la Statistique)
 - SCIPER
 - EPT (équivalents temps plein) attribué à l’unité.
 
