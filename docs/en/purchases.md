@@ -26,7 +26,7 @@ For each purchase, the following information is automatically populated from pai
 The *Centralised Purchases sub-module* is designed to incorporate predefined items corresponding to centralised and/or shared purchases between several units. Where applicable, the annual consumption for these items must be entered.
 
 
-<a id="facteurs"></a>
+<a id="factors"></a>
 ### 3.	Emission factors
 
 ***Standard Purchases sub-modules***
