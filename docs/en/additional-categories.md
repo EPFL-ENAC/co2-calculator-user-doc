@@ -10,7 +10,7 @@ These categories are referred to as ‘additional’ because their emissions are
 
 
 ### 2.	Data collected 
-The data collected and used to calculate emissions for the additional categories relate to the number of staff and students at EPFL (via the ***Headcount*** module) and the floor location of the rooms used (via the ***Buildings*** module), plus other specific data described here:
+The data collected and used to calculate emissions for the additional categories relate to the number of staff and students at EPFL (via the **Headcount** module) and the floor location of the rooms used (via the **Buildings** module), plus other specific data described here:
 
 - ***Commuting***: total number of kilometers per person (staff or students) and by mode of transport (cycle, car, public transport, etc.). These figures are calculated using responses from the Mobility survey sent out every two years to the EPFL community and combined with information on car park usage to estimate kilometers travelled by car.
   
