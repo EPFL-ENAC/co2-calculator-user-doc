@@ -10,7 +10,9 @@ Pour les déplacements en train ou en avion réservés hors agence central, les 
 
 ### 3.	Facteurs d’émissions
 
-Pour les vols réservés via l’agence de voyage, les facteurs d’émissions de l’impact des vols proviennent d’[Atmosfair](https://www.atmosfair.de/en/standards/emissions_calculation/).  Ces facteurs prennent en compte les caractéristiques spécifiques du vol, telles que la distance, la classe mais aussi le type d'avion, le nombre de passagers, l'altitude, le charge de fret, etc. Tous ces aspects sont pris en compte pour définir la quantité d’émissions relatives au déplacement. Le RFI utilisé dans l’empreinte carbone est de 2.7.
+Pour les vols réservés via l’agence de voyage, les facteurs d’émissions de l’impact des vols proviennent d’[Atmosfair](https://www.atmosfair.de/en/standards/emissions_calculation/).  Ces facteurs prennent en compte les caractéristiques spécifiques du vol, telles que la distance, la classe mais aussi le type d'avion, le nombre de passagers, l'altitude, le charge de fret, etc. Tous ces aspects sont pris en compte pour définir la quantité d’émissions relatives au déplacement. L'indice de forçage radiatif (RFI)[3] utilisé dans l’empreinte carbone est de 2.7.
+
+[3] L’un de ces indicateurs, appelé « indice de forçage radiatif » (RFI), repose sur le forçage radiatif des polluants, c’est-à-dire la variation directe du bilan énergétique de l’atmosphère provoquée par le polluant introduit. Le RFI exprime, pour un moment donné (par exemple 2015), le rapport entre ces variations du bilan énergétique provoquées par les polluants présents dans l’atmosphère à cette date en raison de l’aviation mondiale. Ce rapport est actuellement d’environ 3 pour 1 (un facteur de 3). Cela signifie que l’effet de réchauffement direct de l’ensemble des polluants issus de l’aviation (autres que le CO₂ et le CO₂) est trois fois supérieur à celui du CO₂ seul (GIEC, 1999) (Atmosfair, 2023)
 
 Pour les vols et trains saisis manuellement, les facteurs d’émissions en kg CO₂-eq/km parcourus proviennent du [calculateur environnemental transport](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd), développé par SuisseÉnergie. 
 
@@ -58,13 +60,12 @@ Où :
 Le calculateur additionne alors l’impact total des déplacements professionnels :  déplacements en avion effectués via l’agence de voyage central et déplacements en avion et en train saisis manuellement. 
 
 
-
 ### 5. Limites
 - Ce module présente un degré de confiance élevé, car les données relatives aux déplacements en avion sont collectées par l’agence de voyages, permettant d’avoir des données sources robustes, précises et presque complètes (on estime que 90 % des voyages en avion du personnel sont couverts). De plus, les facteurs d’émission utilisés pour ces déplacements proviennent de la base de données Atmosfair, qui les adapte en fonction de paramètres très précis du vol, tels que la distance, la classe, mais aussi le taux de remplissage de l’avion, la charge de fret, le modèle d’avion, etc.
 - Pour tous les autres déplacements, les données étant saisies manuellement, a qualité des résultats finaux dépend donc de la qualité des données entrées. 
 
 
 ### 6. Références
-- Méthodologie Atmosfair [https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf](https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf) et [https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf](https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf)
+- Méthodologie Atmosfair 2023 [https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf](https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf) et [https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf](https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf)
 - Mobitool v3.1, [https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd)
 
