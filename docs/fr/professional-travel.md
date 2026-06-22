@@ -67,5 +67,5 @@ Le calculateur additionne alors l’impact total des déplacements professionnel
 
 ### 6. Références
 - Méthodologie Atmosfair 2023 [https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf](https://www.atmosfair.de/wp-content/uploads/flight-emissionscalculator-documentation-calculationmethodology.pdf) et [https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf](https://www.atmosfair.de/wp-content/uploads/vdr-reporting-standard-en-19022024-1.pdf)
-- Mobitool v3.1, [https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd)
+- Calculateur environnemental transport, [https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=0b785dce39481c571776159259abdffd)
 
