@@ -50,6 +50,7 @@ CF_{train} = Distance \cdot EF_{train}
 $$
 
 Where: 
+
 - $Distance$: distance between the departure and arrival points in km
 - $EF_{train}$: emission factor for the train journey in kg CO₂-eq/km
 
