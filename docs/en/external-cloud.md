@@ -73,7 +73,7 @@ CF_{AI}
 =FTE_{AI_{provider,type}} \cdot Frequency_{AI_{provider,type}} \cdot EF_{AI_{provider,type}}
 $$
 
-Où : 
+Where: 
 
 - $AI_{provider}$: AI service provider. 
 - $type$: type of service used (text, code or image generation).
