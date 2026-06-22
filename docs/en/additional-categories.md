@@ -38,88 +38,93 @@ The data collected and used to calculate emissions for the additional categories
 
 ***Commuting***
 
-Les émissions totales de CO₂ liées à la pendularité sont estimées en agrégeant, pour chaque mode de transport, les émissions générées par la population étudiante et par le personnel. Pour chaque unité, l’empreinte carbone de pendularité $CF_{commuting}$ est calculée comme le produit du nombre de personnes dans l’unité, de la distance moyenne parcourue selon chaque mode de transport, et du facteur d’émission associé à ce mode tel que :
+For each unit, the commuting carbon footprint $CF_{commuting}$ is calculated as the product of the number of people in the unit, the average distance travelled by each mode of transport, and the emission factor associated with that transport mode, as follows:
+
 
 $$
 CF_{commuting} = \sum_{trans~type}^{} N_{students} \cdot Dist_{students, trans~type} \cdot EF_{trans~type} + \sum_{trans~type}^{} N_{staff} \cdot Dist_{staff, trans~type} \cdot EF_{trans~type}
 $$
 
 
-Où :
+Where:
 
-- $trans~type$ : transport public, vélo, voiture, marche à pied, etc
-- $N_{students}$  : nombre d’étudiants total par année de référence en EPT
-- $N_{staff}$ : nombre de membres du personnel total par année de référence en EPT
-- $Dist_{students,trans~type}$ : distance parcourue par étudiant par mode de transport, en km
-- $Dist_{staff,trans~type}$ : distance parcourue par membre du personnel par mode de transport, en km
-- $EF_{trans~type}$ : facteur d’émission du mode de transport trans_type(kg CO₂-eq/km)
+- $trans~type$: public transport, cycling, car, walking, etc.
+- $N_{students}$: total number of students per reference year in FTE
+- $N_{staff}$: total number of staff members per reference year in FTE
+- $Dist_{students,trans~type}$: distance travelled per student per mode of transport, in km
+- $Dist_{staff,trans~type}$: distance travelled per staff member by mode of transport, in km
+- $EF_{trans~type}$: emission factor for the mode of transport (kg CO₂-eq/km)
 
 
 ***Alimentation***
 
-Les émissions totales de CO₂ liées à l’alimentation sont estimées en agrégeant, pour chaque catégorie de repas (végétarien ou carné), les émissions associées à la consommation de la population étudiante et du personnel. Pour chaque unité, les émissions $CF_{food}$ sont calculées comme le produit du nombre de personnes dans l’unité, de la quantité moyenne de nourriture consommée par catégorie, et du facteur d’émission correspondant.
+The total CO₂ emissions related to food $CF_{food}$ are estimated by aggregating, for each meal category (vegetarian or meat-based), the emissions associated with consumption by the student population and staff. For each unit, emissions are calculated as the product of the number of people in the unit, the average amount of food consumed per category, and the corresponding emission factor. 
 
 $$
 CF_{food} =
 \sum_{food~type}^{} N_{students} \cdot Q_{students, food~type} \cdot EF_{food~type} + \sum_{food~type}^{} N_{staff} \cdot Q_{staff, food~type} \cdot EF_{food~type}
 $$
 
-Où :
+Where:
 
-- $food_{type}$ : type de nourriture (végétarien, non végétarien)
-- $N_{students}$  : nombre d’étudiantes ou étudiants total par année de référence en EPT
-- $N_{staff}$  : nombre de membres du personnel total par année de référence en EPT
-- $Q_{students,food~type}$  : quantité de nourriture achetée par étudiante ou étudiant pour le type de nourriture en kg/EPT
-- $Q_{staff,food_type}$  : quantité de nourriture achetée par membre du personnel pour le type de nourriture en kg/personne
-- $EF_{food_type}$  : facteur d’émission du type de nourriture en kg CO₂-eq/kg
+- $food_{type}$: type of food (vegetarian, non-vegetarian)
+- $N_{students}$: total number of students per reference year (FTE)
+- $N_{staff}$: total number of staff members per reference year in FTE
+- $Q_{students,food~type}$: quantity of food purchased per student for the food type in kg/FTE
+- $Q_{staff,food_type}$: quantity of food purchased per staff for the food type in kg/FTE
+- $EF_{food_type}$: emission factor for the food type in kg CO₂-eq/kg
 
 
-***Déchets***
+***Waste***
 
-Le total de $CF_{waste}$ est obtenu en multipliant le nombre de personne dans l’unité pour les kg de déchet par personne pour les facteurs d’émissions.  
+The total CO₂ emissions related to waste - $CF_{waste}$ is obtained by multiplying the number of people in the unit by the kg of waste per person and the emission factors.
+
 
 $$
 CF_{waste} = \sum_{waste~type}^{}\sum_{eol}^{}(N \cdot Q_{waste~type, eol} \cdot EF_{waste~type,eol})
 $$
 
-Où :
+Where:
 
-- $waste~type$ : type de déchet (papier, plastique, etc.)
-- $eol$ : mode de traitement final (incinération, recyclage, etc.)
-- $N$ : nombre de membres du personnel total par année de référence en EPT
-- $Q_{waste~type,eol}$  : quantité de déchets par EPT en kg/EPT pour le type et le traitement
-- $EF_{waste~type,eol})$ : facteur d’émission associé au type de déchet et au mode de traitement en kg CO₂-eq/kg
+- $waste~type$: type of waste (paper, plastic, etc.)
+- $eol$: final treatment method (incineration, recycling, etc.)
+- $N$: total number of staff per reference year in FTE
+- $Q_{waste~type,eol}$: amount of waste per FTE in kg/FTE for the type and treatment
+- $EF_{waste~type,eol})$: emission factor associated with the waste type and treatment method in kg CO₂-eq/kg
 
 
-***Construction et rénovation***
+***Construction and renovation***
 
-Le total des émissions de CO₂ liées à la construction et rénovation $CF_{construction}$ est obtenu en identifiant les bâtiments dans lesquels l’unité exerce des activités (laboratoires, bureaux, etc.) à partir des données du module bâtiments. Pour chaque bâtiment concerné, la superficie totale des locaux concernés est multipliée par les facteurs d’émission correspondants, exprimés en kg CO₂-eq/m², et spécifiques au type d’activité de construction (nouvelles constructions – enveloppe thermique, nouvelles constructions – installations techniques, rénovations – enveloppe thermique, rénovations – installations techniques, démolitions). Le total des émissions est obtenu en additionnant les émissions pour tous les locaux concernés et tous les types d’activité. Les facteurs sont calculés sur la base de la surface totale des bâtiments et au type d’activité de construction et appliqués uniquement pour les années où les travaux ont lieu, conformément aux recommandations du GHG Protocol.
+The total CO₂ emissions related to construction and renovation $CF_{construction}$ are calculated by identifying the buildings in which the unit carries out its activities (laboratories, offices, etc.) using data from the **Buildings** module. For each building concerned, the total floor location of the rooms in question is multiplied by the corresponding emission factors, expressed in kg CO₂-eq/m², and specific to the type of construction activity (new builds – thermal envelope, new builds – technical installations, renovations – thermal envelope, renovations – technical installations, demolitions). Total emissions are obtained by adding together the emissions for all the rooms concerned and all types of activity. The factors are calculated based on the total floor location of the buildings and the type of construction activity and are applied only for the years in which the works take place, in accordance with the recommendations of the GHG Protocol. 
+
 
 $$
 CF_{construction}
 = \sum_{building}^{}\sum_{activity~type}^{}(Surface_{building} \cdot EF_{building,activity~type})
 $$
 
-Où :
+Where:
 
-- $building$ : bâtiment de l’EPFL (AAB, BCH, BS, etc)
-- $activity~type$ : type de construction par bâtiment (new_env, new_tec, ren_env, ren_tec, dem)
-- $surface_{building}$ : superficie totale du bâtiment building (m²)
-- $EF_{building,activity~type}$ : facteur d’émission pour le bâtiment building et le type d’activité activity_type(kg CO₂-eq/m²)
+- $building$: EPFL building (AAB, BCH, BS, etc.)
+- $activity~type$: type of construction per building (new_env, new_tec, ren_env, ren_tec, dem)
+- $surface_{building}$: total surface of the building (m²)
+- $EF_{building,activity~type}$: emission factor for the buildingbuilding  and the type of activity activity_type (kg CO₂-eq/m²)
 
-Lorsque les données détaillées par bâtiment ne sont pas disponibles, des facteurs d’émission par défaut peuvent être utilisés. Dans ce cas, une entrée « default » est définie et appliquée à l’ensemble des bâtiments utilisés par l’institution. Ces facteurs par défaut permettent d’estimer les émissions à l’échelle du campus et de les répartir entre les unités sans nécessiter d’informations spécifiques sur chaque bâtiment. 
-
+Where detailed data per building is not available, default emission factors may be used. In this case, a ‘default’ entry is defined and applied to all buildings used by the institution. These default factors enable emissions to be estimated at campus level and allocated across units without requiring specific information on each building.
 
 ### 5. Limitations
 
-De manière générale, la précision de ces catégories additionnelles est limitée par l'absence de données individuelles et spécifiques à chaque unité :
+The accuracy of these additional categories is limited by the lack of individual data specific to each unit:
 
-- Pour des raisons de confidentialité, il n'est pas possible de savoir quels membres d'une unité consomment de la viande ou des produits végétariens, ni quels modes de transport ils utilisent individuellement. Les émissions sont donc estimées sur la base de moyennes campus, sans refléter le comportement réel de l'unité. À titre indicatif, la viande est significativement plus émettrice que les alternatives végétariennes, et la voiture constitue le mode de transport le plus impactant.
-- Pour les déchets, les déchets dangereux ont été exclus de cette analyse, faute de données permettant d'attribuer leur consommation à des unités spécifiques. Si l'unité en produit, son bilan réel est plus élevé que celui estimé ici.
-- La construction et la rénovation représentent un défi supplémentaire : au-delà du manque de données spécifiques aux bâtiments, les facteurs d'émission disponibles — notamment les facteurs KBOB suisses — requièrent des informations très précises sur les quantités et types de matériaux utilisés (en kg ou m³), qui ne sont pas systématiquement disponibles. Des facteurs par défaut ont donc été construits en interne, ce qui introduit une incertitude supplémentaire.
+- For confidentiality reasons, it is not possible to know which members of a unit consume meat or vegetarian products, nor which modes of transport they use individually. Emissions are therefore estimated based on campus averages, without reflecting the unit’s actual behaviour. As a guide, meat generates significantly higher emissions than vegetarian alternatives, and the car is the mode of transport with the greatest impact.
+
+- As for waste, hazardous waste has been excluded from this analysis due to a lack of data enabling its consumption to be attributed to specific units. If the unit produces any, its actual emissions are higher than those estimated here.
+
+- Construction and renovation present an additional challenge: beyond the lack of building-specific data, the available emission factors — notably the Swiss KBOB factors — require very precise information on the quantities and types of materials used (in kg or m³), which are not systematically available. Default factors have therefore been developed internally, introducing an additional degree of uncertainty.
+
 
 ### 6. References
 - [Transportation environmental calculator (Mobitool v3.1)](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=d874ca860cec98e71773910695abdffd)
-- [Beelong](https://beelong.ch/en/) – Prestataire externe pour l'analyse des commandes alimentaires et le calcul des facteurs d'émission associés.
-- [Ecoinvent v3.12 (2026)](https://ecoquery.ecoinvent.org/3.12/cutoff) – Base de données de cycle de vie utilisée pour les facteurs d'émission liés aux déchets.
-- Analyse interne EPFL – Facteurs d'émission pour la construction et rénovation des bâtiments (nouvelles constructions, rénovations, démolitions), développés sur la base de projets de construction du campus.
+- [Beelong](https://beelong.ch/en/) – External service provider for the analysis of food orders and the calculation of associated emission factors.
+- [Ecoinvent v3.12 (2026)](https://ecoquery.ecoinvent.org/3.12/cutoff) – Life cycle database used for waste-related emission factors.
+- EPFL internal analysis – Emission factors for building construction and renovation (new builds, renovations, demolitions), developed based on campus construction projects.
