@@ -25,6 +25,7 @@ L’outil calculateur CO₂ possède deux espaces de travail :
 #### *Espace Calculateur CO₂*
 
 Cet espace permet d’évaluer l’empreinte carbone de l’unité chaque année, sur la base de l’année civile antérieure (du 1er janvier au 31 décembre) et des modules suivants :
+
 - **Émissions de procédés**
 - **Bâtiments**
 - **Équipements**
@@ -40,6 +41,7 @@ Cet espace permet en outre de suivre l’évolution des émissions de l’unité
 
 L’espace Simulateur CO₂ possède deux fonctionnalités. 
 La première fonctionnalité *Explorer* permet d’estimer l’empreinte d’un ou plusieurs modules spécifiques. La simulation est possible pour les modules suivants : 
+
 - **Émissions de procédés**
 - **Équipements**
 - **Achats**
@@ -62,6 +64,7 @@ L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 
 ### 5. Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
 Le calculateur CO₂ s’inscrit pleinement dans la stratégie environnementale de l’École :
+
 - La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** ;
 - L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** ;
 - Les futures exigences internationales et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
