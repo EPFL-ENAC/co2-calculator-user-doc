@@ -3,6 +3,7 @@
 ### 1. Accueil
 
 Bienvenue ! Cette page fournit la documentation à destination des utilisatrices et utilisateurs du calculateur CO₂ de l’EPFL.
+
 - Utilisez la barre latérale pour naviguer entre les différents onglets. 
 - Astuce : cliquez sur l’icône lune/soleil pour changer de thème et l’icône lettre pour changer de langue.
 
