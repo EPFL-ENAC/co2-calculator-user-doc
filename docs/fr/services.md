@@ -1,5 +1,5 @@
 ### 1.	Contexte 
-Pour mener leurs activités de recherche, nombre de laboratoires mais aussi des institutions académiques externes, des entreprises et des startups utilisent les infrastructures de recherche mises à disposition par l’EPFL. Cela comprend par exemple des salles blanches, des centres de calculs de hautes performances, des services informatiques ou des animaleries, pour n'en nommer que quelques-unes. Cette mutualisation des ressources est un excellent moyen de réduire l'empreinte carbone.
+Pour mener leurs activités de recherche, nombre de laboratoires mais aussi des institutions académiques externes, des entreprises et des startups utilisent des plateformes et centres nommés dans l'outil "infrastructures de recherche" mises à disposition par l’EPFL. Cela comprend par exemple des salles blanches, des centres de calculs de hautes performances, des services informatiques ou des animaleries, pour n'en nommer que quelques-unes. Cette mutualisation des ressources est un excellent moyen de réduire l'empreinte carbone.
 
 L’utilisation des infrastructures de recherche EPFL fait partie des activités opérationnelles d’une unité et doit donc être incluse dans son empreinte carbone. Cette empreinte est répartie à partir des émissions liées aux ***Émissions de procédés***, aux ***Bâtiments***, aux ***Équipements*** et aux ***Achats*** de ces ***infrastructures de recherche***. Ces émissions correspondent aux principaux éléments sur lesquels les unités peuvent agir, notamment par leurs choix d’utilisation, d’équipements et de pratiques de recherche.
 
@@ -93,19 +93,25 @@ Pour consulter la méthodologie de chaque catégorie considérée pour le calcul
 
 ### 5. Limites
 
-Ce module possède un niveau d’incertitude élevé. En effet, l’attribution de l’empreinte carbone liée à l’utilisation des infrastructures de recherche EPFL repose sur les empreintes carbones des modules ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***, qui eux-mêmes possèdent leurs propres les limites.  
+Ce module possède un niveau d’incertitude élevé. 
+
+La répartition de l'empreinte carbone liée à l'utilisation des infrastructures de recherche est réalisée sans distinction du type d'équipement utilisé ni des achats effectués par les unités pour leurs activités de recherche. En effet, les infrastructures de recherche regroupent des équipements dont la consommation électrique peut varier considérablement. Faute de données permettant de distinguer précisément leur niveau d'utilisation, cette variabilité n'est pas prise en compte dans la répartition de l'empreinte carbone.
+
+Par ailleurs, l’attribution de l’empreinte carbone liée à l’utilisation des infrastructures de recherche EPFL repose sur les empreintes carbones des modules ***Émissions de procédés***, ***Bâtiments***, ***Équipements*** et ***Achats***, qui eux-mêmes possèdent leurs propres les limites.  
 
 - ***[Voir Limites du module Émissions de procédés](./processes.md#5-limites)***
 - ***[Voir Limites du module Bâtiments](./building.md#5-limites)***
 - ***[Voir Limites du module Équipements](./equipment.md#5-limites)*** 
 - ***[Voir Limites du module Achats](./purchases.md#5-limites)*** 
 
-Par ailleurs, l’espace Calculateur CO₂ repose sur des modules partiellement automatisés, qui utilisent par défaut les données remontées par chaque module. Ainsi, si les modules des infrastructures de recherche n’ont pas été validés, des erreurs peuvent subsister, ce qui peut influencer l’attribution de leur empreinte carbone aux unités utilisatrices.
+De plus, l’espace Calculateur CO₂ repose sur des modules partiellement automatisés, qui utilisent par défaut les données remontées par chaque module. Ainsi, si les modules des infrastructures de recherche n’ont pas été validés, des erreurs peuvent subsister, ce qui peut influencer l’attribution de leur empreinte carbone aux unités utilisatrices.
 
-De plus, il y a des limites liées à la clé de répartition qui repose principalement sur les données monétaires à l’exception de certaines plateformes où le nombre d’heures d’utilisation ou le nombre d’hébergements sont considérés. 
+D'autre part, il y a des limites liées à la clé de répartition qui repose principalement sur les données monétaires à l’exception de certaines plateformes où le nombre d’heures d’utilisation ou le nombre d’hébergements sont considérés. 
 
 - Les données de facturation sont un premier indicateur pour l’utilisation des infrastructures de recherche. Cependant, il y a de nombreuses limites, notamment dues à la tarification différenciée entre les unités internes et externes et même entre unités internes faisant partie de différentes facultés ou services.
-- Les heures d’utilisation sont des indicateurs plus pertinents avec moins d’incertitude et sont priorisés si les infrastructures de recherche possèdent ces données pour l’ensemble des unités utilisatrices. 
+- Les heures d’utilisation sont des indicateurs plus pertinents avec moins d’incertitude et sont priorisés si les infrastructures de recherche possèdent ces données pour l’ensemble des unités utilisatrices.
+
+Enfin, les infrastructures de recherche présents dans les campus associés ne sont pas considérés dans cette première version de l'outil en raison du manque de données. 
 
 
 ### 6. Références
