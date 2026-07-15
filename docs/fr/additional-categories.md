@@ -22,7 +22,7 @@ Les données collectées et utilisées pour le calcul des émissions des catégo
 
 - ***Pendularité*** : les facteurs d’émissions utilisés sont ceux du **[calculateur environnemental transport](https://www.suisseenergie.ch/programmes/calculateur-environnemental-transport/?pk_vid=d874ca860cec98e71773910695abdffd)**, outil développé par Suisseénergie. Pour les voitures, un facteur spécifique à l’EPFL a été calculé basé sur le type de voitures de la communauté EPFL. Les facteurs sont en kg CO₂-eq/km par mode de transport (à pied, vélo, voiture, transport public, moto).
 - ***Alimentation*** : les facteurs d’émissions utilisés sont construits sur la base de commandes de marchandises effectuées à l’EPFL, et sont fournis par le prestataire externe **[Beelong](https://beelong.ch/en/)** qui analyse les commandes et les quantités. Les facteurs sont en kg CO₂-eq/kg de nourriture selon le type (végétarien ou non végétarien).
-- ***Déchets*** : les facteurs d’émissions sont en kg CO₂-eqkg de déchets (facteurs spécifiques par type : papier, plastique, etc. et par mode de traitement : recyclage, incineration, etc). Les facteurs viennent d’**[Ecoinvent v3.12 (2026)](https://ecoquery.ecoinvent.org/3.12/cutoff)**.
+- ***Déchets*** : les facteurs d’émissions sont en kg CO₂-eq par kg de déchets (facteurs spécifiques par type : papier, plastique, etc. et par mode de traitement : recyclage, incineration, etc). Les facteurs viennent d’**[Ecoinvent v3.12 (2026)](https://ecoquery.ecoinvent.org/3.12/cutoff)**.
 - ***Construction et rénovation*** : les facteurs d’émissions sont en kg CO₂-eq/m2, par type de construction : nouvelles constructions - enveloppe thermique, nouvelles constructions - installations techniques, rénovations - enveloppe thermique, rénovations – installations techniques, démolitions. Les facteurs ont été construit sur la base d’une analyse interne à l’EPFL. 
 
 ### 4.	Méthodologie
@@ -67,7 +67,7 @@ Où :
 
 ***Déchets***
 
-Le total de $CF_{waste}$ est obtenu en multipliant le nombre de personne dans l’unité pour les kg de déchet par personne pour les facteurs d’émissions.  
+Les émissions totales de CO₂ liées aux déchets $CF_{waste}$ sont obtenues en multipliant le nombre de personne dans l’unité par la quantité de déchet selon son type et son facteur d’émissions associés.  
 
 $$
 CF_{waste} = \sum_{waste~type}^{}\sum_{eol}^{}(N \cdot Q_{waste~type, eol} \cdot EF_{waste~type,eol})
