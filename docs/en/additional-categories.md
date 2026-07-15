@@ -56,7 +56,7 @@ Where:
 - $EF_{trans~type}$: emission factor for the mode of transport (kg CO₂-eq/km)
 
 
-***Alimentation***
+***Food***
 
 The total CO₂ emissions related to food $CF_{food}$ are estimated by aggregating, for each meal category (vegetarian or meat-based), the emissions associated with consumption by the student population and staff. For each unit, emissions are calculated as the product of the number of people in the unit, the average amount of food consumed per category, and the corresponding emission factor. 
 
@@ -77,8 +77,7 @@ Where:
 
 ***Waste***
 
-The total CO₂ emissions related to waste - $CF_{waste}$ is obtained by multiplying the number of people in the unit by the kg of waste per person and the emission factors.
-
+The total CO₂ emissions related to waste - $CF_{waste}$ is obtained by multiplying the number of people in the unit by the amount of waste, based on its type and associated emission factor.  
 
 $$
 CF_{waste} = \sum_{waste~type}^{}\sum_{eol}^{}(N \cdot Q_{waste~type, eol} \cdot EF_{waste~type,eol})
