@@ -13,3 +13,4 @@ The CO₂ calculator helps estimate and understand carbon emissions related to v
 ### 3. Getting help
 
 - Open a ticket if you identify or encounter an issue: [https://github.com/EPFL-ENAC/co2-calculator-user-doc/issues](https://github.com/EPFL-ENAC/co2-calculator-user-doc/issues)
+- If you have any questions, please email the sustainability team at the following address: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch).
