@@ -1,5 +1,5 @@
 ### 1.	Context 
-To carry out their research activities, many laboratories—as well as external academic institutions, companies and start-ups—use the research facilities provided by EPFL. This includes, for example, cleanrooms, high-performance computing centres, IT services and animal facilities, to name but a few. This sharing of resources is an excellent way to reduce the carbon footprint.
+To carry out their research activities, many laboratories—as well as external academic institutions, companies and start-ups use platforms and centers provided by EPFL named in the tool as "Research Facilities". This includes, for example, cleanrooms, high-performance computing centres, IT services and animal facilities, to name but a few. This sharing of resources is an excellent way to reduce the carbon footprint.
 
 The use of EPFL research facilities might be part of a unit’s operational activities and must therefore be included in its carbon footprint. This footprint is broken down into emissions related to **Process Emissions, Buildings, Equipment and Purchases** for these research facilities. These emissions correspond to the main areas where units can act, particularly through their choices regarding usage, equipment and research practices.
 
@@ -87,18 +87,24 @@ To grasp the methodology for each category used in the calculation of the resear
 
 ### 5. Limitations
 
-This module has a high level of uncertainty as it is based on the carbon footprints of the **Process Emissions, Buildings, Equipment and Purchasing** modules, which themselves have their own limitations.  
+This module has a high level of uncertainty.
+
+The carbon footprint associated with the use of research facilities is allocated without distinction between the types of equipment used or the purchases made by the units for their research activities. Indeed, research facilities include equipment whose electricity consumption can vary considerably. In the absence of data that would allow for a precise distinction in their levels of use, this variability is not taken into account in the allocation of the carbon footprint.
+
+Furthermore, the calculation of the carbon footprint associated with the use of EPFL’s research infrastructure is based on the carbon footprints of the **Process Emissions, Buildings, Equipment and Purchasing** modules, which themselves have their own limitations.  
 - ***[See Limitations from Process emissions module](./processes.md#5-limites)***
 - ***[See Limitations from Buildings module](./building.md#5-limites)***
 - ***[See Limitations from Equipment module](./equipment.md#5-limites)*** 
 - ***[See Limitations from Purchases module](./purchases.md#5-limites)*** 
 
-Furthermore, the CO₂ Calculator section relies on partially automated modules, which by default use the data reported by each module. Thus, if the research facilities considered modules have not been validated, errors may remain, which can affect the allocation of their carbon footprint to the user units.
+On the other hand, the CO₂ Calculator section relies on partially automated modules, which by default use the data reported by each module. Thus, if the research facilities considered modules have not been validated, errors may remain, which can affect the allocation of their carbon footprint to the user units.
 
-Furthermore, certains limitations are associated with the allocation key, based primarily on financial data, except for certain platforms where the number of used hours or the number of housings are considered. 
+Moreover, certains limitations are associated with the allocation key, based primarily on financial data, except for certain platforms where the number of used hours or the number of housings are considered. 
 
 - Billing data is a primary indicator of research infrastructure usage. However, there are numerous limitations, particularly due to the differentiated pricing between internal and external units and even between internal units belonging to different faculties or departments.
 - Usage hours are more relevant indicators with less uncertainty and are prioritised if the research infrastructure holds this data for all user units. 
+
+Finally, the research facilities on the associated campuses are not included in this first version of the tool due to a lack of data. 
 
 
 ### 6. References
