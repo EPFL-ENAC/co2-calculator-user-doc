@@ -9,6 +9,19 @@ The Headcount data includes all individuals working in each unit per calendar ye
 - SCIPER
 - FTE (full-time equivalents) allocated to the unit.
 
+The SHIS codes and corresponding functions can be found in the following table (there is no input #55):
+
+| SHIS code | Function EN                        |
+| --------- | ---------------------------------- |
+| 51        | Professors                         |
+| 52        | Other teaching staff               |
+| 53        | Scientific collaborators           |
+| 54        | Scientific and doctoral assistants |
+| 56        | Managerial staff                   |
+| 57        | Administrative staff               |
+| 58        | Support staff                      |
+| 59        | Operational staff                  |
+
 For individuals affiliated with multiple units, the FTE displayed corresponds to that allocated to the reference unit.
 
 Data relating to students is not fully available in the correct format and must therefore be entered manually. The number of students must be entered as an aggregate value, corresponding to the total FTE of all students in the unit for the reference year, and not individually. 
