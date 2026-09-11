@@ -62,11 +62,11 @@ L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 - Satisfaire les futures exigences européennes et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
 - Anticiper les évolutions légales contraignantes en dotant l’EPFL d’outil permettant de comprendre, cibler et diminuer ses émissions carbones.
 
-### 5. Stratégie Climat & Durabilité EPFL 2030 et initiative GreenLabs
+### 5. Stratégie Climat & Durabilité EPFL 2030 et initiative Green Labs
 Le calculateur CO₂ s’inscrit pleinement dans la stratégie environnementale de l’École :
 
 - La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** ;
-- L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** ;
+- L’initiative **[Green Labs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** ;
 - Les futures exigences internationales et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
 
 La **[Stratégie Climat & Durabilité EPFL 2030](https://www.epfl.ch/about/sustainability/fr/strategie/)** fixe des objectifs ambitieux en intégrant la durabilité dans les missions fondamentales de l’École : l’enseignement, la recherche et l’innovation. Elle prévoit également des mesures visant à réduire les impacts environnementaux liés au fonctionnement de l’institution. 
@@ -81,12 +81,12 @@ Depuis l’entrée en vigueur, le 1er janvier 2025, de la loi sur le climat et l
 
 Dans ce contexte, le calculateur CO₂ permet d’estimer l’empreinte carbone au niveau des unités de recherche. Les données peuvent ensuite être agrégées à différents niveaux (instituts, facultés,). 
 
-L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**, inscrite dans cette stratégie a pour objectif de promouvoir des pratiques de recherche responsables sur les plans environnemental et social, sans compromettre la qualité scientifique et en respectant les limites planétaires. Elle vise à quantifier, analyser et optimiser les processus opérationnels des activités de recherche 
+L’initiative **[Green Labs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**, inscrite dans cette stratégie a pour objectif de promouvoir des pratiques de recherche responsables sur les plans environnemental et social, sans compromettre la qualité scientifique et en respectant les limites planétaires. Elle vise à quantifier, analyser et optimiser les processus opérationnels des activités de recherche 
 
 
  <img width="1152" height="507" alt="image" src="https://github.com/user-attachments/assets/664aaca1-8502-42b9-96f6-faf1415ffe2d" />
 
-      Figure 1 : Approche GreenLabs EPFL
+      Figure 1 : Approche Green Labs EPFL
 
 Le calculateur CO₂ permet d’anticiper les obligations futures en matière de suivi et de compte rendu des émissions carbones liées aux activités de recherche.
 
