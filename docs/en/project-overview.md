@@ -87,7 +87,7 @@ The open-source CO₂ calculator tool  is designed to:
 
 - Propose a consistent approach to identify and visualize the main emission sources related to laboratory activities and their impacts
 - Identify carbon emission profiles specific to each type of laboratory
-- Estimate the carbon footprint of a research project (funding application or annual project breakdown) or of specific items or actions (new purchases, future professional travel, electricity consumption of a piece of equipment, etc.)
+- Estimate the carbon footprint of a research project (grant proposal or detailed per year ) or of specific items or actions (new purchases, future professional travel, electricity consumption of a piece of equipment, etc.)
 - Provide a decision-support tool to take targeted measures aimed at reducing the carbon footprint
 - Meet future European and national requirements regarding the assessment of the environmental impact of research projects
 - Anticipate regulatory developments by equipping EPFL with tools to understand, target, and reduce its carbon emissions
