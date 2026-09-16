@@ -2,11 +2,29 @@
 Les déplacements professionnels à l’EPFL sont effectués principalement en avion et en train. Les déplacements professionnels en avion sont réservés via l’agence de voyages de l’EPFL (LEX 5.6.2) et les données contenant les informations nécessaires au calcul de l’empreinte carbone sont donc récoltées automatiquement et utilisées dans ce module. Si des déplacements en avion ont été réservés hors agence de voyage central, ils peuvent être saisis manuellement. Les voyages en train doivent systématiquement être saisis manuellement. 
 
 ### 2.	Données collectées
+
+#### *2.1 Espace calculateur CO₂*
+
 Les données relatives aux voyages en avion sont communiquées par l’agence de voyages central de EPFL, et contiennent des informations précises relatives aux déplacements comme la date, la durée, le départ et la destination, la classe, la distance, le numéro de vol, etc. Ces données sont analysées et complétées à l’aide de l’API Atmosfair pour le calcul de l’empreinte carbone par vol en kg CO₂-eq. 
 
 -> Plus d'information concernant la [méthodologie de calcul Atmosfair](https://www.atmosfair.de/en/standards/emissions_calculation/)
 
 Pour les déplacements en train ou en avion réservés hors agence central, les données doivent être saisies manuellement : ville de départ et d’arrivée, le mode de transport (avion ou train) ainsi que le nombre de voyageurs et la classe. 
+
+#### *2.2 Espace planificateur de projet CO₂*
+
+***Demande de financement***
+
+Les données relatives aux voyages professionnels en avion et en train doivent être saisies manuellement afin d’estimer leurs empreintes carbones dans le cadre de la demande de financement.
+
+***Détail par année***
+
+Pour les utilisatrices et utilisateurs principaux, les données du remontent automatiquement du calculateur CO2. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des voyages professionnels attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO2 ne remontent pas et la saisie pour les deux-sous modules se fait manuellement.
+
+#### *2.3 Espace explorateur CO₂*
+
+Afin d’explorer l’empreinte carbone du module Voyages professionnels, les utilisatrices et utilisateurs peuvent saisir manuellement les données. 
+
 
 ### 3.	Facteurs d’émissions
 
@@ -58,6 +76,8 @@ Où :
 
 
 Le calculateur additionne alors l’impact total des déplacements professionnels :  déplacements en avion effectués via l’agence de voyage central et déplacements en avion et en train saisis manuellement. 
+
+Dans l’espace planificateur de projet CO2, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux voyages professionnels en avion et en train attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque voyage en avion et en train.
 
 
 ### 5. Limites
