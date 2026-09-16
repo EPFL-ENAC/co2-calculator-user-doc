@@ -51,27 +51,27 @@ The CO₂ Project Planner workspace makes it possible to estimate the carbon foo
 
 ***Grant proposal***
 
-Estimating the carbon footprint of a project linked to a funding application can be performed by either standard or principle users.
+Estimating the carbon footprint of a project linked to a funding application can be performed by either standard or principal users.
  
 In addition to entering the total budget and the budget allocated to each module, users must manually add funding application data for certain modules.
 
-For principle users, data from some modules are automatically retrieved from the CO₂ Calculator (Process Emissions, Buildings, Equipment, External Clouds and AI), while data for others must be entered manually (Headcount, Profesionnal Travel, Purchases, EPFL Research facilities). To simplify data entry, the Equipment module allows users to apply an overall usage percentage rather than entering each piece of equipment individually. Similarly, the Purchases module offers two estimation methods: based either on an overall budget or on a budget by purchasing category.
+For principal users, data from some modules are automatically retrieved from the CO₂ Calculator (Process Emissions, Buildings, Equipment, External Clouds and AI), while data for others must be entered manually (Headcount, Profesionnal Travel, Purchases, EPFL Research facilities). To simplify data entry, the Equipment module allows users to apply an overall usage percentage rather than entering each piece of equipment individually. Similarly, the Purchases module offers two estimation methods: based either on an overall budget or on a budget by purchasing category.
 
 For standard users, data must be added manually for each module. These different data retrieval options were implemented in particular to ensure the protection of personal data.
 
-The estimate can also be made visible to all members of the unit, regardless of their role (principle or standard user).
+The estimate can also be made visible to all members of the unit, regardless of their role (principal or standard user).
 
 The reference year determines the emission factors used by the CO₂ Project Planner to calculate the emissions attributable to the project.
 
 ***Detailed per year***
 
-For principle users, estimating the carbon footprint of a project, whether past, ongoing, or future, is carried out through the automatic retrieval of data from the CO₂ Calculator.
+For principal users, estimating the carbon footprint of a project, whether past, ongoing, or future, is carried out through the automatic retrieval of data from the CO₂ Calculator.
 
-To obtain an annual estimate of a project’s carbon footprint, principle users can indicate the share represented by the project relative to the unit’s total activities for the reference year. This can be done by using the slider available in each module table and entering the project’s relative weight in the “% of reference year” column.
+To obtain an annual estimate of a project’s carbon footprint, principal users can indicate the share represented by the project relative to the unit’s total activities for the reference year. This can be done by using the slider available in each module table and entering the project’s relative weight in the “% of reference year” column.
 
-For standard users, it is also possible to estimate the carbon footprint of a project, whether past, ongoing, or future. However, unlike principle users, this estimate does not benefit from automatic data retrieval from the CO₂ Calculator, in order to ensure the protection of personal data. Data must therefore be entered manually for each module.
+For standard users, it is also possible to estimate the carbon footprint of a project, whether past, ongoing, or future. However, unlike principal users, this estimate does not benefit from automatic data retrieval from the CO₂ Calculator, in order to ensure the protection of personal data. Data must therefore be entered manually for each module.
 
-For the same reason, the annual breakdown of a project is not accessible to all members of the unit, since it relies on data originating from the CO₂ Calculator. Access to this section is restricted to individuals accredited as principle users.
+For the same reason, the annual breakdown of a project is not accessible to all members of the unit, since it relies on data originating from the CO₂ Calculator. Access to this section is restricted to individuals accredited as principal users.
 
 As an alternative, it is possible to download the project PDF report and share it with members of the unit.
 
@@ -79,7 +79,7 @@ As an alternative, it is possible to download the project PDF report and share i
 
 The CO₂ Explorer makes it possible to estimate the carbon footprint of specific items or actions. It facilitates the assessment of different scenarios and offers the possibility of downloading the results in a PDF report.
 
-Exploration is available for all modules included in the CO₂ Calculator and is accessible to all types of users (both principle and standard users).
+Exploration is available for all modules included in the CO₂ Calculator and is accessible to all types of users (both principal and standard users).
 
 
 ### 4. Tool objectives
