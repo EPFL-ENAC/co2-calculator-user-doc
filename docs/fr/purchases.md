@@ -13,6 +13,9 @@ Le module Achats vise à capturer ces émissions indirectes (scope 3). Il couvre
 - *Achats centralisés* 
 
 ### 2.	Données collectées
+
+#### *2.1 Espace calculateur CO₂*
+
 Le module inclut l’ensemble des biens et services achetés auprès de fournisseurs externes durant l’année de référence.
 
 Pour chaque achat, les informations suivantes sont automatiquement intégrées à partir des factures payées, liées au centre financier de chaque unité :
@@ -24,6 +27,15 @@ Pour chaque achat, les informations suivantes sont automatiquement intégrées �
 - Montant total payé
 
 Le ***sous-module Achats centralisés*** est destiné à intégrer des éléments prédéfinis correspondant à des achats centralisés et/ou mutualisés entre plusieurs unités. Lorsque cela s’applique, la consommation annuelle pour ces éléments doit être renseignée.
+
+#### *2.2 Espace planificateur de projet CO₂*
+
+Afin d’estimer l’empreinte carbone des achats dans le cadre de la demande de financement ou par projet par année, un budget global ou par catégories d’achats peuvent être saisis. 
+
+#### *2.3 Espace explorateur CO₂*
+
+Afin d’explorer l’empreinte carbone du module Achats, les utilisatrices et utilisateurs peuvent saisir manuellement des données par catégories d’achats. 
+
 
 <a id="facteurs"></a>
 ### 3.	Facteurs d’émissions
@@ -86,9 +98,14 @@ Où :
 
 Les facteurs d’émission utilisés sont issus de la base ecoinvent (licence restreinte, non diffusables publiquement).
 
+Dans l’espace planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux ainsi que standards peuvent définir, pour chaque année, soit un budget par catégorie d’achat, soit un budget global applicable à l’ensemble du module. Ces budgets permettent d’estimer les émissions carbones attribuables au projet à l’aide de facteurs d’émission financiers.
+
+Dans l’espace explorateur CO₂, l’estimation de l’empreinte carbone des achats repose sur les facteurs d’émission issus de la classification UNSPSC. Les utilisatrices et utilisateurs sélectionnent une classe UNSPSC et renseignent le montant correspondant. L’outil calcule alors l’empreinte carbone associée à cet achat et permet d’explorer les émissions par catégorie d’achat.
+
+
 ### 5. Limites
 
-- Amortissement du matériel : conformément aux directives du GHG Protocol, l’outil calculateur CO2 adopte une approche par flux. Ainsi, bien que certains équipements soient utilisés sur plusieurs années, nous comptabilisons l’intégralité des émissions liées à leur fabrication l’année de leur achat. Cette approche écarte les incertitudes liées à une approche par stock, qui nécessiterait un inventaire détaillé et des durées de vie fiables. Aucune durée d’amortissement n’est donc appliquée, ce qui permet de réduire les hypothèses arbitraires. En contrepartie, cette méthode peut entraîner des variations importantes des émissions d’une année à l’autre, lesquelles doivent être analysées dans une perspective pluriannuelle.
+- Amortissement du matériel : conformément aux directives du GHG Protocol, l’outil calculateur CO₂ adopte une approche par flux. Ainsi, bien que certains équipements soient utilisés sur plusieurs années, nous comptabilisons l’intégralité des émissions liées à leur fabrication l’année de leur achat. Cette approche écarte les incertitudes liées à une approche par stock, qui nécessiterait un inventaire détaillé et des durées de vie fiables. Aucune durée d’amortissement n’est donc appliquée, ce qui permet de réduire les hypothèses arbitraires. En contrepartie, cette méthode peut entraîner des variations importantes des émissions d’une année à l’autre, lesquelles doivent être analysées dans une perspective pluriannuelle.
 - Les achats internes (par exemple via des magasins chimiques) ainsi que les achats réalisés par carte de crédit ne sont pas inclus automatiquement, sauf indication contraire. Ces données étant entrées manuellement via la fonction « ajout » disponible dans chaque sous-catégorie, la qualité des résultats est dépendante de la qualité de l’information saisie.
 - La précision des résultats dépend de la qualité et de l’exhaustivité des données d’achat (description des articles, catégorisation) extraite de la base de données de l’École, ainsi que des facteurs d’émission utilisés. La méthodologie fournit un ordre de grandeur des émissions basé sur les données financières disponibles.
 - L’utilisation de facteurs d’émission monétaires introduit une incertitude significative et ne permet pas de distinguer des choix d’achat ayant des impacts environnementaux différents au sein d’une même catégorie. 
