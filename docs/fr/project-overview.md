@@ -22,7 +22,7 @@ Enfin, l’outil développé par l’EPFL, est conçu pour s’adapter aux spéc
 
 L’outil calculateur CO₂ possède trois espaces de travail : 
 
-#### *3.1 Espace Calculateur CO₂*
+#### *3.1 Espace calculateur CO₂*
 
 Cet espace permet d’évaluer l’empreinte carbone de l’unité chaque année, sur la base de l’année civile antérieure (du 1er janvier au 31 décembre) et des modules suivants :
 
@@ -76,7 +76,7 @@ Pour cette même raison, le détail annuel d’un projet n’est pas accessible 
 
 Comme alternative, il est possible de télécharger le rapport PDF du projet et de le partager avec les membres de l’unité.
 
-#### *3.3 Explorateur CO₂*
+#### *3.3 Espace explorateur CO₂*
 
 L’explorateur CO₂ permet d’estimer l'empreinte carbone d’éléments ou d’actions spécifiques. Il facilite l’évaluation de différents scénarios et offre la possibilité de télécharger les résultats dans un rapport PDF.
 
