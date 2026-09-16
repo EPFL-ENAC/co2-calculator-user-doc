@@ -88,7 +88,7 @@ For each module and sub-module, a critical threshold has been defined in the bac
 
 
 ### 4. Results 
-After validating all modules, the user can see the results of the unit carbon footprint calculation. This “Results” page presents various visualizations and information related to the unit’s carbon footprint is accessible to all principle and standard users. 
+After validating all modules, the user can see the results of the unit carbon footprint calculation. This “Results” page presents various visualizations and information related to the unit’s carbon footprint is accessible to all principal and standard users. 
 
 At the top of the page, a summary section displays three key indicators:
 
