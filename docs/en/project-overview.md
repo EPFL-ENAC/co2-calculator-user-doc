@@ -18,49 +18,76 @@ In 2025, EPFL Sustainability, together with the IT department of the School of A
 Specific work has been carried out with the Swiss Data Science Center **[(SDSC)](https://www.epfl.ch/research/domains/sdsc/)** to adapt EPFL’s purchasing typology to the Labo 1point5 classification, which shares its emissions factor database (UNSPSC to NACRES), thereby facilitating the analysis of emissions related to purchases.
 Finally, the EPFL tool is designed to be adjustable to other academic institutions specific characteristics, particularly those in Switzerland.
 
-Un travail spécifique a également été mené avec le Swiss Data Science Center **[(SDSC)](https://www.epfl.ch/research/domains/sdsc/)**, afin d’adapter la typologie des achats EPFL à la classification utilisée par le Labo 1point5 qui nous partage sa base de facteurs d’émissions ([UNSPSC](https://www.undp.org/unspsc) vers [NACRES](https://apps.labos1point5.org/static/carbon/FacteursEmission_BiensEtServices_janvier2022_FR.pdf)), facilitant ainsi l’analyse des émissions liées aux achats. 
-
 Finally, the EPFL tool is designed to be adjustable to other academic institutions specific characteristics, particularly those in Switzerland.
 
 ### 3. The tool and its functionalities
 
-The CO₂ calculator tool has two workspaces: 
+The CO₂ calculator tool has three workspaces: 
 
-#### *CO₂ Calculator space* 
-This space allows the evaluation of the unit carbon footprint each year, based on the previous calendar year (from January 1 to December 31). This includes the following modules:
+#### *CO₂ calculator space* 
 
-- **Process emissions**
-- **Buildings**
-- **Equipment**
-- **External clouds and AI**
-- **Professional travel**
-- **Purchases**
-- **EPFL research facilities**
-- **Additional categories** – *Commuting, Food, Waste, Construction and renovation*
+The CO₂ Calculator tool includes three workspaces:
 
-This space also allows tracking the evolution of the unit’s emissions over time.
+#### *3.1 CO₂ Calculator Workspace*
 
-#### *CO₂ Simulator space*
-The CO₂ Simulator space has two functionalities.
+This workspace enables users to assess the carbon footprint of their unit each year, based on the previous calendar year (from January 1 to December 31), using the following modules:
 
-The *Explore* functionality, allows estimating the footprint of one or more specific modules. Simulation is possible for the following modules:
+- **Headcount**: this module estimates the carbon footprint associated with the additional categories displayed on the Results page (Food, Commuting, Waste).
+- **Process Emissions**: this module estimates greenhouse gas emissions related to experimental procedures and equipment leaks.
+- **Buildings**: this module estimates the carbon footprint associated with energy combustion emissions (if the unit uses a non-centralized energy source), as well as emissions related to the building itself (heating, cooling, ventilation, and lighting).
+- **Equipment**: this module estimates the carbon footprint associated with the electricity consumption of equipment (scientific, IT, etc.) during both active use and standby mode.
+- **External Clouds and AI**: this module estimates the carbon footprint associated with the use of external cloud services and artificial intelligence (AI).
+- **Professional Travel**: this module estimates and visualizes the carbon footprint of profesionnal travel by air and rail.
+- **Purchases**: this module estimates the carbon footprint associated with the unit’s purchases, item by item, using procurement data recorded in the invoicing system.
+- **EPFL Research Facilities**: this module estimates the carbon footprint associated with your unit’s use of EPFL research facilities.
 
-- **Process emissions**
-- **Equipment**
-- **Purchases**
-- **Professional travel**
-- **External clouds & AI**
+Principal users have access to and can view all the modules listed above, whereas standard users can only complete the External Clouds and AI and profesionnal Travel modules. However, they can view the aggregated results of the other modules on the Results page once these have been validated.
 
-The *Plan*, functionality, allows estimating the footprint of an ongoing or upcoming research project. It is particularly relevant, for example, when applying for a grant or funding request.
+This workspace also makes it possible to track the evolution of the unit’s emissions over time.
 
-In most modules within this space, data is automatically retrieved from the CO₂ calculator and only requires validation; only in certain cases is manual data entry required.
+#### *3.2 CO₂ project planner workspace*
 
-### 4. Objectifs de l’outil
+The CO₂ Project Planner workspace makes it possible to estimate the carbon footprint of various projects, whether for funding applications or for past, ongoing, or future projects, based on data retrieved from the CO₂ Calculator.
+
+***Grant proposal***
+
+Estimating the carbon footprint of a project linked to a funding application can be performed by either standard or principle users.
+ 
+In addition to entering the total budget and the budget allocated to each module, users must manually add funding application data for certain modules.
+
+For principle users, data from some modules are automatically retrieved from the CO₂ Calculator (Process Emissions, Buildings, Equipment, External Clouds and AI), while data for others must be entered manually (Headcount, Profesionnal Travel, Purchases, EPFL Research facilities). To simplify data entry, the Equipment module allows users to apply an overall usage percentage rather than entering each piece of equipment individually. Similarly, the Purchases module offers two estimation methods: based either on an overall budget or on a budget by purchasing category.
+
+For standard users, data must be added manually for each module. These different data retrieval options were implemented in particular to ensure the protection of personal data.
+
+The estimate can also be made visible to all members of the unit, regardless of their role (principle or standard user).
+
+The reference year determines the emission factors used by the CO₂ Project Planner to calculate the emissions attributable to the project.
+
+***Detailed per year***
+
+For principle users, estimating the carbon footprint of a project, whether past, ongoing, or future, is carried out through the automatic retrieval of data from the CO₂ Calculator.
+
+To obtain an annual estimate of a project’s carbon footprint, principle users can indicate the share represented by the project relative to the unit’s total activities for the reference year. This can be done by using the slider available in each module table and entering the project’s relative weight in the “% of reference year” column.
+
+For standard users, it is also possible to estimate the carbon footprint of a project, whether past, ongoing, or future. However, unlike principle users, this estimate does not benefit from automatic data retrieval from the CO₂ Calculator, in order to ensure the protection of personal data. Data must therefore be entered manually for each module.
+
+For the same reason, the annual breakdown of a project is not accessible to all members of the unit, since it relies on data originating from the CO₂ Calculator. Access to this section is restricted to individuals accredited as principle users.
+
+As an alternative, it is possible to download the project PDF report and share it with members of the unit.
+
+#### *3.3 CO₂ Explorer Workspace*
+
+The CO₂ Explorer makes it possible to estimate the carbon footprint of specific items or actions. It facilitates the assessment of different scenarios and offers the possibility of downloading the results in a PDF report.
+
+Exploration is available for all modules included in the CO₂ Calculator and is accessible to all types of users (both principle and standard users).
+
+
+### 4. Tool objectives
 The open-source CO₂ calculator tool  is designed to: 
 
 - Propose a consistent approach to identify and visualize the main emission sources related to laboratory activities and their impacts
 - Identify carbon emission profiles specific to each type of laboratory
-- Estimate the carbon footprint of a module (new purchase, future business travel, electricity consumption of equipment, etc.) or of an ongoing or future research project
+- Estimate the carbon footprint of a research project (funding application or annual project breakdown) or of specific items or actions (new purchases, future professional travel, electricity consumption of a piece of equipment, etc.)
 - Provide a decision-support tool to take targeted measures aimed at reducing the carbon footprint
 - Meet future European and national requirements regarding the assessment of the environmental impact of research projects
 - Anticipate regulatory developments by equipping EPFL with tools to understand, target, and reduce its carbon emissions
@@ -84,22 +111,11 @@ Since the entry into force, on January 1, 2025, of the Climate and Innovation Ac
 In this context, the CO₂ calculator makes it possible to estimate the carbon footprint at the level of research units. The data can then be aggregated at different levels (institutes, faculties).
 
 The **[EPFL GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** initiative, part of this strategy, aims to promote responsible research practices in environmental and social terms, without compromising scientific quality and while respecting planetary boundaries. It seeks to quantify, analyze, and optimize the operational processes of research activities.
- 
-Figure 1: EPFL GreenLabs approach
-The CO₂ calculator makes it possible to anticipate future obligations regarding monitoring and reporting carbon emissions related to research activities.
-In addition, the CO₂ Simulation space allows estimating the carbon footprint of one or more modules (e.g. equipment purchase, business travel, electricity consumption of additional equipment) or of a research project, thereby guiding decision-making at the level of a research project or specific module.
-
-
-Depuis l’entrée en vigueur, le 1er janvier 2025, de la loi sur le climat et l’innovation et de l’ordonnance sur la protection du climat, l’EPFL vise également l’atteinte du net zéro pour les scopes 1 et 2 (énergie), et, dans la mesure du possible, pour le scope 3 (émissions indirectes) à l’horizon 2040.
-
-Dans ce contexte, le calculateur CO₂ permet d’estimer l’empreinte carbone au niveau des unités de recherche. Les données peuvent ensuite être agrégées à différents niveaux (instituts, facultés,). 
-
-L’initiative **[GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)**, inscrite dans cette stratégie a pour objectif de promouvoir des pratiques de recherche responsables sur les plans environnemental et social, sans compromettre la qualité scientifique et en respectant les limites planétaires. Elle vise à quantifier, analyser et optimiser les processus opérationnels des activités de recherche 
 
 <img width="451" height="201" alt="image" src="https://github.com/user-attachments/assets/90050d79-1111-489b-a0e8-ca92bfa9cc85" />
 
-      Figure 1: EPFL GreenLabs approach 
+Figure 1: EPFL GreenLabs approach
 
 The CO₂ calculator makes it possible to anticipate future obligations regarding monitoring and reporting carbon emissions related to research activities.
 
-In addition, the CO₂ Simulation space allows estimating the carbon footprint of one or more modules (e.g. equipment purchase, business travel, electricity consumption of additional equipment) or of a research project, thereby guiding decision-making at the level of a research project or specific module.
+In addition, the CO₂ Project Planner workspace makes it possible to estimate the carbon footprint of a project related to a funding application, whether it is past, ongoing, or future, while the CO₂ Explorer workspace makes it possible to estimate the carbon footprint of a specific action, such as a business trip, the use of scientific equipment, and so forth.
