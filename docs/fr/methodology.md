@@ -35,10 +35,10 @@ Le scope 3 regroupe l’ensemble des autres émissions indirectes résultant des
   
 D'autres catégories présentes dans le GHG Protocol, comme les investissements, ne sont pas considérées dans cette version de l’outil. 
 
-### 2. Application du périmètre
-#### Espace Calculateur CO₂
+### 2. Périmètre de l'application 
+#### 2.1 Espace calculateur CO₂
 
-Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche telles que :
+Le périmètre de ce calculateur s’applique aux émissions liées aux activités opérationnelles d’une unité de recherche. Il est défini au sein de l’EPFL en comprenant les thématiques suivantes : 
 
 - **Émissions de procédés (Scope 1)**
 - **Bâtiments** – *Énergie de combustion* **(Scope 1)**
@@ -48,7 +48,7 @@ Le périmètre de ce calculateur s’applique aux émissions liées aux activit�
 - **Voyages professionnels (Scope 3)**
 - **Achats (Scope 3)**
 - **Infrastructures de recherche EPFL (Scope 3)**
-- **Catégories additionnelles** - *Pendularité, Alimentation, Déchets, Constructions et rénovations* **(Scope 3)**
+- **Catégories additionnelles** - *Pendularité, Alimentation, Déchets* **(Scope 3)**
 
 Certaines émissions liées aux Locaux dans le module **Bâtiments** peuvent aussi apparaitre dans le scope 1, selon la source de chauffage du bâtiment.
 
@@ -67,37 +67,21 @@ Par exemple, pour le module **Équipements**, un incubateur qui est utilisé sur
 
 Selon les données disponibles, il est parfois nécessaire d’effectuer des calculs afin d’obtenir la quantité de l’activité émettrice. Par exemple, dans le cas de l’incubateur ci-dessus, la quantité de kWh a été estimée sur la base de la puissance moyenne en standby en activité, et selon le rapport des heures d’utilisation par semaine. Plus de détails et d’information sur les choix et les méthodes de calcul sont accessibles dans l’onglet « Spécification des modules ».
 
+#### 2.2 Espace planificateur de projet CO₂
+Le périmètre appliqué à cet espace est le même que celui du calculateur CO2 et dispose des mêmes modules. Ce qui différencie cet espace à celui du calculateur CO2 est que les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone de leur projet. Selon leur droit, ces personnes doivent saisir des données manuellement.
 
-#### Espace Simulateur CO₂
+#### 2.3 Espace explorateur CO₂
+Le périmètre appliqué à cet espace est également le même que celui du calculateur CO2 et dispose des mêmes modules. Toutes les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone d’un élément ou d’une action, par exemple pour explorer l’empreinte carbone de l’utilisation d’un équipement spécifique, un voyage professionnel, etc. 
 
-L’espace *Simulateur CO₂* possède deux fonctionnalités.  
-
-La fonctionnalité *Explorer* permet d’estimer l’empreinte d’un ou plusieurs modules relatifs à ceux figurant dans l’espace Calculateur CO₂.
-
-- **Émissions de procédés** : même espace que dans le Calculateur CO₂ avec saisie manuelle.
-- **Équipements** : même espace que dans le Calculateur CO₂, mais aucune donnée n’est préremplie automatiquement. Les équipements sont sélectionnés via un menu déroulant, avec possibilité de télécharger un fichier CSV.
-- **Clouds externes & IA** : même espace que dans le Calculateur CO₂ avec saisie manuelle.
-- **Voyages professionnels** : saisie manuelle des voyages professionnels en avion et train.
-- **Achats** : saisie du budget d’achats, répartition par grandes catégories d’achat.
-
-La fonctionnalité *Planifier* permet d’estimer l’empreinte d’un projet de recherche en cours ou à venir. L’empreinte carbone d’un **projet de recherche** est calculée à partir des données saisies pour une année tirée du calculateur CO₂ ainsi que pour l’unité concernée. Les informations sont complétées ensuite pour chaque module ci-dessous, soit par saisie manuelle, soit à partir des données de l’année de référence dans l’outil.
-
-- **Personnel** : saisie manuelle du nombre d’équivalents plein-temps (EPT), sélection des catégories de métiers concernées.
-- Émissions de procédés : données reprises de l’année de référence choisie avec saisie du pourcentage lié au projet de recherche pour chaque ligne, avec possibilité d’ajouter un procédé via un menu déroulant (similaire à la fonctionnalité « ajouter une émission de procédés »).
-- **Bâtiments** : données reprises de l’année de référence choisie avec saisie du pourcentage attribué au projet.
-- **Équipements** : affichage de la liste des équipements (valeurs à 0 sauf la colonne standby), saisie du pourcentage d’utilisation pour le projet, avec possibilité d’ajouter un équipement via un menu déroulant (similaire à la fonctionnalité « ajouter Équipement »).
-- **Cloud externes & IA** : récupération de la liste des services cloud et IA de l’année de référence choisie, méthodologie identique au module existant, sélection des services utilisés pour le projet et saisie du pourcentage d’utilisation associé.
-- **Voyages professionnels** : saisie manuelle des voyages professionnels en avion et en train.
-- **Achats** : saisie du budget d’achats, répartition par grandes catégories d’achats et application des facteurs d’émission correspondants à préciser : saisie en CHF.
-- **Infrastructures de recherche EPFL** : récupération de la liste des plateformes utilisées de l’année de référence choisie, sélection des plateformes utilisées pour le projet, saisie du budget disponible, et possibilité d’ajouter une infrastructure via un menu déroulant. 
-
-L’accès à ces deux fonctionnalités dans l’espace *Simulateur CO₂* est individuel et les saisies ne remontent pas vers la ou le responsable d’unité. Les simulations peuvent cependant être sauvegardées et partagées via l’extraction en CSV ou PDF dans le cas où la personne cocherait l’option de partage. 
 
 ### 3. Unité de mesure : kg CO₂-eq et t CO₂-eq
 Plusieurs gaz contribuent à l'effet de serre, tels que le méthane (CH₄), l'oxyde nitreux (N₂O) et le dioxyde de carbone (CO₂), pour n'en citer que quelques-uns. Ces différents gaz ont un potentiel de réchauffement global plus ou moins élevé. Le dioxyde de carbone, étant le gaz le plus connu, il sert de gaz de référence. Par conséquent, dans la comptabilisation des GES, les émissions sont exprimées soit en kilogrammes (kg CO₂-eq) ou en tonnes métriques (t CO₂-eq) d'équivalent CO₂. 
 
+Pour chaque module et sous-module, un seuil critique a été défini dans le back-office. Ce seuil correspond, pour la plupart des sous-modules, au 95e percentile des émissions du module ou du sous-module concerné. Dans l'impossibilité de calculer ce 95e percentile, ce seuil correspond à une valeur critique au-dessus de laquelle les émissions peuvent être considérées comme hautement élevées. Lorsqu'il est dépassé, la valeur s'affiche en rouge dans la colonne « kg CO₂-eq » des différents tableaux. 
+
+
 ### 4. Résultats 
-Après avoir validé tous les modules, l’utilisatrice ou l’utilisateur accède à la page des résultats. Cette page présente différentes visualisations et informations relatives au bilan carbone de l’unité.
+Après avoir validé tous les modules, l’utilisatrice ou l’utilisateur accède à la page des résultats. Cette page présente différentes visualisations et informations relatives au bilan carbone de l’unité et est accessible à toutes les utilisatrices et utilisateurs principaux et standards. 
 
 En particulier, un résumé en haut de la page, composé de trois encadrés qui affichent :
 
