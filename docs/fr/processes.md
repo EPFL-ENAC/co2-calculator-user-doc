@@ -2,6 +2,10 @@
 Certaines activités de laboratoire émettent directement des gaz, comme par exemple du CO₂ utilisé dans certains laboratoires SV ou le SF₆ comme fluide frigorigène. Ce sont les émissions de procédés. Ce module vise à capturer ces émissions directes (Scope 1).
 
 ### 2.	Données collectées 
+Les quantités de gaz associées aux émissions de procédés sont saisies manuellement dans les espaces calculateur CO₂, planificateur de projet CO₂ (demande de financement) et explorateur CO₂. 
+
+Lorsque ce module a été renseigné dans l’espace calculateur CO₂, les données sont automatiquement remontées dans l’espace planificateur de projet CO₂ (sections demande de financement et détail par année) pour les utilisatrices et utilisateurs principaux. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions de procédés attribuable au projet.
+
 Les quantités de gaz émises par les émissions de procédés sont saisies manuellement.
 
 <a id="facteurs"></a>
