@@ -4,7 +4,11 @@ L’usage des clouds externes et de l’intelligence artificielle (IA) au sein d
 L’utilisation des plateformes informatiques interne de l’EPFL est considérée dans le module Infrastructures de recherches. Il est important de noter que ces plateformes comportent un impact environnemental plus faible que les clouds externes au vu du mix de consommation énergétique Suisse et une maîtrise durable des infrastructures de calcul (durée de vie plus grande des clusters de calcul par exemple).
 
 ### 2.	Données collectées
-Les données d’utilisation de Clouds externes et d’IA sont saisies manuellement.
+
+Les données d’utilisation de Clouds externes et d’IA sont saisies manuellement dans les trois espaces (calculateur, planificateur de projet, explorateur CO₂).
+
+Dans l’espace planificateur de projet CO₂ (demande de financement, détail par année), pour les utilisatrices et utilisateurs principaux, les données remontent automatiquement du calculateur CO₂. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux services de clouds externes et d’IAs attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas et la saisie pour les deux-sous modules se fait manuellement. 
+
 
 ***Sous-module Clouds externes***
 
@@ -82,6 +86,7 @@ Où :
 - $Frequency_{AI_{provider,type}}$ : nombre d’utilisation par EPT par jour pour un type de service fourni par un fournisseur. Il s’agit de la fréquence d’utilisation par EPT par jour renseignée par les utilisateur·rices multipliés par 235 (5 jours x 47 semaines travaillées).
 - $EF_{AI_{provider,type}}$ : facteur d’émission d’utilisation d'un type de service fourni par un fournisseur en kg CO₂-eq)
 
+Dans l’espace planificateur de projet CO₂, dans les sections demande de financement et détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux services de clouds externes et d’IAs attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque service de clouds externes et d’IAs. 
 
 
 ### 5. Limites
