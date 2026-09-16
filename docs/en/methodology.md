@@ -38,9 +38,9 @@ Other categories included in the GHG Protocol, such as investments, are not cons
 
 ### 2. Scope of application
 
-#### CO₂ Calculator space 
+#### 2.1 CO₂ calculator space 
 
-The scope of this calculator applies to emissions related to the operational activities of a research unit such as: 
+The scope of this calculator covers emissions related to the operational activities of a research unit. At EPFL, this scope is defined to include the following areas:
 
 - **Process emissions (Scope 1)**
 - **Buildings** – *Combustion energy **(Scope 1)**
@@ -50,7 +50,7 @@ The scope of this calculator applies to emissions related to the operational act
 - **Professional Travel (Scope 3)**
 - **Purchases (Scope 3)**
 - **EPFL Research facilities (Scope 3)**
-- **Additional categories** - *Commuting, Food, Waste, Construction and renovations* **(Scope 3)**
+- **Additional categories** - *Commuting, Food, Waste* **(Scope 3)**
 
 Some emissions related to rooms in the **Buildings** module may also fall under Scope 1, depending on the building’s heating source.
 
@@ -66,42 +66,29 @@ $$
 
 - $EF_{\text{category}}$: represents the emission factor of the category
 
-
 For example, for the **Equipment** module, an incubator that is used for a total of 440 kWh over one year emits:
 440 × 0.097 = 42.7 kg CO₂-eq, since the emission factor of one kWh of the Swiss consumption mix is 0.097 kg CO₂-eq (BAFU, 2025).
 
 Depending on data availability, it is sometimes necessary to perform calculations to obtain the quantity of the emitting activity. For example, in the case of the incubator above, the kWh quantity was estimated based on the average active and standby power, as well as the weekly usage hours for a given year. More details on assumptions and calculation methods are available in the “Module Specifications” section.
 
-#### CO₂ Simulator space 
+#### 2.2 CO₂ project planner 
 
-The CO₂ Simulator space includes two functionalities.
+The scope applied to this workspace is the same as that of the CO₂ Calculator and includes the same modules. What differentiates this workspace from the CO₂ Calculator is that users have access to all modules required to estimate the carbon footprint of their project. Depending on their access rights, users may be required to enter data manually.
 
-The *Explore* functionality allows estimating the footprint of one or more modules corresponding to those in the CO₂ Calculator space:
 
-- **Process emissions**: same interface as in the CO₂ Calculator with manual input.
-- **Equipment**: same interface as in the CO₂ Calculator, but no data is pre-filled automatically. Equipment is selected via a drop-down menu, with the option to upload a CSV file.
-- **External clouds & AI**: same interface as in the CO₂ Calculator with manual entry.
-- **Professional travel**: manual entry of professional travel by plane and train.
-- **Purchases**: entry of the purchasing budget and distribution across main categories.
+#### 2.3 CO₂ explorer 
 
-The *Plan* functionality allows estimating the footprint of an ongoing or future research project. The carbon footprint of a **research project** is calculated based on the data entered for one reference year from the CO₂ calculator, as well as for the relevant unit. Information is then completed for each module below, either manually or based on the reference year’s data:
-
-- **Headcount**: manual input of full-time equivalents (FTE), selection of job categories
-- **Process emissions:** data retrieved from the selected reference year, with input of the percentage related to the research project for each line, and possibility to add a process via a dropdown menu
-- **Buildings**: data retrieved from the selected reference year, with input of the percentage attributed to the project
-- **Equipment**: display of the equipment list (values set to 0 except standby), input of usage percentage for the project, with possibility to add equipment via a dropdown menu
-- **External clouds & AI**: retrieval of cloud and AI services from the selected reference year, same methodology as the existing module, selection of services used and associated usage percentage
-- **Professional travel**: manual input of air and train travel
-- **Purchases**: input of purchase budget, distribution across main categories, application of corresponding emission factors (input in CHF)
-- **EPFL research facilities**: retrieval of platforms used in the selected reference year, selection of platforms for the project, input of available budget, and possibility to add infrastructure via a dropdown menu
-
-Access to these two functionalities in the *CO₂ Simulator* space is individual, and entries are not reported back to the unit manager. Simulations can, however, be saved and shared via CSV or PDF export if the sharing option is selected.
+The scope applied to this workspace is also the same as that of the CO₂ Calculator and includes the same modules. All users have access to all modules that allow them to estimate the carbon footprint of a specific item or action, for example to explore the carbon footprint associated with the use of a specific piece of equipment, a business trip, and so on.
+10
 
 ### 3. Unit of measurement: kg CO₂-eq and t CO₂-eq 
 Several gases contribute to the greenhouse effect, such as methane (CH₄), nitrous oxide (N₂O), and carbon dioxide (CO₂), among others. These gases have different global warming potentials. Carbon dioxide, being the most widely known gas, is used as the reference gas. Therefore, in greenhouse gas accounting, emissions are expressed either in kilograms (kg CO₂-eq) or metric tonnes (t CO₂-eq) of CO₂ equivalent.
 
+For each module and sub-module, a critical threshold has been defined in the back office. For most sub-modules, this threshold corresponds to the 95th percentile of emissions for the relevant module or sub-module. When it is not possible to calculate this 95th percentile, the threshold corresponds to a critical value above which emissions may be considered exceptionally high. When the threshold is exceeded, the value is displayed in red in the “kg CO₂-eq” column of the various tables.
+
+
 ### 4. Results 
-After validating all modules, the user can see the results of the unit carbon footprint calculation. This “Results” page presents various visualizations and information related to the unit’s carbon footprint. 
+After validating all modules, the user can see the results of the unit carbon footprint calculation. This “Results” page presents various visualizations and information related to the unit’s carbon footprint is accessible to all principle and standard users. 
 
 At the top of the page, a summary section displays three key indicators:
 
