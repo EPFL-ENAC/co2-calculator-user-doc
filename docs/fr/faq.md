@@ -19,12 +19,12 @@ L’outil est construit de manière open-source sur [Github](https://github.com/
 L’outil est accessible via ce lien : [https://co2-calculator.epfl.ch/](https://co2-calculator.epfl.ch) et également via la tuile sur le portail de gestion du personnel EPFL.
 
 ### Je n’arrive pas à me connecter, que faire ?
-Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de créer un ticket avec … 
+Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de créer un ticket via le service desk de l'EPFL. 
 
 ### Je n’arrive pas à accéder à certains modules, est-ce normal ?
 Oui, dans l’outil calculateur CO₂, deux rôles sont attribués aux utilisateur·rice·s : 
 
-- Utilisateur·rice principal·e : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e.
+- Utilisateur·rice principal·e : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e directement dans le système d'accréditation de l'EPFL. 
 - Utilisateur·rice standard : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés. 
 
 ### Je souhaiterais modifier un module, comment faire ?
@@ -43,7 +43,7 @@ Si vous êtes attribuée au rôle d’Utilisateur·rice principal·e, vous avez 
 
 Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculés dans l’outil pour votre unité, veuillez-vous adresser à l’équipe de Durabilité ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
 
-Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules Clouds externes et IA et Voyages professionnels. Ces modules peuvent être modifiés par les utilisateur·rice·s standards. 
+Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules Clouds externes et IA et Voyages professionnels et pouvez les consulter et ajouter des données. 
 
 ### Quand j’accède à certains modules, ils sont déjà remplis, comment cela se fait ? 
 L’outil calculateur CO₂ est conçu pour être le plus simple d’utilisation possible pour les utilisateur·rice·s internes EPFL. Grâce aux nombreuses collaborations internes, les unités n’ont pas besoin de saisir manuellement leurs données car elles sont remontées automatiquement dans l’interface back-office par les gestionnaires métiers. 
