@@ -2,7 +2,9 @@
 Certain laboratory activities directly emit gases, such as CO₂ used in some SV laboratories or SF₆ as a refrigerant. These are process emissions. This module aims to capture these direct emissions (Scope 1).
 
 ### 2.	Data collected  
-The quantities of gas emitted from process emissions must be entered manually.
+The quantities of gases associated with process emissions are entered manually in the CO₂ Calculator, CO₂ Project Planner (Grant proposal ), and CO₂ Explorer workspaces.
+
+When this module has been completed in the CO₂ Calculator workspace, the data are automatically imported to the CO₂ Project Planner workspace (Grant proposal and detailed per year sections) for principal users. They can then define, for each year, a reference percentage in order to estimate the share of process emissions attributable to the project.
 
 <a id="factors"></a>
 ### 3.	Emission factors
