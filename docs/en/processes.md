@@ -1,5 +1,5 @@
 ### 1.	Context
-Certain activities directly emit greenhouse gases (GHGs). Common examples include SF₆ leaks during etching, fluorinated gas leaks from refrigeration systems, and fluorinated ether evaporation during sample handling. Because many of these gases trap significantly more heat and remain in the atmosphere much longer than CO₂, tracking them is crucial. This module is designed to capture these direct process and fugitive emissions (Scope 1).
+Certain activities directly emit greenhouse gases (GHGs). Common examples in university settings include SF₆ leaks during etching, fluorinated gas leaks from refrigeration systems, and fluorinated ether evaporation during sample handling. Because many of these gases trap significantly more heat and remain in the atmosphere much longer than CO₂, tracking them is crucial. This module is designed to capture these direct process and fugitive emissions (Scope 1).
 
 ### 2.	Data collected  
 The available GHGs in this module are selected in accordance with the GHG Protocol (GHG Protocol, 2024), specifically targeting potential emission sources found in academic and research settings.
@@ -17,7 +17,7 @@ This module uses the 100-year time horizon Global Warming Potential (GWP) relati
 The carbon footprint of each process emission $CF_{{process~emission}}$ is calculated as the product of the process emission consumption in kg and the corresponding emission factor.
 
 $$
-CF_{process~emission} = Q_{{process_{gas}}} \cdot EF_{{process_{gas}}}
+CF_{process~emission} = Q_{gas} \cdot EF_{gas}
 $$
 
 Where: 
@@ -28,7 +28,7 @@ Where:
 The total emissions for each element are displayed in tons of CO₂-eq once the module has been validated. 
 
 ### 5.	Limitations 
-The **Process Emissions** module must be completed manually. The quality of the results therefore depends directly on the quality of the data entered. These figures may be estimated or measured depending on the data available.
+The **Process emissions** module must be completed manually. The quality of the results therefore depends directly on the quality of the data entered. These figures may be estimated or measured depending on the data available.
 
 ### 6.	References 
 - Greenhouse Gas Protocol (2024) : [IPCC Global Warming Potential Values](https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf)
