@@ -14,7 +14,7 @@ This module uses the 100-year time horizon Global Warming Potential (GWP) relati
 
 <a id="methodology"></a>
 ### 4.	Methodology
-The carbon footprint of each process emission $CF_{{process~emission}}$ is calculated as the product of the process emission consumption in kg and the corresponding emission factor.
+The carbon footprint of each process emission $CF_{{process~emission}}$ is calculated as the product of the quantity of process or fugitive gas in kg and the corresponding emission factor.
 
 $$
 CF_{process~emission} = Q_{gas} \cdot EF_{gas}
@@ -22,8 +22,8 @@ $$
 
 Where: 
 
-- $Q_{gas}$ : quantity of process and fugitive gas in kg entered manually.
-- $EF_{gas}$ : emission factor in kg CO₂-eq/kg. 
+- $Q_{gas}$ : quantity of process or fugitive gas in kg, entered manually.
+- $EF_{gas}$ : emission factor of the emitted gas in kg CO₂-eq/kg. 
 
 The total emissions for each element are displayed in tons of CO₂-eq once the module has been validated. 
 
