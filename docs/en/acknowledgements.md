@@ -6,7 +6,7 @@
 
 **SDSC Team**: For developing the procurement analysis tool and supporting technical integrations. 
 
-**SV-IT and Wavemind** : For building the initial prototype that served as the foundation for early iterations. 
+**School of Life Sciences and Wavemind** : For building the initial prototype that served as the foundation for early iterations. 
 
 **Project Managers**: For their contributions across all project stages: scoping, execution, deployment, and continuous improvement. 
 
