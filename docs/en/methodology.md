@@ -38,7 +38,7 @@ Other categories included in the GHG Protocol, such as investments, are not cons
 
 ### 2. Scope of application
 
-#### 2.1 CO₂ calculator space 
+#### 2.1 CO₂ Calculator workspace 
 
 The scope of this calculator covers emissions related to the operational activities of a research unit. At EPFL, this scope is defined to include the following areas:
 
@@ -71,12 +71,12 @@ For example, for the **Equipment** module, an incubator that is used for a total
 
 Depending on data availability, it is sometimes necessary to perform calculations to obtain the quantity of the emitting activity. For example, in the case of the incubator above, the kWh quantity was estimated based on the average active and standby power, as well as the weekly usage hours for a given year. More details on assumptions and calculation methods are available in the “Module Specifications” section.
 
-#### 2.2 CO₂ project planner 
+#### 2.2 CO₂ Project planner workspace
 
 The scope applied to this workspace is the same as that of the CO₂ Calculator and includes the same modules. What differentiates this workspace from the CO₂ Calculator is that users have access to all modules required to estimate the carbon footprint of their project. Depending on their access rights, users may be required to enter data manually.
 
 
-#### 2.3 CO₂ explorer 
+#### 2.3 CO₂ Explorer workspace 
 
 The scope applied to this workspace is also the same as that of the CO₂ Calculator and includes the same modules. All users have access to all modules that allow them to estimate the carbon footprint of a specific item or action, for example to explore the carbon footprint associated with the use of a specific piece of equipment, a business trip, and so on.
 10
