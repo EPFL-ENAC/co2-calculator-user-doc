@@ -24,11 +24,10 @@ Finally, the EPFL tool is designed to be adjustable to other academic institutio
 
 The CO₂ calculator tool has three workspaces: 
 
-#### *CO₂ calculator space* 
 
 The CO₂ Calculator tool includes three workspaces:
 
-#### *3.1 CO₂ Calculator Workspace*
+#### *3.1 CO₂ Calculator workspace*
 
 This workspace enables users to assess the carbon footprint of their unit each year, based on the previous calendar year (from January 1 to December 31), using the following modules:
 
@@ -45,15 +44,15 @@ Principal users have access to and can view all the modules listed above, wherea
 
 This workspace also makes it possible to track the evolution of the unit’s emissions over time.
 
-#### *3.2 CO₂ project planner workspace*
+#### *3.2 CO₂ Project planner workspace*
 
-The CO₂ Project Planner workspace makes it possible to estimate the carbon footprint of various projects, whether for funding applications or for past, ongoing, or future projects, based on data retrieved from the CO₂ Calculator.
+The CO₂ Project planner workspace makes it possible to estimate the carbon footprint of various projects, whether for grant applications or for past, ongoing, or future projects, based on data retrieved from the CO₂ Calculator.
 
 ***Grant proposal***
 
-Estimating the carbon footprint of a project linked to a funding application can be performed by either standard or principal users.
+Estimating the carbon footprint of a project linked to a grant application can be performed by either standard or principal users.
  
-In addition to entering the total budget and the budget allocated to each module, users must manually add funding application data for certain modules.
+In addition to entering the total budget and the budget allocated to each module, users must manually add grant application data for certain modules.
 
 For principal users, data from some modules are automatically retrieved from the CO₂ Calculator (Process Emissions, Buildings, Equipment, External Clouds and AI), while data for others must be entered manually (Headcount, Profesionnal Travel, Purchases, EPFL Research facilities). To simplify data entry, the Equipment module allows users to apply an overall usage percentage rather than entering each piece of equipment individually. Similarly, the Purchases module offers two estimation methods: based either on an overall budget or on a budget by purchasing category.
 
@@ -61,7 +60,7 @@ For standard users, data must be added manually for each module. These different
 
 The estimate can also be made visible to all members of the unit, regardless of their role (principal or standard user).
 
-The reference year determines the emission factors used by the CO₂ Project Planner to calculate the emissions attributable to the project.
+The reference year determines the emission factors used by the CO₂ Project planner to calculate the emissions attributable to the project.
 
 ***Detailed per year***
 
@@ -75,7 +74,7 @@ For the same reason, the annual breakdown of a project is not accessible to all 
 
 As an alternative, it is possible to download the project PDF report and share it with members of the unit.
 
-#### *3.3 CO₂ Explorer Workspace*
+#### *3.3 CO₂ Explorer workspace*
 
 The CO₂ Explorer makes it possible to estimate the carbon footprint of specific items or actions. It facilitates the assessment of different scenarios and offers the possibility of downloading the results in a PDF report.
 
@@ -118,4 +117,4 @@ Figure 1: EPFL GreenLabs approach
 
 The CO₂ calculator makes it possible to anticipate future obligations regarding monitoring and reporting carbon emissions related to research activities.
 
-In addition, the CO₂ Project Planner workspace makes it possible to estimate the carbon footprint of a project related to a funding application, whether it is past, ongoing, or future, while the CO₂ Explorer workspace makes it possible to estimate the carbon footprint of a specific action, such as a business trip, the use of scientific equipment, and so forth.
+In addition, the CO₂ Project planner workspace makes it possible to estimate the carbon footprint of a project related to a funding application, whether it is past, ongoing, or future, while the CO₂ Explorer workspace makes it possible to estimate the carbon footprint of a specific action, such as a business trip, the use of scientific equipment, and so forth.
