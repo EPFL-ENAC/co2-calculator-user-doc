@@ -13,6 +13,9 @@ The **Purchases** module is designed to capture these indirect emissions (Scope 
 - *Centralised purchases*
 
 ### 2.	Data collected
+
+#### *2.1 CO₂ Calculator workspace*
+
 The module includes all goods and services purchased from external suppliers during the reference year.
 
 For each purchase, the following information is automatically populated from paid invoices related to each unit’s financial center:
@@ -25,6 +28,13 @@ For each purchase, the following information is automatically populated from pai
 
 The *Centralised Purchases sub-module* is designed to incorporate predefined items corresponding to centralised and/or shared purchases between several units. Where applicable, the annual consumption for these items must be entered.
 
+#### *2.2 CO₂ Project planner workspace*
+
+To estimate the carbon footprint of purchases as part of the grant proposal or detailed per year sections, either an overall budget or budgets by purchasing category can be entered manually.
+
+#### *2.3 CO₂ Explorer workspace*
+
+To explore the carbon footprint of the **Purchases** module, users can manually enter data by purchasing category.
 
 <a id="factors"></a>
 ### 3.	Emission factors
@@ -88,6 +98,10 @@ Where:
 - $EF_{item}$: emission factor for the item in kg CO₂-eq/kg
 
 The emission factors used are taken from the ecoinvent database (restricted licence, not for public distribution).
+
+In the CO₂ Project planner, under the Detailed per year section, both principal and standard users can define, for each year, either a budget by purchasing category or a total budget applicable to the entire module. These budgets are used to estimate the carbon emissions attributable to the project using financial emission factors.
+
+In the CO₂ Explorer, the estimation of the carbon footprint of purchases is based on emission factors derived from the UNSPSC classification. Users select a UNSPSC class and enter the corresponding expenditure amount. The tool then calculates the carbon footprint associated with the purchase and enables users to explore emissions by purchasing category.
 
 ### 5. Limitations
 - Depreciation of equipment: In accordance with the GHG Protocol guidelines, the CO₂ calculator adopts a flow-based approach. Thus, although some equipment is used over several years, we account for all emissions associated with its manufacture in the year of purchase. This approach avoids the uncertainties associated with a stock-based approach, which would require a detailed inventory and reliable lifetimes. No depreciation period is therefore applied, which helps to reduce arbitrary assumptions. Conversely, this method can lead to significant variations in emissions from one year to the next, which must be analysed from a multi-year perspective.
