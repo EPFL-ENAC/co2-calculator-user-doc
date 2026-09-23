@@ -8,15 +8,24 @@ The **Buildings** module aims to capture these energy-related emissions. The *Ro
 
 ### 2.	Data collected 
 
-***Rooms sub-module***
+#### *2.1 CO₂ Calculator workspace*
 
-The internal database on floor location provides a list of the rooms used by a unit and their floor locations.
+- ***Rooms sub-module***: For this sub-module, the internal database on floor location provides a list of the rooms used by a unit and their floor locations. Data on energy consumption (in kWh/m²) and room types (DIN/SIA standards) are provided by the Vice-Presidency for Operations at EPFL (VPO). Consumption data is then redistributed according to the types of rooms used by a unit. 
 
-Data on energy consumption (in kWh/m²) and room types (DIN/SIA standards) are provided by the Vice-Presidency for Operations at EPFL (VPO). Consumption data is then redistributed according to the types of rooms used by a unit. 
+- ***Energy Combustion Emissions sub-module***: Data on centralised thermal energy consumption for the ‘Energy Combustion Emissions’ sub-module is entered manually.
 
-***Energy Combustion Emissions sub-module***
+#### *2.2 CO₂ Project planner workspace*
 
-Data on centralised thermal energy consumption for the ‘Energy Combustion Emissions’ sub-module is entered manually.
+***Grant proposal***
+
+Data related to building use must be entered manually to estimate the project's carbon footprint as part of the grant proposal. For principal users, data from the Rooms sub-module are automatically imported from the CO₂ Calculator.
+
+***Detailed per year***
+
+For principal users, data from the Rooms sub-module are automatically imported from the CO₂ Calculator. They can then define, for each year, a reference percentage to estimate the share of facilities-related emissions attributable to the project. Data related to energy combustion emissions must be entered manually unless principal users have already entered these data in the CO₂ Calculator. For standard users, data from the CO₂ Calculator are not imported, and information for both sub-modules must therefore be entered manually.
+
+#### *2.3 CO₂ Explorer workspace*
+To explore the carbon footprint of the **Buildings** module, users can manually enter data related to facility use or energy combustion emissions.
 
 <a id="factors"></a>
 ### 3.	Emission factors
@@ -72,6 +81,9 @@ Where:
 - $Q_{{fuel}_{type}}$: amount of fuel used for a non-centralised heating source in kg or kWh, entered manually.
 - $EF_{{fuel}_{type}}$: emission factor for each fuel in kg CO₂-eq/kWh or kg CO₂-eq/kg.
 
+In the CO₂ Project planner, under the Detailed per year section, principal users can define, for each year, a reference percentage to estimate the share of emissions from the Rooms and Energy Combustion Emissions sub-modules that is attributable to the project.
+
+The carbon footprint associated with the Rooms and Energy Combustion Emissions sub-modules within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each room or energy combustion source.
 
 ### 5. Limitations
 - The floor location in m² provided by the internal database on rooms may not reflect reality in cases where rooms are shared or loaned.
