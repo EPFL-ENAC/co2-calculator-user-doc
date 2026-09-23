@@ -4,8 +4,10 @@ The use of external clouds and artificial intelligence (AI) within the scientifi
 The use of EPFL’s internal IT facilities is covered in the EPFL Research Facilities module. It is important to note that these platforms have a lower environmental impact than external clouds, given Switzerland’s energy consumption mix and the sustainable management of computing infrastructure (e.g. longer lifespan of computing clusters).
 
 ### 2.	Data collected 
-Usage data for external clouds and AI must be entered manually. 
 
+Data related to the use of external cloud services and AI services are entered manually in all three workspaces (CO₂ Calculator, CO₂ Project planner, and CO₂ Explorer).
+
+In the CO₂ Project planner (under the Grant proposal and Detailed per year sections), data are automatically imported from the CO₂ Calculator for principal users. They can then define, for each year, a reference percentage to estimate the share of emissions associated with external cloud and AI services that is attributable to the project. For standard users, data from the CO₂ Calculator are not imported, and information for both sub-modules must therefore be entered manually.
 
 ***External clouds sub-module***
 
@@ -80,6 +82,10 @@ Where:
 - $FTE_{AI_{provider,type}}$: number of FTEs for a type of service provided by a provider.
 - $Frequency_{AI_{provider,type}}$: number of uses per FTE per day for a type of service provided by a provider. This is the frequency of use per FTE per day reported by users multiplied by 235 (5 days × 47 working weeks).
 - $EF_{AI_{provider,type}}$: emission factor for the use of a service type provided by a supplier in kg CO₂-eq).
+
+In the CO₂ Project planner, under the Grant proposal and Detailed per year sections, principal users can define, for each year, a reference percentage to estimate the share of emissions associated with external cloud and AI services attributable to the project.
+
+The carbon footprint associated with these sub-modules within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each external cloud or AI service.
 
 
 ### 5. Limitations
