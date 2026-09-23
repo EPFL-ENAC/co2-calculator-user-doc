@@ -4,9 +4,7 @@ Certain activities directly emit greenhouse gases (GHGs). Common examples in uni
 ### 2.	Data collected  
 The available GHGs in this module are selected in accordance with the GHG Protocol (GHG Protocol, 2024), specifically targeting potential emission sources found in academic and research settings.
 
-The quantities of gases associated with process and fugitive emissions are entered manually in the CO₂ Calculator, CO₂ Project planner (Grant proposal), and CO₂ Explorer workspaces.
-
-When this module has been completed in the CO₂ Calculator workspace, the data are automatically imported to the CO₂ Project planner workspace (Grant proposal and detailed per year sections) for principal users. They can then define, for each year, a reference percentage in order to estimate the share of process emissions attributable to the project.
+The quantities of gases associated with process and fugitive emissions are entered manually in the CO₂ Calculator, CO₂ Project planner (Grant proposal), and CO₂ Explorer workspaces. When this module has been completed in the CO₂ Calculator workspace, the data are automatically imported to the CO₂ Project planner workspace (Grant proposal and detailed per year sections) for principal users. They can then define, for each year, a reference percentage in order to estimate the share of process emissions attributable to the project.
 
 <a id="factors"></a>
 ### 3.	Emission factors
