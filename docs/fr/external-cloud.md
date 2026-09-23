@@ -1,11 +1,11 @@
 ### 1.	Contexte 
-L’usage des clouds externes et de l’intelligence artificielle (IA) au sein de la communauté scientifique est en nette augmentation depuis quelques années. Dans ce module, les clouds externes pris en considération sont ceux des services de stockage et/ou de calculs externes, tels que AWS – Amazon, GCP – Google, etc.). Les données de Ll’utilisation de l’IA externe (agents tels que ChatGPT – OpenAI, Claude – Anthropic, etc.) sont saisies manuellement. 
+L’usage des clouds externes et de l’intelligence artificielle (IA) au sein de la communauté scientifique est en nette augmentation depuis quelques années. Dans ce module, les services de clouds externes pris en considération sont ceux des services de stockage et/ou de calculs externes, tels que AWS – Amazon, GCP – Google, etc.). Les données de l’utilisation de services d'IAs externes (agents tels que ChatGPT – OpenAI, Claude – Anthropic, etc.) sont saisies manuellement. 
 
-L’utilisation des plateformes informatiques interne de l’EPFL est considérée dans le module Infrastructures de recherches. Il est important de noter que ces plateformes comportent un impact environnemental plus faible que les clouds externes au vu du mix de consommation énergétique Suisse et une maîtrise durable des infrastructures de calcul (durée de vie plus grande des clusters de calcul par exemple).
+L’utilisation des plateformes informatiques interne de l’EPFL est considérée dans le module **Infrastructures de recherches**. Il est important de noter que ces plateformes comportent un impact environnemental plus faible que les clouds externes au vu du mix de consommation énergétique Suisse et une maîtrise durable des infrastructures de calcul (durée de vie plus grande des clusters de calcul par exemple).
 
 ### 2.	Données collectées
 
-Les données d’utilisation de Clouds externes et d’IA sont saisies manuellement dans les trois espaces (calculateur, planificateur de projet, explorateur CO₂).
+Les données d’utilisation de services de clouds externes et d’IAs sont saisies manuellement dans les trois espaces (calculateur, planificateur de projet, explorateur CO₂).
 
 Dans l’espace planificateur de projet CO₂ (demande de financement, détail par année), pour les utilisatrices et utilisateurs principaux, les données remontent automatiquement du calculateur CO₂. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux services de clouds externes et d’IAs attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas et la saisie pour les deux-sous modules se fait manuellement. 
 
