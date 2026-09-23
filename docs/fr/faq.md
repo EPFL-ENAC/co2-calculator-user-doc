@@ -1,33 +1,100 @@
 # FAQ
 
-***Toujours en cours de développement!*** 
+### 1. Quels sont les objectifs du calculateur CO₂ ? 
+L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 
-### Quels sont les objectifs du calculateur CO₂ ? 
-L’outil calculateur CO₂ est un outil open-source qui remplit les objectifs suivants :
-
-- Proposer une approche simple pour identifier les principales sources d’émissions liées aux activités des laboratoires et visualiser l'impact des différentes sources d'émission.
-- Comprendre le profil d'empreinte carbone par type de laboratoire.
-- Simuler l’empreinte carbone d’un type de module (nouvel achat, futurs voyages professionnels, consommation électrique des équipements, etc.) ou d’un projet de recherche en cours ou à venir.
-- Fournir un outil d'aide à la décision pour prendre des mesures ciblées visant à réduire l'empreinte carbone
+- Proposer une approche cohérente pour identifier et visualiser les principales sources d’émissions liées aux activités des laboratoires et leurs impacts.
+- Identifier les profils d’émissions carbone propres à chaque type de laboratoire.
+- Estimer l’empreinte carbone d’un projet de recherche (demande de financement ou détail par année de projet) ou d’élément ou d’actions (nouvel achat, futurs voyages professionnels, consommation électrique d’un équipement, etc.).
+- Fournir un outil d'aide à la décision pour prendre des mesures ciblées visant à réduire l'empreinte carbone.
 - Satisfaire les futures exigences européennes et nationales concernant l’évaluation de l’impact environnemental des projets de recherche.
+- Anticiper les évolutions légales contraignantes en dotant l’EPFL d’outil permettant de comprendre, cibler et diminuer ses émissions carbones.
 
-### Est-ce qu’il est possible d’utiliser cet outil si je ne fais pas partie de l’EPFL ?
-L’outil est construit de manière open-source sur [Github](https://github.com/EPFL-ENAC/co2-calculator). Il est donc possible d’utiliser cet outil dans une autre institution publique, cependant certains facteurs d’émissions devront être adaptés pour l’institution. 
 
-### Comment puis-je accéder à l’outil ?
+### 2. Est-ce qu’il est possible d’utiliser cet outil si je ne fais pas partie de l’EPFL ?
+L’outil est construit de manière open-source sur [Github](https://github.com/EPFL-ENAC/co2-calculator). Il est donc possible d’utiliser cet outil dans une autre institution académique, cependant certains facteurs d’émissions devront être adaptés pour l’institution. 
 
-L’outil est accessible via ce lien : [https://co2-calculator.epfl.ch/](https://co2-calculator.epfl.ch) et également via la tuile sur le portail de gestion du personnel EPFL.
+### 3. Comment puis-je accéder à l’outil ?
 
-### Je n’arrive pas à me connecter, que faire ?
+L’outil est accessible via ce lien : [https://co2-calculator.epfl.ch/](https://co2-calculator.epfl.ch) et également via la tuile sur le portail de gestion du personnel EPFL dès janvier 2027.
+
+### 4. Je n’arrive pas à me connecter, que faire ?
 Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de créer un ticket via le service desk de l'EPFL. 
 
-### Je n’arrive pas à accéder à certains modules, est-ce normal ?
+
+### 5. Quelles sont les étapes ? Par quoi commencer ?
+
+**1. Connexion**
+
+- Accédez au Calculateur CO₂ et connectez-vous via ce lien [https://co2-calculator.epfl.ch/](https://co2-calculator.epfl.ch).
+- Sélectionnez votre langue et votre mode d’affichage.
+
+**2. Vérifiez votre statut utilisateur (en haut à droite)**
+- Vérifiez votre rôle : utilisatrice ou utilisateur principal ou utilisatrice ou utilisateur standard.
+- Si nécessaire, déléguez votre statut d’utilisatrice ou utilisateur principal à un membre de votre unité via Accred.
+
+**3. Configurez votre calculateur** 
+
+- Sélectionnez votre unité et l’année concernée (en haut à gauche).
+- Commencez à estimer l'empreinte carbone de votre unité 
+- Dès que vous modifiez un module, la section d’accueil est automatiquement remplacée par un graphique en barres présentant vos résultats préliminaires.
+
+**4. Naviguez et saisissez vos données**
+
+- Utilisez le menu latéral à gauche pour naviguer dans l’outil.
+- Progressez module par module : cliquez sur Valider ou Modifier, puis consultez, complétez ou saisissez vos données.
+- Lisez attentivement la description de chaque module afin d’en comprendre le fonctionnement.
+
+**Les modules à consulter :**
+
+- Personnel
+- Bâtiments
+- Infrastructures de recherche EPFL
+
+**Les modules à consulter et compléter :**
+
+- Équipements
+- Voyages professionnels
+
+**Les modules à renseigner :**
+
+- Émissions de procédés
+- Clouds externes et IA
+
+Les utilisatrices et utilisateurs standards doivent vérifier leurs données dans les modules Voyages professionnels et Clouds externes et IA.
+
+Cliquez sur Documentation à tout moment pour obtenir des informations complémentaires et des ressources utiles.
+
+**5. Consultez les résultats et planifiez votre projet**
+- Une fois tous les modules validés, les résultats de votre unités sont visibles dans la page résultats et peuvent être consultés par toutes et tous les membres de votre unité. 
+- Définissez votre trajectoire ambitieuse vers 2040.
+- Consultez la section "Documentation" pour obtenir davantage d’informations sur le fonctionnement de l’outil.
+
+Après avoir rempli l'espace Calculateur CO₂, vous êtes prête et prêt à utiliser les espaces Planificateur de projet CO₂ et Explorateur CO₂.
+
+### 6. Quelle est la méthodologie employée pour les différents modules ? 
+Afin d’assurer une transparence totale, chaque méthodologie de chaque module est référencée dans l'onglet Spécification des modules. 
+
+### 7. Comment se passe la gestion de protection des données avec l'outil ?
+[Voir onglet sur Gestion des données](./data-management.md).
+
+### 8. Quelles sont les niveaux d’incertitudes ?
+- Les niveaux d’incertitudes globales sont documentés dans l'onglet Méthodologie dans le sous-chapitre [6. Limites](./methodology.md#limites).
+- Les niveaux d’incertitudes par module sont consultables dans le sous-chapitre 5. Limites.
+
+
+## Espace Calculateur CO₂
+
+### 1. Je n’arrive pas à accéder à certains modules, est-ce normal ?
 Oui, dans l’outil calculateur CO₂, deux rôles sont attribués aux utilisateur·rice·s : 
 
 - Utilisateur·rice principal·e : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e directement dans le système d'accréditation de l'EPFL. 
-- Utilisateur·rice standard : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés. 
+- Utilisateur·rice standard : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés.
 
-### Je souhaiterais modifier un module, comment faire ?
+[Plus d’informations sur les rôles dans le calculateur CO₂](https://epfl-enac.github.io/co2-calculator-back-office-doc/roles/)
+
+
+### 2. Je souhaiterais modifier un module, comment faire ?
 
 Il faut bien veiller à cliquer sur « Éditer le module » afin de modifier un module. 
 
@@ -41,49 +108,57 @@ Si vous êtes attribuée au rôle d’Utilisateur·rice principal·e, vous avez 
 - Voyages professionnels
 - Achats
 
-Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculés dans l’outil pour votre unité, veuillez-vous adresser à l’équipe de Durabilité ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
+Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculées dans l’outil pour votre unité, veuillez-vous adresser à l’équipe de Durabilité ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
 
 Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules Clouds externes et IA et Voyages professionnels et pouvez les consulter et ajouter des données. 
 
-### Quand j’accède à certains modules, ils sont déjà remplis, comment cela se fait ? 
+### 3. Quand j’accède à certains modules, ils sont déjà remplis, comment cela se fait ? 
 L’outil calculateur CO₂ est conçu pour être le plus simple d’utilisation possible pour les utilisateur·rice·s internes EPFL. Grâce aux nombreuses collaborations internes, les unités n’ont pas besoin de saisir manuellement leurs données car elles sont remontées automatiquement dans l’interface back-office par les gestionnaires métiers. 
 
 Seuls certains modules, tels que Personnel, Émissions de procédés, Clouds externes et IA et Voyages professionnels nécessitent la saisie des utilisateur·rice·s. 
 
-### Puis-je faire des modifications sur des champs déjà remplis ? 
-Oui, il est possible de modifier les champs deja remplis via les options suivantes : 
+### 4. Puis-je faire des modifications sur des champs déjà remplis ? 
 
-1. Uploader un fichier CSV à la place
-2. Supprimer la ligne et la remplacer en ajoutant une donnée
+Dans l’espace calculateur CO₂, il n’est pas possible de modifier ni de supprimer les champs déjà remplis. Cependant, il est possible d’ajouter des données soit via l’onglet « ajouter » soit via l’import d’un fichier CSV (uniquement disponible pour les utilisatrices et utilisateurs principaux). Dans cet espace, il est possible d’ajouter des données dans tous les modules sauf pour le module **Infrastructures de recherche EPFL**.
 
-Tous les champs de tous les modules sont modifiable sauf pour le module ***Infrastructures de recherche EPFL***. Si vous constatez une erreur, une note peut être ajoutée à chaque ligne de donnée.  
+Si vous constatez une erreur, une note peut être ajoutée à chaque ligne de donnée et vous pouvez contacter directement l’équipe dédiée à l’adresse suivante [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch). 
+ 
 
-### Comment se passe la gestion de protection des données avec l'outil ?
+## Espace Planificateur de projet CO₂
 
-[Voir onglet sur Gestion des données](./data-management.md). 
+### 1. Quelle est la différence entre les sections “demande de financement” et le “détail par année” ?
 
-### Module Personnel 
+La section demande de financement permet d'estimer l'empreinte carbone de projet liée à une demande de financement. Les utilisatrices et utilisateurs principaux peuvent bénéficier de la remontée partielle des modules remplis et validés dans l'espace Calculateur CO₂, notamment pour les modules suivants :
 
-### Module Émissions de procédés 
+- Emissions de procédés
+- Bâtiments
+- Équipements
+- Clouds externes et IA
 
-### Module Bâtiments
+Pour les utilisatrices et utilisateurs standards, les données doivent être saisies manuellement pour des raisons de protection des données. 
 
-### Module Équipements 
+La section détail par année permet d'avoir l'estimation carbone d'un projet sur plusieurs année avec le détail par année de projet. Cette section bénéficie de la remontée des données du calculateur CO₂ pour les utilisatrices et utilisateurs principaux. Les utilisatrices et utilisateurs standards doivent saisir le détail par année de projet manuellement. 
 
-### Module Clouds externes et IA 
+### 2. Est-ce possible de rendre le projet visible pour les membres de mon unité ?
 
-### Module Achats 
+Pour les projets liés à des demandes de financement, il est possible de le rendre visible pour tous les membres de votre unité (utilisatrices et utilisateurs principaux et standards) en cochant la case "visible pour tous les membres du laboratoires".
 
-### Module Voyages professionnels
+Cependant, pour les projets de la section "détail par année", il n'est pas possible de les rendre visible. Vous pouvez exporter un rapport et le partager aux membres de l'unité souhaité. 
 
-### Module Infrastructures de recherche 
 
-### Quelles sont les niveaux d’incertitudes ?
-- Les niveaux d’incertitudes globales sont documentés dans l'onglet Méthodologie dans le sous-chapitre [6. Limites](./methodology.md#limites).
-- Les niveaux d’incertitudes par module sont consultables dans le sous-chapitre 5. Limites. 
+### 3. Module Equipement - spécification  sur le pourcentage de l'année de référence 
 
-### Quelle est la méthodologie employée pour les différents modules ? 
-Afin d’assurer une transparence totale, chaque méthodologie de chaque module est référencée dans l'onglet Spécification des modules. 
+Si l'utilisatrice ou utilisateur saisit un pourcentage global à appliquer au module **Équipement**, cela va s'appliquer pour toutes les lignes d'équipements. S’il y’a cependant un équipement qui est utilisé plus que le pourcentage global et que l'utilisatrice ou utilisateur souhaite l'indiquer, elle ou il devra ajouter un duplicat pour compenser et rajouter ce pourcentage en plus du pourcentage global. 
+
+Par exemple, l'utilisatrice ou utilisateur veut saisir 30% comme pourcentage global d'utilisation des équipements pour le projet en 2025 mais qu'il y'a un équipement spécifique qui est utilisé a 60% pour le projet, alors il faudra ajouter le même équipement specifique dans la liste et saisir 30% comme pourcentage de référence. 
+
+
+## Espace Explorateur CO₂
+
+### 1. Est-ce possible de sauvegarder mes données ?
+
+Non, il n'est pas possible de sauvegarder vos explorations mais vous pouvez exporter un rapport et le partager aux membres de votre unité. 
+
 
 
 
