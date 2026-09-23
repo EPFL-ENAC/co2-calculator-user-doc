@@ -4,13 +4,33 @@ Thousands of scientific, IT and other equipment items are listed in the EPFL equ
 
 ### 2.	Data collected 
 
+#### *2.1 CO₂ Calculator workspace*
+
 The equipment inventory available on the internal staff management portal provides a list of scientific equipment (>CHF 10,000), IT equipment and other items by unit. 
 
 The following columns are entered manually: 
 
 - Active and standby power consumption: It is recommended to use a conservative estimate (which is not underestimated). If the average active or standby power consumption of your equipment differs from the default value, please contact the dedicated team at the following address: [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch).
-- Subclass: The subclass for equipment is entered manually where this information is required.
+- Subclass: The subclass for equipment is entered manually where this information is required, in particular, when the row is highlighted in beige.
 - Class: You can update the class if the one in your inventory is not appropriate. Please note that this will not update the inventory. 
+
+#### *2.2 CO₂ Project planner workspace*
+
+***Grant proposal***
+
+For principal users, data from the Equipment module are automatically imported from the CO₂ Calculator. For each equipment, a reference percentage can be defined to estimate the share of emissions associated with equipment from the internal inventory that is attributable to the project for a given year. A global percentage can also be applied to the entire module to avoid entering a reference percentage for each equipment item individually.
+
+For standard users, data from the CO₂ Calculator are not automatically imported. Equipment-related information must therefore be entered manually.
+
+***Detailed per year***
+
+For principal users, data from the Equipment module are automatically imported from the CO₂ Calculator. For each equipment, a reference percentage can be defined to estimate the share of emissions associated with equipment from the internal inventory that is attributable to the project for a given year. A global percentage can also be applied to the entire module to avoid entering a reference percentage for each equipment item individually.
+
+For standard users, data from the CO₂ Calculator are not automatically imported. Equipment-related information must therefore be entered manually.
+
+#### *2.3 CO₂ Explorer workspace*
+
+To explore the carbon footprint of the Equipment module, users can manually enter data related to equipment use.
 
 <a id="factors"></a>
 ### 3.	Emission factors
@@ -32,7 +52,9 @@ Where:
 - $active,stanby$: equipment usage mode.
 - $P_{equipment,active}$ and $P_{equipment,standby}$: average active and standby power ratings for the equipment, expressed in W and determined by the EPFL sustainability team through direct measurement or a literature review (see Section 7, Appendix).
 - $H_{equipment,active}$ and $H_{equipment,standby}$: usage time in active and standby modes for the equipment in h/week, determined by the user.
-- $EF_{electricity}$: emission factor 0.097 kg CO2-eq/kWh (BAFU, 2025). 
+- $EF_{electricity}$: emission factor 0.097 kg CO2-eq/kWh (BAFU, 2025).
+
+In the CO₂ Project planner, under both the Grant proposal and Detailed per year  sections, principal users can define, for each year, either a reference percentage for each equipment item or a global percentage applicable to the entire module. These percentages are used to estimate the share of equipment-related emissions attributable to the project.
 
 
 ### 5. Limitations
