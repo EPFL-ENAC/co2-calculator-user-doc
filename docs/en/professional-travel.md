@@ -2,10 +2,28 @@
 Professional travel at EPFL is mainly undertaken by plane and train. Professional plane trips are booked through EPFL travel agency (LEX 5.6.2), and the data containing the information required to calculate the carbon footprint is therefore collected automatically and used in this module. If planes have been booked outside the central travel agency, they must be entered manually. Train journeys must be entered manually.
 
 ### 2.	Data collected 
+
+#### *2.1 CO₂ Calculator workspace*
+
 Data relating to air travel is provided by EPFL central travel agency and contains specific details such as the date, duration, departure and destination, class, distance, plane number, etc. This set of data is supplemented using the Atmosfair API to calculate the carbon footprint per flight in kg CO₂-eq.  
 -> More information about the [Atmosfair calculation methodology](https://www.atmosfair.de/en/standards/emissions_calculation/)
 
 For plane or train travel booked outside the central agency, the data must be entered manually: departure and arrival cities, travel dates, as well as the number of passengers and class. 
+
+
+#### *2.2 CO₂ Project planner workspace*
+
+***Grant proposal***
+
+Data related to professional travel by plane and train must be entered manually in order to estimate their carbon footprint as part of the grant application.
+
+***Detailed per year***
+
+For principal users, data from the Professional travel module are automatically imported from the CO₂ Calculator. For each plane or train travel, a reference percentage can be defined to estimate the share of emissions associated with professional travel that is attributable to the project for a given year. For standard users, data from the CO₂ Calculator are not automatically imported. Plane and train travels that are attributable to the project must therefore be entered manually.
+
+#### *2.3 CO₂ Explorer workspace*
+
+To explore the carbon footprint of the Professional travel module, users can manually enter data related to their plane and train travel.
 
 ### 3.	Emission factors 
 
@@ -55,6 +73,8 @@ Where:
 - $EF_{train}$: emission factor for the train journey in kg CO₂-eq/km
 
 The calculator then adds up the total impact of all professional travels: flights booked via the central travel agency and flights and train journeys entered manually. 
+
+In the CO₂ Project planner, under the Detailed per year section, principal users can define, for each year, a reference percentage to estimate the share of emissions associated with professional plane and train travel that is attributable to the project. The carbon footprint associated with these sub-modules within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each flight and train journey.
 
 
 ### 5. Limitations
