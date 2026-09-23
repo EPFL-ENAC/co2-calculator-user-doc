@@ -30,7 +30,7 @@ Le ***sous-module Achats centralisés*** est destiné à intégrer des élément
 
 #### *2.2 Espace planificateur de projet CO₂*
 
-Afin d’estimer l’empreinte carbone des achats dans le cadre de la demande de financement ou par projet par année, un budget global ou par catégories d’achats peuvent être saisis. 
+Afin d’estimer l’empreinte carbone des achats dans le cadre de la demande de financement ou par projet par année, un budget global ou par catégories d’achats peuvent être saisis manuellement. 
 
 #### *2.3 Espace explorateur CO₂*
 
