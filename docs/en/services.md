@@ -5,6 +5,9 @@ The use of EPFL research facilities might be part of a unit’s operational acti
 
 
 ### 2.	Data collected 
+
+#### *2.1 CO₂ Calculator workspace*
+
 The data collected relates to the categories of emissions arising from the activities of the research facilities mentioned above, calculated directly in the calculator with a few exceptions.  
 
 - **Process emissions**:  
@@ -21,7 +24,6 @@ The data collected relates to the categories of emissions arising from the activ
 - **Purchases**:  
   The data collected is listed in the Purchasing module tab (see Section 4.7.2).
 
-
 ### Allocation key 
 Part of the carbon footprint of research facilities is allocated to the user units. This approach considers the fact that EPFL’s research facilities are essential to the units’ research activities and must therefore be included in their carbon footprint. 
 
@@ -34,6 +36,20 @@ An allocation key is applied for the use of research facilities. This is based o
 As the rate is differentiated for external units, a calculation is carried out subsequently to allocate the footprint at a standardised price level between internal and external user units. 
 
 The data required for these calculations is derived from billing data or provided directly by the research facilities.
+
+#### *2.2 CO₂ Project planner workspace*
+
+***Grant proposal***
+
+To estimate the carbon footprint associated with the use of EPFL research infrastructures as part of a grant application, users can select a research infrastructure and enter its level of use in terms of costs, hours of use, or number of housing.
+
+***Detailed per year***
+
+For principal users, data are automatically imported from the CO₂ Calculator. They can then define, for each year, a reference percentage to estimate the share of emissions associated with research infrastructures and animal facilities that is attributable to the project. For standard users, data from the CO₂ Calculator are not imported, and information must therefore be entered manually.
+
+#### *2.3 CO₂ Explorer workspace*
+
+To explore the carbon footprint of the **EPFL Research facilities** module, users can select research infrastructures and animal facilities and enter their use in terms of costs, hours of use, or number of accommodations.
 
 
 ### 3.	Emission factors 
@@ -84,6 +100,9 @@ To grasp the methodology for each category used in the calculation of the resear
 - ***[Equipment](./equipment.md#methodology)*** 
 - ***[Purchases](./purchases.md#methodology)*** 
 
+In the CO₂ Project planner, under the Detailed per year section, principal users can define, for each year, a reference percentage to estimate the share of emissions associated with research and animal facilities that is attributable to the project.
+
+The carbon footprint associated with these activities within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each research or animal facility.
 
 ### 5. Limitations
 
