@@ -32,6 +32,7 @@ Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de c
 - Sélectionnez votre langue et votre mode d’affichage.
 
 **2. Vérifiez votre statut utilisateur (en haut à droite)**
+
 - Vérifiez votre rôle : utilisatrice ou utilisateur principal ou utilisatrice ou utilisateur standard.
 - Si nécessaire, déléguez votre statut d’utilisatrice ou utilisateur principal à un membre de votre unité via Accred.
 
@@ -68,6 +69,7 @@ Les utilisatrices et utilisateurs standards doivent vérifier leurs données dan
 Cliquez sur **Documentation** à tout moment pour obtenir des informations complémentaires et des ressources utiles.
 
 **5. Consultez les résultats et planifiez votre projet**
+
 - Une fois tous les modules validés, les résultats de votre unités sont visibles dans la page résultats et peuvent être consultés par toutes et tous les membres de votre unité. 
 - Définissez votre trajectoire ambitieuse vers 2040.
 - Consultez la section **Documentation** pour obtenir davantage d’informations sur le fonctionnement de l’outil.
