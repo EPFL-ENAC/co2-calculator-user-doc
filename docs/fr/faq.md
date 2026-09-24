@@ -303,7 +303,7 @@ Les utilisatrices et utilisateurs principaux doivent valider tous les modules af
 
 #### 13.3 Je veux voir seulement une partie de l’empreinte carbone de mon unité, comment faire? 
 
-Si vous voulez voir seulement une partie de l’empreinte carbone de votre unité, il est possible de décocher à droite sous « filtres d’affichages » les **Catégories additionnelles** et les **Infrastructures de recherche**. 
+Si vous voulez voir seulement une partie de l’empreinte carbone de votre unité, il est possible de décocher à droite sous « filtres d’affichages les **Catégories additionnelles** et les **Infrastructures de recherche**. 
 
 Il est également possible d’aller dans le module directement et de le mettre en mode édition si vous ne voulez pas qu’il s’affiche dans le graphique.
 
