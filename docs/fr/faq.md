@@ -223,7 +223,11 @@ L'empreinte environnementale est calculé sur la base de ratio monétaire. Dans 
 
 Oui même si vous ne payez pas de service d'IA externes, ce sous-module permet d'estimer l'empreinte carbone liée à l'utilisation de services d'IA externes tels que via la génération de textes, de codes ou d'images et selon sa fréquence. 
 
-#### 9.3 Où puis-je consulter la méthodologie relative au module ? 
+#### 9.3 Je suis utilisatrice ou utilisateur standard et désire modifier le module mais il a été validé par une ou un utilisateur principal, que faire ? 
+
+Vous pouvez demander à votre responsable d'unité de passer en mode "Édition" afin que vous puissiez ajouter/ modifier vos données personnelles. En cliquant sur "débloquer la saisie", une fenêtre vous redirigera vers un e-mail à envoyer au responsable d'unité. Le module devra ensuite être validé à nouveau par le responsable d'unité ou une utilisatrice utilisateur principal. 
+
+#### 9.4 Où puis-je consulter la méthodologie relative au module ? 
 
 La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/external-cloud/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/external-cloud/).
 
@@ -238,8 +242,12 @@ Les voyages professionnels effectués en avion qui apparaissent dans l'unité pr
 
 Lorsque des lignes dans le tableau des voyages professionnels en avion et en train apparaissent en orange, cela concernent des voyages professionnels effectués par des personnes externes à votre unité mais qui ont été payés par votre unité. 
 
+#### 10.3 Je suis utilisatrice ou utilisateur standard et désire modifier le module mais il a été validé par une ou un utilisateur principal, que faire ? 
 
-#### 10.3  Où puis-je consulter la méthodologie relative au module ?
+Vous pouvez demander à votre responsable d'unité de passer en mode "Édition" afin que vous puissiez ajouter/ modifier vos données personnelles. En cliquant sur "débloquer la saisie", une fenêtre vous redirigera vers un e-mail à envoyer au responsable d'unité. Le module devra ensuite être validé à nouveau par le responsable d'unité ou une utilisatrice utilisateur principal. 
+
+
+#### 10.4  Où puis-je consulter la méthodologie relative au module ?
 
 La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/professional-travel/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/professional-travel/).
 
@@ -283,7 +291,29 @@ Pour ce module, il n'est pas possible de modifier ni d'ajouter des données dans
 
 La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/services/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/services/).
 
+### 13. Résultats
 
+#### 13.1 Je suis utilisatrice ou utilisateur standard, puis-je voir les résultats de l’empreinte carbone de mon unité ? 
+
+Oui, en tant qu’utilisatrice ou utilisateur standard vous avez la possibilité de voir les résultats de l’empreinte carbone de votre unité dans la page « Résultats » pour autant que les modules aient été validés par les utilisatrices et utilisateurs principaux. 
+
+#### 13.2 Je ne vois pas l’empreinte carbone complète de mon unité, est-ce normal ?
+
+Les utilisatrices et utilisateurs principaux doivent valider tous les modules afin d’avoir la visualisation des résultats de l’empreinte carbone de votre unité complète.
+
+#### 13.3 Je veux voir seulement une partie de l’empreinte carbone de mon unité, comment faire? 
+
+Si vous voulez voir seulement une partie de l’empreinte carbone de votre unité, il est possible de décocher à droite sous « filtres d’affichages » les **Catégories additionnelles** et les **Infrastructures de recherche**. 
+
+Il est également possible d’aller dans le module directement et de le mettre en mode édition si vous ne voulez pas qu’il s’affiche dans le graphique.
+
+#### 13.4 Est-ce possible d’avoir la visualisation sur plusieurs années ? 
+
+Oui, il est possible de cliquer sur « Comparer les années » pour avoir la visualisation sur plusieurs années si les modules ont été validés.
+
+#### 13.5 Est-ce que d’autres unités ont accès à mes résultats d’empreinte carbone ?
+
+Non, l’outil a été conçu afin que les membres de l’unité aient accès uniquement aux résultats de leur unité. 
 
 
 ## Espace Planificateur de projet CO₂
@@ -320,10 +350,6 @@ Par exemple, l'utilisatrice ou utilisateur veut saisir 30% comme pourcentage glo
 ### 1. Est-ce possible de sauvegarder mes données ?
 
 Non, il n'est pas possible de sauvegarder vos explorations mais vous pouvez exporter un rapport et le partager aux membres de votre unité. 
-
-
-
-
 
 
 
