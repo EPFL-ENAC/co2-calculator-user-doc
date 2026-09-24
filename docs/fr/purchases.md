@@ -14,7 +14,7 @@ Le module Achats vise à capturer ces émissions indirectes (scope 3). Il couvre
 
 ### 2.	Données collectées
 
-#### *2.1 Espace calculateur CO₂*
+#### *2.1 Espace Calculateur CO₂*
 
 Le module inclut l’ensemble des biens et services achetés auprès de fournisseurs externes durant l’année de référence.
 
@@ -28,11 +28,11 @@ Pour chaque achat, les informations suivantes sont automatiquement intégrées �
 
 Le ***sous-module Achats centralisés*** est destiné à intégrer des éléments prédéfinis correspondant à des achats centralisés et/ou mutualisés entre plusieurs unités. Lorsque cela s’applique, la consommation annuelle pour ces éléments doit être renseignée.
 
-#### *2.2 Espace planificateur de projet CO₂*
+#### *2.2 Espace Planificateur de projet CO₂*
 
 Afin d’estimer l’empreinte carbone des achats dans le cadre de la demande de financement ou par projet par année, un budget global ou par catégories d’achats peuvent être saisis manuellement. 
 
-#### *2.3 Espace explorateur CO₂*
+#### *2.3 Espace Explorateur CO₂*
 
 Afin d’explorer l’empreinte carbone du module Achats, les utilisatrices et utilisateurs peuvent saisir manuellement des données par catégories d’achats. 
 
@@ -98,9 +98,9 @@ Où :
 
 Les facteurs d’émission utilisés sont issus de la base ecoinvent (licence restreinte, non diffusables publiquement).
 
-Dans l’espace planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux ainsi que standards peuvent définir, pour chaque année, soit un budget par catégorie d’achat, soit un budget global applicable à l’ensemble du module. Ces budgets permettent d’estimer les émissions carbones attribuables au projet à l’aide de facteurs d’émission financiers.
+Dans l’espace Planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux ainsi que standards peuvent définir, pour chaque année, soit un budget par catégorie d’achat, soit un budget global applicable à l’ensemble du module. Ces budgets permettent d’estimer les émissions carbones attribuables au projet à l’aide de facteurs d’émission financiers.
 
-Dans l’espace explorateur CO₂, l’estimation de l’empreinte carbone des achats repose sur les facteurs d’émission issus de la classification UNSPSC. Les utilisatrices et utilisateurs sélectionnent une classe UNSPSC et renseignent le montant correspondant. L’outil calcule alors l’empreinte carbone associée à cet achat et permet d’explorer les émissions par catégorie d’achat.
+Dans l’espace Explorateur CO₂, l’estimation de l’empreinte carbone des achats repose sur les facteurs d’émission issus de la classification UNSPSC. Les utilisatrices et utilisateurs sélectionnent une classe UNSPSC et renseignent le montant correspondant. L’outil calcule alors l’empreinte carbone associée à cet achat et permet d’explorer les émissions par catégorie d’achat.
 
 
 ### 5. Limites
