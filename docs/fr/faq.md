@@ -1,5 +1,7 @@
 # FAQ
 
+## Outil 
+
 ### 1. Quels sont les objectifs du calculateur CO₂ ? 
 L’outil calculateur CO₂ open-source remplit les objectifs suivants :
 
@@ -72,6 +74,7 @@ Cliquez sur Documentation à tout moment pour obtenir des informations compléme
 
 Après avoir rempli l'espace Calculateur CO₂, vous êtes prête et prêt à utiliser les espaces Planificateur de projet CO₂ et Explorateur CO₂.
 
+
 ### 6. Quelle est la méthodologie employée pour les différents modules ? 
 Afin d’assurer une transparence totale, chaque méthodologie de chaque module est référencée dans l'onglet Spécification des modules. 
 
@@ -95,7 +98,6 @@ Oui, dans l’outil calculateur CO₂, deux rôles sont attribués aux utilisate
 
 
 ### 2. Je souhaiterais modifier un module, comment faire ?
-
 Il faut bien veiller à cliquer sur « Éditer le module » afin de modifier un module. 
 
 Si vous êtes attribuée au rôle d’Utilisateur·rice principal·e, vous avez accès à tous les modules. Les modules suivants peuvent être modifier :
@@ -122,7 +124,113 @@ Seuls certains modules, tels que Personnel, Émissions de procédés, Clouds ext
 Dans l’espace calculateur CO₂, il n’est pas possible de modifier ni de supprimer les champs déjà remplis. Cependant, il est possible d’ajouter des données soit via l’onglet « ajouter » soit via l’import d’un fichier CSV (uniquement disponible pour les utilisatrices et utilisateurs principaux). Dans cet espace, il est possible d’ajouter des données dans tous les modules sauf pour le module **Infrastructures de recherche EPFL**.
 
 Si vous constatez une erreur, une note peut être ajoutée à chaque ligne de donnée et vous pouvez contacter directement l’équipe dédiée à l’adresse suivante [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch). 
- 
+
+### 5. Module Personnel
+
+#### 5.1 Comment est-ce que le calculateur a eu accès aux données Personnel de mon unité ?
+
+Pour faciliter l’utilisation du calculateur CO₂, la majorité des modules ont été pré-remplies. Les données Personnel proviennent des bases de données internes.
+
+
+#### 5.2 Quelles sont les catégories utilisées ? 
+
+Les catégories utilisées se réfèrent au catalogue des branches SIUS des hautes écoles universitaires. Plus d’information ici [https://www.bfs.admin.ch/bfs/fr.assetdetail.18184339.html](https://www.bfs.admin.ch/bfs/fr.assetdetail.18184339.html). 
+
+#### 5.3 Les étudiantes et étudiants ne figurent pas dans la liste, est-ce normal ?
+
+Oui, les étudiantes et étudiants de votre unité doivent être ajoutés manuellement en équivalent plein-temps (EPT). 
+
+#### 5.4 Un membre du personnel est parti au cours de l’année. Je ne peux pas supprimer la ligne que faire ? 
+
+Si vous constatez une erreur, une note peut être ajoutée à chaque ligne de donnée et vous pouvez contacter directement l’équipe dédiée à l’adresse suivante [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch). 
+
+#### 5.5 Où puis-je consulter la méthodologie relative au module ? 
+
+La methodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/).
+
+
+### 6. Module Émissions de procédés
+
+#### 6.1 J’utilise des procédures expérimentales qui ne sont pas listées ci-dessous, comment puis-je faire ?
+
+Si vous utilisez d’autres procédures expérimentales qui mènent a des fuites qui ne sont pas listées dans le calculateur, veuillez contacter [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch). 
+
+
+#### 6.2 Notre unité n'utilise pas d’émissions de procédés dans ses activités, dois-je remplir le module ?
+
+Non, si votre unité n’utilise pas d’émissions de procédés alors vous ne devez pas remplir ce module. 
+
+#### 6.3 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/processes/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/processes/).
+
+
+### 7. Module Bâtiments
+
+#### 7.1 Les données relatives à l’utilisation de mes locaux présentes des erreurs, comment puis-je les modifier ? 
+
+Les données relatives peuvent être modifiées directement dans le système source de l’EPFL.
+
+
+#### 7.2 Notre unité n'utilise pas de système de chauffage décentralisé dans ses activités, dois-je remplir le module ?
+
+Non, si votre unité n’utilise pas système de chauffage décentralisé dans ses activités alors vous ne devez pas remplir ce module.
+
+#### 7.3 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/building/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/building/).
+
+
+### 8. Module Équipement
+
+#### 8.1
+
+#### 8.2
+
+#### 8.3
+
+
+### 9. Module Clouds externes et IA
+
+#### 9.1 Je ne comprends pas bien ce que sont des services de clouds externes ? 
+
+Les services de clouds externes concernent l'utilisation commerciale de services numériques tels que le calcul et le stockage parmi les fournisseurs AWS, GCP, Azure, OVH, Huawei ou autre. 
+
+L'empreinte environnementale est calculé sur la base de ratio monétaire. Dans cette version, il n'est considéré que les services payants que vous utilisez. Si vous avez des offres (grants, etc.), informez le montant que vous avez consommé comme si vous auriez du le payer.
+
+#### 9.2 J’utilise de l’IA, mais je ne paie pas pour cela, est-ce que je dois l’ajouter ? 
+
+Oui même si vous ne payez pas de service d'IA externes, ce sous-module permet d'estimer l'empreinte carbone liée à l'utilisation de services d'IA externes tels que via la génération de textes, de codes ou d'images et selon sa fréquence. 
+
+#### 9.3 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/external-cloud/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/external-cloud/).
+
+### 10. Module Voyages professionnels
+
+#### 10.1
+
+#### 10.2
+
+#### 10.3
+
+### 11. Module Achats
+
+#### 11.1
+
+#### 11.2
+
+#### 11.3
+
+### 12. Module Infrastructures de recherche EPFL 
+
+#### 12.1
+
+#### 12.2
+
+#### 12.3
+
+
 
 ## Espace Planificateur de projet CO₂
 
