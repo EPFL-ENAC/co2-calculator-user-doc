@@ -6,7 +6,7 @@ L’utilisation des infrastructures de recherche EPFL fait partie des activités
 
 ### 2.	Données collectées
 
-#### *2.1 Espace calculateur CO₂*
+#### *2.1 Espace Calculateur CO₂*
 
 Les données collectées se réfèrent aux catégories d’émissions provenant des activités des infrastructures de recherches mentionnées ci-dessus calculées directement dans le calculateur avec quelques exceptions.
 
@@ -37,7 +37,7 @@ Comme le tarif est différencié pour les unités externes, un calcul est effect
 
 Les données nécessaires à ces calculs sont issues des données de facturation ou directement fournies par les infrastructures de recherche concernées.
 
-#### *2.2 Espace planificateur de projet CO₂*
+#### *2.2 Espace Planificateur de projet CO₂*
 
 ***Demande de financement***
 
@@ -48,7 +48,7 @@ Afin d’estimer l’empreinte carbone relative à l’utilisation des infrastru
 Pour les utilisatrices et utilisateurs principaux, les données du remontent automatiquement du calculateur CO₂. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des infrastructures de recherche et animaleries attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas et la saisie se fait manuellement. 
 
 
-#### *2.3 Espace explorateur CO₂*
+#### *2.3 Espace Explorateur CO₂*
 
 Afin d’explorer l’empreinte carbone du module Infrastructures de recherche EPFL, les utilisatrices et utilisateurs peuvent sélectionner les infrastructures de recherches et animaleries puis saisir leur utilisation en termes de coûts, heures d’utilisation ou nombre d’hébergements.
 
@@ -108,7 +108,7 @@ Pour consulter la méthodologie de chaque catégorie considérée pour le calcul
 - ***[Équipements](./equipment.md#methodologie)*** 
 - ***[Achats](./purchases.md#methodologie)*** 
 
-Dans l’espace planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux infrastructures de recherche et animaleries attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque infrastructure de recherche et animalerie.
+Dans l’espace Planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux infrastructures de recherche et animaleries attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque infrastructure de recherche et animalerie.
 
 
 ### 5. Limites
