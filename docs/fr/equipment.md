@@ -2,7 +2,7 @@
 Des milliers d’équipements scientifiques, informatiques et autres sont répertoriés à l’EPFL dans l’inventaire des équipements. L’analyse de cette liste, combinée aux données de consommation électrique associées à leur utilisation, permet d’estimer les émissions de gaz à effet de serre liées à leur consommation électrique (Scope 2).
 
 ### 2.	Données collectées
-#### *2.1 Espace calculateur CO₂*
+#### *2.1 Espace Calculateur CO₂*
 
 L’inventaire des équipements disponible sur le portail de gestion interne du personnel permet de connaitre la liste des équipements scientifiques (>10’000 CHF), des équipements IT et autres par unité.  
 
@@ -12,7 +12,7 @@ Les colonnes suivantes sont saisies manuellement :
 - Sous-classe : La saisie de la sous-classe pour les équipements est faite manuellement là où cette information est nécessaire, notamment lorsque la ligne s’affiche en beige. 
 - Classe : La mise à jour de la classe est possible si celle de votre inventaire n'est pas appropriée. Attention cela ne mettra pas à jour l’inventaire.
 
-#### *2.2 Espace planificateur de projet CO₂*
+#### *2.2 Espace Planificateur de projet CO₂*
 
 ***Demande de financement***
 
@@ -26,7 +26,7 @@ Pour les utilisatrices et utilisateurs principaux, les données du module Équip
 
 Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas automatiquement. Les informations relatives aux équipements doivent donc être saisies manuellement.
 
-#### *2.3 Espace explorateur CO₂*
+#### *2.3 Espace Explorateur CO₂*
 
 Afin d’explorer l’empreinte carbone du module Équipements, les utilisatrices et utilisateurs peuvent saisir manuellement les données liées à l’utilisation des équipements. 
 
@@ -52,7 +52,7 @@ Où :
 - $H_{equipment,active}$  et $H_{equipment,standby}$ : temps d’utilisations en mode active et standby pour l’équipement en h/week déterminée par l’utilisateur·rice Weeksperyear : 47 semaines travaillées par an
 - $EF_{electricity}$ : facteur d’émission 0.097 kg CO₂-eq/kWh (BAFU, 2025)
 
-Dans l’espace planificateur de projet CO₂, dans la section demande de financement et détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, soit un pourcentage de référence pour chaque ligne d’équipement, soit un pourcentage global applicable à l’ensemble du module. Ces pourcentages permettent d’estimer la part des émissions des équipements attribuable au projet. 
+Dans l’espace Planificateur de projet CO₂, dans la section demande de financement et détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, soit un pourcentage de référence pour chaque ligne d’équipement, soit un pourcentage global applicable à l’ensemble du module. Ces pourcentages permettent d’estimer la part des émissions des équipements attribuable au projet. 
 
 
 ### 5. Limites
