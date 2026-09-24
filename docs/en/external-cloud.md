@@ -83,9 +83,7 @@ Where:
 - $Frequency_{AI_{provider,type}}$: number of uses per FTE per day for a type of service provided by a provider. This is the frequency of use per FTE per day reported by users multiplied by 235 (5 days × 47 working weeks).
 - $EF_{AI_{provider,type}}$: emission factor for the use of a service type provided by a supplier in kg CO₂-eq).
 
-In the CO₂ Project planner, under the Grant proposal and Detailed per year sections, principal users can define, for each year, a reference percentage to estimate the share of emissions associated with external cloud and AI services attributable to the project.
-
-The carbon footprint associated with these sub-modules within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each external cloud or AI service.
+In the CO₂ Project planner, under the Grant proposal and Detailed per year sections, principal users can define, for each year, a reference percentage to estimate the share of emissions associated with external cloud and AI services attributable to the project. The carbon footprint associated with these sub-modules within the project is calculated by applying this reference percentage to the corresponding emissions (in kg CO₂-eq) for each external cloud or AI service.
 
 
 ### 5. Limitations
