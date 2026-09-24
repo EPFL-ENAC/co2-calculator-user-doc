@@ -226,8 +226,13 @@ The environmental footprint is calculated using monetary ratios. In this version
 #### 9.2 I use AI, but my unit does not pay for it. Should I add it?
  
 Yes. Even if your unit does not pay for external AI services, this sub-module is intended to estimate the carbon footprint associated with the use of external AI services for generating text, code, or images, based on usage frequency.
+
+#### 9.3 I am a standard user and would like to modify the module, but it has already been validated by a principal user. What should I do?
  
-#### 9.3 Where can I find the methodology for this module?
+You can ask your unit manager to switch the module back to "Edit" mode so that you can add or modify your personal data. By clicking on "Request edit mode", a window will open with an email template addressed to the unit manager. Once the changes have been made, the module will need to be validated again by the unit manager or by a principal user.
+
+ 
+#### 9.4 Where can I find the methodology for this module?
  
 The methodology is available here: [https://epfl-enac.github.io/co2-calculator-user-doc/external-cloud/](https://epfl-enac.github.io/co2-calculator-user-doc/external-cloud/).
  
@@ -243,8 +248,12 @@ Professional train travel must also be entered manually.
 #### 10.2 Some rows appear in orange. What does that mean?
  
 When rows in the air and train professional travel tables appear in orange, this indicates trips undertaken by individuals outside your unit but paid for by your unit.
+
+#### 10.3 I am a standard user and would like to modify the module, but it has already been validated by a principal user. What should I do?
  
-#### 10.3 Where can I find the methodology for this module?
+You can ask your unit manager to switch the module back to "Edit" mode so that you can add or modify your personal data. By clicking on "Request edit mode", a window will open with an email template addressed to the unit manager. Once the changes have been made, the module will need to be validated again by the unit manager or by a principal user.
+ 
+#### 10.4 Where can I find the methodology for this module?
  
 The methodology is available here: [https://epfl-enac.github.io/co2-calculator-user-doc/professional-travel/](https://epfl-enac.github.io/co2-calculator-user-doc/professional-travel/).
  
@@ -291,7 +300,31 @@ No. Within the CO₂ Calculator workspace, data in this module cannot be modifie
  
 The methodology is available here: [https://epfl-enac.github.io/co2-calculator-user-doc/services/](https://epfl-enac.github.io/co2-calculator-user-doc/services/).
  
+### 13. Results
  
+#### 13.1 I am a standard user. Can I view my unit carbon footprint results?
+ 
+Yes. As a standard user, you can view your unit carbon footprint results on the "Results" page, provided that the modules have been validated by the principal users.
+ 
+#### 13.2 I cannot see my unit full carbon footprint. Is this normal?
+
+Yes. Principal users must validate all modules before the complete carbon footprint results for your unit can be displayed.
+ 
+#### 13.3 I only want to view part of my unit carbon footprint. How can I do this?
+ 
+If you only want to view part of your unit carbon footprint, you can uncheck the **Additional categories** and **Research facilities** options under "Display Filters" on the right-hand side.
+ 
+You can also go directly to a module and switch it to Edit mode if you do not want it to be displayed in the chart.
+ 
+#### 13.4 Is it possible to visualize results across multiple years?
+ 
+Yes. You can click on "Compare Years" to visualize results across multiple years, provided that the modules have been validated.
+ 
+#### 13.5 Can other units access my carbon footprint results?
+ 
+No. The tool has been designed so that members of a unit can only access the results of their own unit.
+
+ 
 ## CO₂ Project Planner Workspace
  
 ### 1. What is the difference between the "grant proposal" and "detailed per year" sections?
@@ -331,6 +364,4 @@ For example, if a user enters a global equipment usage percentage of 30% for a p
 ### 1. Is it possible to save my data?
  
 No. It is not possible to save explorations, but you can export a report and share it with members of your unit.
-
-
 
