@@ -44,7 +44,7 @@ Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de c
 **4. Naviguez et saisissez vos données**
 
 - Utilisez le menu latéral à gauche pour naviguer dans l’outil.
-- Progressez module par module : cliquez sur Valider ou Modifier, puis consultez, complétez ou saisissez vos données.
+- Progressez module par module : cliquez sur **Valider** ou **Éditer**, puis consultez, complétez ou saisissez vos données.
 - Lisez attentivement la description de chaque module afin d’en comprendre le fonctionnement.
 
 **Les modules à consulter :**
@@ -63,14 +63,14 @@ Si vous rencontrez des bugs avec la connexion de l’outil, il est possible de c
 - Émissions de procédés
 - Clouds externes et IA
 
-Les utilisatrices et utilisateurs standards doivent vérifier leurs données dans les modules Voyages professionnels et Clouds externes et IA.
+Les utilisatrices et utilisateurs standards doivent vérifier leurs données dans les modules **Voyages professionnels** et **Clouds externes et IA**.
 
-Cliquez sur Documentation à tout moment pour obtenir des informations complémentaires et des ressources utiles.
+Cliquez sur **Documentation** à tout moment pour obtenir des informations complémentaires et des ressources utiles.
 
 **5. Consultez les résultats et planifiez votre projet**
 - Une fois tous les modules validés, les résultats de votre unités sont visibles dans la page résultats et peuvent être consultés par toutes et tous les membres de votre unité. 
 - Définissez votre trajectoire ambitieuse vers 2040.
-- Consultez la section "Documentation" pour obtenir davantage d’informations sur le fonctionnement de l’outil.
+- Consultez la section **Documentation** pour obtenir davantage d’informations sur le fonctionnement de l’outil.
 
 Après avoir rempli l'espace Calculateur CO₂, vous êtes prête et prêt à utiliser les espaces Planificateur de projet CO₂ et Explorateur CO₂.
 
@@ -91,8 +91,8 @@ Afin d’assurer une transparence totale, chaque méthodologie de chaque module 
 ### 1. Je n’arrive pas à accéder à certains modules, est-ce normal ?
 Oui, dans l’outil calculateur CO₂, deux rôles sont attribués aux utilisateur·rice·s : 
 
-- Utilisateur·rice principal·e : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e directement dans le système d'accréditation de l'EPFL. 
-- Utilisateur·rice standard : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés.
+-**Utilisateur·rice principal·e** : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e directement dans le système d'accréditation de l'EPFL. 
+- **Utilisateur·rice standard** : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés.
 
 [Plus d’informations sur les rôles dans le calculateur CO₂](https://epfl-enac.github.io/co2-calculator-back-office-doc/roles/)
 
@@ -112,7 +112,7 @@ Si vous êtes attribuée au rôle d’Utilisateur·rice principal·e, vous avez 
 
 Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculées dans l’outil pour votre unité, veuillez-vous adresser à l’équipe dédiée ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
 
-Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules Clouds externes et IA et Voyages professionnels et pouvez les consulter et ajouter des données. 
+Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules **Clouds externes et IA** et **Voyages professionnels** et pouvez les consulter et ajouter des données. 
 
 ### 3. Quand j’accède à certains modules, ils sont déjà remplis, comment cela se fait ? 
 L’outil calculateur CO₂ est conçu pour être le plus simple d’utilisation possible pour les utilisateur·rice·s internes EPFL. Grâce aux nombreuses collaborations internes, les unités n’ont pas besoin de saisir manuellement leurs données car elles sont remontées automatiquement dans l’interface back-office par les gestionnaires métiers. 
@@ -146,7 +146,9 @@ Si vous constatez une erreur, une note peut être ajoutée à chaque ligne de do
 
 #### 5.5 Où puis-je consulter la méthodologie relative au module ? 
 
-La methodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/).
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/headcount/).
+
+Par ailleurs, la méthodologie relative au module des **catégories additionnelles** est consultable ici : [https://epfl-enac.github.io/co2-calculator-user-doc/fr/additional-categories/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/additional-categories/). 
 
 
 ### 6. Module Émissions de procédés
@@ -169,27 +171,41 @@ La méthodologie relative au module est consultable ici [https://epfl-enac.githu
 
 #### 7.1 Les données relatives à l’utilisation de mes locaux présentes des erreurs, comment puis-je les modifier ? 
 
-Les données relatives peuvent être modifiées directement dans le système source de l’EPFL.
+Les données relatives peuvent être modifiées directement dans le système source de l’EPFL. Cette mise à jour sera ensuite reflétée l’année d’après, quand les données sources auront été emportées à nouveau dans le Calculateur CO₂. 
 
 
 #### 7.2 Notre unité n'utilise pas de système de chauffage décentralisé dans ses activités, dois-je remplir le module ?
 
-Non, si votre unité n’utilise pas système de chauffage décentralisé dans ses activités alors vous ne devez pas remplir ce module.
+La plupart des unités n’ont pas de chauffage fossile décentralisé et ne doivent pas remplir ce module. 
 
-#### 7.3 Où puis-je consulter la méthodologie relative au module ? 
+#### 7.3 Je ne comprends pas commente est faite la répartition de la consommation électrique entre le chauffage, refroidissement, ventilation et éclairage.
+
+Étant donné qu’il n’y a pas de compteur qui différencie les types de consommations électriques pour tous les bâtiments, cette répartition est faite sur la base de quelques bâtiments pour lesquels ces données existent et dont les données ont été extrapolées à d’autre bâtiments avec des types de locaux similaires. 
+
+
+#### 7.4 Où puis-je consulter la méthodologie relative au module ? 
 
 La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/building/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/building/).
 
 
 ### 8. Module Équipement
 
-#### 8.1
-
-#### 8.2 Des lignes apparaissent en orange, qu'est-ce que cela signifie ? 
+#### 8.1 Des lignes apparaissent en orange, qu'est-ce que cela signifie ? 
 
 Si des lignes apparaissent en orange dans le tableau, cela signifie que la sous-classe de l'équipement doit être complétée. 
 
-#### 8.3
+#### 8.2 La puissance active et/ou standby indiquée ne correspond pas à celle de mon équipement. 
+
+Les puissances ont été définies comme des moyennes génériques par classe ou par sous-classe, donc cela peut arriver qu’elles ne correspondent pas à votre équipement spécifique. Dans ce cas-là, merci de cliquer sur l’icône "Commenter" dans les actions à droite du tableau, aller dans l’onglet "Demande de modification de puissance", remplir les informations nécessaires et envoyer la demande. L’équipe durabilité fera ensuite le nécessaire pour mettre à jour la puissance pour votre équipement ou pour la classe/sous-classe entière.
+
+
+#### 8.3 Je ne connais pas les valeurd’usage actif et standby de mes équipements
+
+Vous pouvez mettre des hypothèses conservatrices, le but est de renseigner ces données au mieux de vos connaissances mais de passer maximum 1-2 heures à remplir ces données pour laisser du temps pour la suite de la démarche. 
+
+#### 8.4 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/equipment/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/equipment/).
 
 
 ### 9. Module Clouds externes et IA
@@ -271,7 +287,7 @@ La méthodologie relative au module est consultable ici [https://epfl-enac.githu
 
 ### 1. Quelle est la différence entre les sections “demande de financement” et le “détail par année” ?
 
-La section demande de financement permet d'estimer l'empreinte carbone de projet liée à une demande de financement. Les utilisatrices et utilisateurs principaux peuvent bénéficier de la remontée partielle des modules remplis et validés dans l'espace Calculateur CO₂, notamment pour les modules suivants :
+La section **demande de financement** permet d'estimer l'empreinte carbone de projet liée à une demande de financement. Les utilisatrices et utilisateurs principaux peuvent bénéficier de la remontée partielle des modules remplis et validés dans l'espace Calculateur CO₂, notamment pour les modules suivants :
 
 - Emissions de procédés
 - Bâtiments
@@ -280,13 +296,13 @@ La section demande de financement permet d'estimer l'empreinte carbone de projet
 
 Pour les utilisatrices et utilisateurs standards, les données doivent être saisies manuellement pour des raisons de protection des données. 
 
-La section détail par année permet d'avoir l'estimation carbone d'un projet sur plusieurs année avec le détail par année de projet. Cette section bénéficie de la remontée des données du calculateur CO₂ pour les utilisatrices et utilisateurs principaux. Les utilisatrices et utilisateurs standards doivent saisir le détail par année de projet manuellement. 
+La section **détail par année** permet d'avoir l'estimation carbone d'un projet sur plusieurs année avec le détail par année de projet. Cette section bénéficie de la remontée des données du calculateur CO₂ pour les utilisatrices et utilisateurs principaux. Les utilisatrices et utilisateurs standards doivent saisir le détail par année de projet manuellement. 
 
 ### 2. Est-ce possible de rendre le projet visible pour les membres de mon unité ?
 
 Pour les projets liés à des demandes de financement, il est possible de le rendre visible pour tous les membres de votre unité (utilisatrices et utilisateurs principaux et standards) en cochant la case "visible pour tous les membres du laboratoires".
 
-Cependant, pour les projets de la section "détail par année", il n'est pas possible de les rendre visible. Vous pouvez exporter un rapport et le partager aux membres de l'unité souhaité. 
+Cependant, pour les projets de la section **détail par année**, il n'est pas possible de les rendre visible. Vous pouvez exporter un rapport et le partager aux membres de l'unité souhaité. 
 
 
 ### 3. Module Equipement - spécification  sur le pourcentage de l'année de référence 
