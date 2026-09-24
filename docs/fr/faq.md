@@ -163,7 +163,8 @@ Si vous utilisez d’autres procédures expérimentales qui mènent a des fuites
 
 #### 6.2 Notre unité n'utilise pas d’émissions de procédés dans ses activités, dois-je remplir le module ?
 
-Non, si votre unité n’utilise pas d’émissions de procédés alors vous ne devez pas remplir ce module. 
+Non, si votre unité n’émet pas de gaz à effet de serre lors de ses activités de laboratoire, alors vous ne devez pas remplir ce module.
+
 
 #### 6.3 Où puis-je consulter la méthodologie relative au module ? 
 
