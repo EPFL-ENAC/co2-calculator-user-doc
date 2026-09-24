@@ -94,6 +94,7 @@ Afin d’assurer une transparence totale, chaque méthodologie de chaque module 
 Oui, dans l’outil calculateur CO₂, deux rôles sont attribués aux utilisateur·rice·s : 
 
 -**Utilisateur·rice principal·e** : La personne responsable de l’unité est la seule qui a un accès entier à l’outil. Elle peut voir l’ensemble de son unité et a accès à tous les modules. La personne responsable de l’unité octroie explicitement les droits d’accès au personnel de son unité. Elle peut octroyer à 1 ou plusieurs personnes la délégation du rôle Utilisateur·rice principal·e directement dans le système d'accréditation de l'EPFL. 
+
 - **Utilisateur·rice standard** : Pour la partie saisie de données, le reste des membres de l’unité peut avoir uniquement l’accès au module Cloud externes et IA et Voyages professionnels et voir uniquement ses propres déplacements en avion et/ ou en train. Ces utilisateur·rices pourront également visualiser les résultats de l’unité de manière agrégés.
 
 [Plus d’informations sur les rôles dans le calculateur CO₂](https://epfl-enac.github.io/co2-calculator-back-office-doc/roles/)
