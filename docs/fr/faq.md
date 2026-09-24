@@ -110,7 +110,7 @@ Si vous êtes attribuée au rôle d’Utilisateur·rice principal·e, vous avez 
 - Voyages professionnels
 - Achats
 
-Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculées dans l’outil pour votre unité, veuillez-vous adresser à l’équipe de Durabilité ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
+Le module Infrastructures de recherche EPFL ne peut seulement être consulté et validé. Si vous constatez des erreurs importantes par rapport aux données remontées et calculées dans l’outil pour votre unité, veuillez-vous adresser à l’équipe dédiée ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)). 
 
 Si vous êtes attribuée au rôle d’Utilisateur·rice standard, vous avez seulement accès aux modules Clouds externes et IA et Voyages professionnels et pouvez les consulter et ajouter des données. 
 
@@ -151,7 +151,7 @@ La methodologie relative au module est consultable ici [https://epfl-enac.github
 
 ### 6. Module Émissions de procédés
 
-#### 6.1 J’utilise des procédures expérimentales qui ne sont pas listées ci-dessous, comment puis-je faire ?
+#### 6.1 Notre unité utilise des procédures expérimentales qui ne sont pas listées ci-dessous, comment pouvons-nous faire ?
 
 Si vous utilisez d’autres procédures expérimentales qui mènent a des fuites qui ne sont pas listées dans le calculateur, veuillez contacter [co2calculator@epfl.ch](mailto:co2calculator@epfl.ch). 
 
@@ -185,7 +185,9 @@ La méthodologie relative au module est consultable ici [https://epfl-enac.githu
 
 #### 8.1
 
-#### 8.2
+#### 8.2 Des lignes apparaissent en orange, qu'est-ce que cela signifie ? 
+
+Si des lignes apparaissent en orange dans le tableau, cela signifie que la sous-classe de l'équipement doit être complétée. 
 
 #### 8.3
 
@@ -198,7 +200,7 @@ Les services de clouds externes concernent l'utilisation commerciale de services
 
 L'empreinte environnementale est calculé sur la base de ratio monétaire. Dans cette version, il n'est considéré que les services payants que vous utilisez. Si vous avez des offres (grants, etc.), informez le montant que vous avez consommé comme si vous auriez du le payer.
 
-#### 9.2 J’utilise de l’IA, mais je ne paie pas pour cela, est-ce que je dois l’ajouter ? 
+#### 9.2 J’utilise de l’IA, mais l'unité ne paie pas pour cela, est-ce que je dois l’ajouter ? 
 
 Oui même si vous ne payez pas de service d'IA externes, ce sous-module permet d'estimer l'empreinte carbone liée à l'utilisation de services d'IA externes tels que via la génération de textes, de codes ou d'images et selon sa fréquence. 
 
@@ -208,27 +210,60 @@ La méthodologie relative au module est consultable ici [https://epfl-enac.githu
 
 ### 10. Module Voyages professionnels
 
-#### 10.1
+#### 10.1 Des données concernant les voyages professionnels de l'unité manquent, que faire ?
 
-#### 10.2
+Les voyages professionnels effectués en avion qui apparaissent dans l'unité proviennent des données de l'agence de voyage central EPFL. Si l'unité a réservé des vols sans passer par l'agence de voyage, alors ces voyages n'apparaitront et doivent être ajoutés manuellement. Les voyages professionnels effectués en train doivent également être ajoutés manuellement. 
 
-#### 10.3
+
+#### 10.2 Des lignes apparaissent en orange, qu'est-ce que cela signifie ? 
+
+Lorsque des lignes dans le tableau des voyages professionnels en avion et en train apparaissent en orange, cela concernent des voyages professionnels effectués par des personnes externes à votre unité mais qui ont été payés par votre unité. 
+
+
+#### 10.3  Où puis-je consulter la méthodologie relative au module ?
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/professional-travel/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/professional-travel/).
+
 
 ### 11. Module Achats
 
-#### 11.1
+#### 11.1 D'où proviennent les données des achats de l'unité ? 
 
-#### 11.2
+Pour chaque achat, les informations sont automatiquement intégrées à partir des factures payées, liées au centre financier de chaque unité.
 
-#### 11.3
+#### 11.2 Des données d'achat de l'unité ne figurent pas dans les listes, puis-je en ajouter ?
+
+Oui, il est tout à fait possible d'ajouter des données relatives aux achats de l'unité par catégorie : 
+
+- Équipements scientifiques
+- Équipements informatiques
+- Consommables et accessoires
+- Produits biologiques, chimiques et gazeux
+- Services
+- Véhicules
+- Autres achats
+- Achats centralisés
+
+#### 11.3 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/purchases/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/purchases/).
 
 ### 12. Module Infrastructures de recherche EPFL 
 
-#### 12.1
+#### 12.1 Notre unité utilise des infrastructures de recherche hors EPFL, comment pouvons-nous les ajouter ?
 
-#### 12.2
+Si votre unité utilise des infrastructures de recherche hors EPFL, il n'est malheureusement pas possible de les ajouter. Les données collectées concernent uniquement l'utilisation des infrastructures de recherche EPFL. Nous travaillons cependant à intégrer les infrastructures de recherche présentes au sein des campus associés. 
 
-#### 12.3
+N'hésitez pas à contacter l’équipe dédiée ([co2calculator@epfl.ch](mailto:co2calculator@epfl.ch)) si vous remarquez des infrastructures de recherche pertinentes à intégrer dans le calculateur CO₂. 
+
+#### 12.2 Puis-je modifier ou ajouter des données ?
+
+Pour ce module, il n'est pas possible de modifier ni d'ajouter des données dans l'espace calculateur CO₂. 
+
+#### 12.3 Où puis-je consulter la méthodologie relative au module ? 
+
+La méthodologie relative au module est consultable ici [https://epfl-enac.github.io/co2-calculator-user-doc/fr/services/](https://epfl-enac.github.io/co2-calculator-user-doc/fr/services/).
+
 
 
 
