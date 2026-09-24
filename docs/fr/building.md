@@ -8,13 +8,13 @@ Le module **Bâtiments** vise à capturer ces émissions en lien avec l’énerg
 
 ### 2.	Données collectées
 
-#### *2.1 Espace calculateur CO₂*
+#### *2.1 Espace Calculateur CO₂*
 
 - ***Sous-module Locaux*** : pour ce sous-module, la base de données interne relative aux surfaces des locaux fournit la liste des locaux utilisés par une unité et leur surface. Les données de consommation d’énergie (en kWh/m2) et des typologies de salle (normes DIN/SIA) sont fournies par la Vice-présidence pour les opérations à l’EPFL (VPO). Les données de consommation sont ensuite redistribuées en fonction de la typologie des salles utilisées par une unité. 
 
 - ***Sous-module Émissions de combustion d’énergie*** : les données de consommation d’énergie thermique centralisée pour le sous-module Émissions de combustion d’énergie sont saisies manuellement.
 
-#### *2.2 Espace planificateur de projet CO₂*
+#### *2.2 Espace Planificateur de projet CO₂*
 
 ***Demande de financement***
 
@@ -24,7 +24,7 @@ Les données relatives à l’utilisation des bâtiments doivent être saisies m
 
 Pour les utilisatrices et utilisateurs principaux, les données du sous-module Locaux remontent automatiquement du calculateur CO₂. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions de procédés attribuable au projet. Les données liées aux émissions de combustion d’énergie sont saisies manuellement à moins que les utilisatrices et utilisateurs principaux aient saisis manuellement des données dans le calculateur CO₂. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas et la saisie pour les deux-sous modules se fait manuellement.
 
-#### *2.3 Espace explorateur CO₂*
+#### *2.3 Espace Explorateur CO₂*
 
 Afin d’explorer l’empreinte carbone du module Bâtiments, les utilisatrices et utilisateurs peuvent saisir manuellement les données liées à l’utilisation des locaux ou aux émissions de combustion d’énergie.
 
@@ -84,7 +84,7 @@ Où :
 - $Q_{{fuel}_{type}}$ : quantité de combustibles utilisée pour une source de chauffage non-centralisé en kg ou kWh saisie manuellement.
 - $EF_{{fuel}_{type}}$ : facteur d’émission de chaque combustible en kg CO₂-eq/kWh ou kg CO₂-ep/kg.
 
-Dans l’espace planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions du sous-module Locaux et Émissions de combustion d’énergie attribuable au projet. L’empreinte carbone associée aux sous-modules Locaux et Émissions de combustion d’énergie dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque local ou source de combustion d’énergie.
+Dans l’espace Planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions du sous-module Locaux et Émissions de combustion d’énergie attribuable au projet. L’empreinte carbone associée aux sous-modules *Locaux* et *Émissions de combustion d’énergie* dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque local ou source de combustion d’énergie.
 
 ### 5. Limites
 - L’occupation en m2 donnée par la base de données interne relative aux surfaces des locaux peut ne pas être représentative de la réalité en cas de mutualisation ou prêt de locaux.
