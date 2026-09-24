@@ -170,7 +170,7 @@ If you use experimental procedures that may result in emissions not covered by t
  
 #### 6.2 Our unit does not use process emissions. Do I need to complete this module?
  
-No. If your unit does not generate process emissions, there is no need to complete this module.
+No, if your unit does not emit greenhouse gases during its laboratory activities, then you do not need to complete this section.
  
 #### 6.3 Where can I find the methodology for this module?
  
