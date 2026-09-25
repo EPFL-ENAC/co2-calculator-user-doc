@@ -1,16 +1,16 @@
 ### 1.	Contexte 
 L’empreinte carbone considérée dans le module **Bâtiments** comprend l’impact lié aux deux sous modules suivants : 
 
-- Le sous-module *Locaux* couvre les émissions relatives au chauffage, climatisation, ventilation et éclairage des différentes surfaces de bâtiments liées aux données entrées dans la base de données interne relative aux surfaces des locaux.
+- Le sous-module *Locaux* couvre les émissions relatives au chauffage, climatisation, ventilation et éclairage des différents locaux utilisés par l'unité.
 - Le sous-module *Émissions de combustion d’énergie* est disponible pour compléter avec d'autres émissions de combustion d'énergie dans le cas où une unité utilise une source d'énergie non-centralisée. Les émissions liées à la combustion d'énergie dans les laboratoires proviennent principalement de la combustion sur place de combustibles destinés au chauffage, à la ventilation, à l'eau chaude et à des équipements spécialisés.
 
-Le module **Bâtiments** vise à capturer ces émissions en lien avec l’énergie. Le sous-module *Locaux* concerne les émissions indirectes et donc le scope 2. Le sous-module *Émissions de combustion d’énergie* concerne les émissions directes et donc le scope 1.
+Le module **Bâtiments** vise à capturer ces émissions en lien avec l’énergie. Le sous-module *Locaux* concerne principalement les émissions indirectes liées à l'électricité et donc le scope 2. Le sous-module *Émissions de combustion d’énergie* concerne les émissions directes et donc le scope 1.
 
 ### 2.	Données collectées
 
 #### *2.1 Espace Calculateur CO₂*
 
-- ***Sous-module Locaux*** : pour ce sous-module, la base de données interne relative aux surfaces des locaux fournit la liste des locaux utilisés par une unité et leur surface. Les données de consommation d’énergie (en kWh/m2) et des typologies de salle (normes DIN/SIA) sont fournies par la Vice-présidence pour les opérations à l’EPFL (VPO). Les données de consommation sont ensuite redistribuées en fonction de la typologie des salles utilisées par une unité. 
+- ***Sous-module Locaux*** : pour ce sous-module, la base de données interne relative aux surfaces des locaux fournit la liste des locaux utilisés par une unité et leur surface. Les hypothèses relatives à la consommation d'énergie (kWh/m²) varient selon le bâtiment et le type de salle. Ces estimations sont établies à partir des informations fournies par la Vice-présidence des opérations de l'EPFL (VPO), notamment la consommation totale d'énergie du campus, la consommation totale d'énergie de certains bâtiments et les inventaires techniques détaillés de certains bâtiments, qui servent ensuite à extrapoler des hypothèses pour les autres.
 
 - ***Sous-module Émissions de combustion d’énergie*** : les données de consommation d’énergie thermique centralisée pour le sous-module Émissions de combustion d’énergie sont saisies manuellement.
 
@@ -51,7 +51,8 @@ L’empreinte carbone de chaque local $CF_{rooms}$ est calculée comme le produi
 
 $$
 CF_{rooms} = Surface \cdot \left(
-Cons_{heating, building, room_{type}} +
+\left( Cons_{heating, building, room_{type}}  \cdot conversion_factor
+\right)+
 Cons_{cooling, building, room_{type}} +
 Cons_{ventilation, building, room_{type}} +
 Cons_{lighting, building, room_{type}}
@@ -66,7 +67,8 @@ Où :
 - $Cons_{heating, building, room_{type}}$
 - $Cons_{cooling, building, room_{type}}$
 - $Cons_{ventilation, building, room_{type}}$
-- $Cons_{lighting, building, room_{type}}$ : consommation électrique pour le chauffage, refroidissement, ventilation et éclairage du local (kWh/m²), extrapolée à partir des données de la VPO, selon le bâtiment et le type de salle  
+- $Cons_{lighting, building, room_{type}}$ : consommation électrique pour le chauffage, refroidissement, ventilation et éclairage du local (kWh/m²), extrapolée à partir des données de la VPO, selon le bâtiment et le type de salle
+- $conversion_factor$: coefficient de conversion spécifique utilisé lorsque le chauffage du bâtiment est thermique et non électrique.
 - $EF_{electricity}$ : facteur d’émission de l’électricité (0.097 kg CO₂-eq/kWh, BAFU, 2025)
   
 
@@ -88,7 +90,7 @@ Dans l’espace Planificateur de projet CO₂, dans la section détail par anné
 
 ### 5. Limites
 - L’occupation en m2 donnée par la base de données interne relative aux surfaces des locaux peut ne pas être représentative de la réalité en cas de mutualisation ou prêt de locaux.
-- La consommation électrique pour le chauffage, refroidissement, ventilation et éclairage des locaux est extrapolée à partir d’une valeur unique de consommation par bâtiment fournie par la VPO pour déduire une valeur spécifique par utilisation (chauffage, refroidissement, ventilation et éclairage) et par type de local (office, miscellenious, laboratories, archives, libraries ou auditorium) basée sur la norme SIA.
+- La consommation électrique pour le chauffage, refroidissement, ventilation et éclairage des locaux est extrapolée à partir de la consommation totale par bâtiment fournie par la VPO. Ces données sont combinées avec les inventaires techniques spécifiques à certains bâtiments afin de déterminer une valeur pour chaque usage (chauffage, climatisation, ventilation et éclairage) et pour chaque type de pièce (bureau, locaux divers, laboratoire, archives, bibliothèque ou auditorium).
 - Le facteur d’émission 0.097 kg CO₂-eq/kWh représente une moyenne annuelle suisse, et non du mix électrique au moment de l’utilisation de l’équipement.
 - La consommation de combustibles pour estimer les émissions de combustion d’énergie d’un système de chauffage non-centralisé doit être saisie manuellement. La qualité des résultats dépend donc de la qualité de cette donnée d’entrée.
   
@@ -96,7 +98,6 @@ Dans l’espace Planificateur de projet CO₂, dans la section détail par anné
 - Base de données interne relative aux surfaces des locaux Labos1point5 : [Facteurs d'emission - version de juin 2021](https://apps.labos1point5.org/static/carbon/FacteursEmission_GES1point5_Juin2021.pdf) et [Facteurs d'emission biens et services - version de janvier 2022](https://apps.labos1point5.org/static/carbon/FacteursEmission_BiensEtServices_janvier2022_FR.pdf). Pour les biens et services vous pouvez également consulter une discussion plus détaillée dans [De Paepe 2023].
 - Corporate Footprint Calculator v 1.0, [https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator](https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator)
 - BAFU 2025, [https://nexus.openlca.org/database/BAFU](https://nexus.openlca.org/database/BAFU)
-- Norme SIA: [https://www.bak.admin.ch/bak/fr/home/baukultur/qualitaet/normen/sia-normen.html](https://www.bak.admin.ch/bak/fr/home/baukultur/qualitaet/normen/sia-normen.html)
 
 
 ### 7. Annexe
