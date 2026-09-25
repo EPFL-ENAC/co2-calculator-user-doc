@@ -49,7 +49,7 @@ The carbon footprint of each room $CF_{rooms}$ is calculated as the product of t
 
 $$
 CF_{rooms} = Surface \cdot \left(
-\left( Cons_{heating, building, room_{type}}  \cdot conversion_factor
+\left( Cons_{heating, building, room_{type}}  \cdot conversion_{factor}
 \right)+
 Cons_{cooling, building, room_{type}} +
 Cons_{ventilation, building, room_{type}} +
