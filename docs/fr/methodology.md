@@ -92,13 +92,16 @@ En particulier, un résumé en haut de la page, composé de trois encadrés qui 
 Plusieurs graphes de synthèse :
 
 - Un diagramme en barres présentant les totaux par catégorie. Les résultats y sont visualisés à la fois par catégorie et par scope ;
-<img width="1382" height="840" alt="module-carbon-footprint-2026-09-25T08-28-18-965Z" src="https://github.com/user-attachments/assets/d75ac365-73cb-4a18-8044-c5d7c6db38af" />
+<img width="825" height="420" alt="module-carbon-footprint-2026-09-25T12-09-32-780Z" src="https://github.com/user-attachments/assets/24ec0f66-e697-45b3-885d-ba42e0079993" />
+
 
 - Un diagramme en barres empilées montrant les émissions par EPT ;
-<img width="660" height="840" alt="carbon-footprint-per-person-2026-09-25T08-28-20-645Z" src="https://github.com/user-attachments/assets/34452226-01e8-4368-9881-3a6df0d300b6" />
+<img width="396" height="420" alt="carbon-footprint-per-person-2026-09-25T12-10-22-041Z" src="https://github.com/user-attachments/assets/b7b36d67-0526-4114-8bb9-a8ef51987533" />
+
 
 - Un graphe interactif permettant de visualiser, d’une part, la trajectoire idéale de réduction des émissions de l’institution afin de respecter ses objectifs climatiques et, d’autre part, la trajectoire correspondant à l’unité. Des curseurs permettent d’interagir avec le graphe afin de simuler la mise en œuvre d’actions susceptibles de réduire les émissions.
-<img width="1588" height="1240" alt="reduction-objective-unit-2026-09-25T08-28-22-227Z" src="https://github.com/user-attachments/assets/f1d438c5-90cf-46f5-b84e-110bc98812bd" />
+<img width="640" height="365" alt="image" src="https://github.com/user-attachments/assets/7d4642fa-4f01-451e-9d17-8bde15caad1f" />
+
 
 La page présente ensuite un focus par catégorie, qui suit la structure des modules dans l’espace Calculateur CO₂. Pour chaque catégorie, des visualisations supplémentaires permettent d’examiner plus en détail la nature des contributions aux émissions.
 
