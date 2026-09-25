@@ -99,15 +99,14 @@ At the top of the page, a summary section displays three key indicators:
 Several summary graphs:
 
 - A bar chart showing category’s totals. The results are displayed both by category and by scope;
-<img width="1382" height="840" alt="module-carbon-footprint-2026-09-25T07-59-10-029Z" src="https://github.com/user-attachments/assets/4de8a21f-1b1e-41c8-a1f0-b3093bf6c4e5" />
+<img width="1650" height="840" alt="module-carbon-footprint-2026-09-25T12-09-32-780Z" src="https://github.com/user-attachments/assets/19d60a88-a219-49d5-b8ee-169d4ae66fe0" />
 
 - A stacked bar chart showing emissions per FTE;
-<img width="660" height="840" alt="carbon-footprint-per-person-2026-09-25T08-28-20-645Z" src="https://github.com/user-attachments/assets/9a8170ba-aab7-43be-9d4f-b7cb55baea70" />
+<img width="792" height="840" alt="carbon-footprint-per-person-2026-09-25T12-10-22-041Z" src="https://github.com/user-attachments/assets/ef571263-1d1f-44a4-8991-2f958eb1fc6b" />
 
 - An interactive graph allowing users to view, on the one hand, the institution’s ideal emissions reduction trajectory to meet its climate targets and, on the other hand, the trajectory corresponding to the unit. Sliders allow users to interact with the graph to simulate the implementation of actions likely to reduce emissions.
 
-<img width="1588" height="1240" alt="reduction-objective-unit-2026-09-25T08-28-22-227Z" src="https://github.com/user-attachments/assets/0045d42a-880c-4981-8fa7-8f78d2c47a53" />
-
+<img width="1279" height="723" alt="image" src="https://github.com/user-attachments/assets/7e7ca5d6-d633-4ade-a128-e135d456bb03" />
 
 The page then provides a breakdown by category, following the structure of the CO₂ Calculator modules. For each category, additional visualizations allow a detailed examination of the nature of the contributions to emissions.
 
