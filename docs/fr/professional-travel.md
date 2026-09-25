@@ -19,7 +19,7 @@ Les données relatives aux voyages professionnels en avion et en train doivent �
 
 ***Détail par année***
 
-Pour les utilisatrices et utilisateurs principaux, les données du remontent automatiquement du calculateur CO2. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des voyages professionnels attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO2 ne remontent pas et la saisie pour les deux-sous modules se fait manuellement.
+Pour les utilisatrices et utilisateurs principaux, les données du remontent automatiquement du calculateur CO₂. Elles et ils peuvent alors définir, pour chaque année, un pourcentage de référence afin d’estimer la part des voyages professionnels attribuable au projet. Pour les utilisatrices et utilisateurs standards, les données du calculateur CO₂ ne remontent pas et la saisie pour les deux-sous modules se fait manuellement.
 
 #### *2.3 Espace Explorateur CO₂*
 
@@ -77,7 +77,7 @@ Où :
 
 Le calculateur additionne alors l’impact total des déplacements professionnels :  déplacements en avion effectués via l’agence de voyage central et déplacements en avion et en train saisis manuellement. 
 
-Dans l’espace Planificateur de projet CO2, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux voyages professionnels en avion et en train attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque voyage en avion et en train.
+Dans l’espace Planificateur de projet CO₂, dans la section détail par année, les utilisatrices et utilisateurs principaux peuvent définir, pour chaque année, un pourcentage de référence afin d’estimer la part des émissions liées aux voyages professionnels en avion et en train attribuable au projet. L’empreinte carbone associée à ces sous-modules dans le cadre du projet est calculée en appliquant ce pourcentage de référence aux émissions correspondantes (en kg CO₂-eq) pour chaque voyage en avion et en train.
 
 
 ### 5. Limites
