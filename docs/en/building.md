@@ -1,16 +1,16 @@
 ### 1.	Context 
 The carbon footprint considered in the **Buildings** module includes the impact associated with the following two sub-modules: 
 
-- The *Rooms* sub-module covers emissions relating to heating, cooling, ventilation and lighting of the various building locations related to the data entered in the internal database relating to rooms location.
+- The *Rooms* sub-module covers emissions relating to heating, cooling, ventilation and lighting of the various building locations used by the unit.
 - The *Energy Combustion Emissions* sub-module is available to account for other energy combustion emissions in cases where a unit uses a non-centralised energy source. Emissions related to energy combustion in laboratories stem mainly from the on-site combustion of fuels used for heating, ventilation, hot water and specialized equipment.
 
-The **Buildings** module aims to capture these energy-related emissions. The *Rooms* sub-module covers indirect emissions and therefore Scope 2. The *Energy Combustion Emissions* sub-module covers direct emissions and therefore Scope 1.
+The **Buildings** module aims to capture these energy-related emissions. The *Rooms* sub-module covers mainly indirect emissions related to electricity and therefore Scope 2. The *Energy Combustion Emissions* sub-module covers direct emissions and therefore Scope 1.
 
 ### 2.	Data collected 
 
 #### *2.1 CO₂ Calculator workspace*
 
-- ***Rooms sub-module***: For this sub-module, the internal database on floor location provides a list of the rooms used by a unit and their floor locations. Data on energy consumption (in kWh/m²) and room types (DIN/SIA standards) are provided by the Vice-Presidency for Operations at EPFL (VPO). Consumption data is then redistributed according to the types of rooms used by a unit. 
+- ***Rooms sub-module***: For this sub-module, the internal database on floor location provides a list of the rooms used by a unit and their surfaces. Hypotheses on energy consumption (kWh/m²) vary by building and room type. These estimates are created using information provided by the Vice-Presidency for Operations at EPFL (VPO), including the campus's total energy consumption, the total energy consumption of specific buildings, and the detailed technical inventories of certain buildings, which are then used to extrapolate hypotheses for others. 
 
 - ***Energy Combustion Emissions sub-module***: Data on centralised thermal energy consumption for the ‘Energy Combustion Emissions’ sub-module is entered manually.
 
@@ -49,7 +49,8 @@ The carbon footprint of each room $CF_{rooms}$ is calculated as the product of t
 
 $$
 CF_{rooms} = Surface \cdot \left(
-Cons_{heating, building, room_{type}} +
+\left( Cons_{heating, building, room_{type}}  \cdot conversion_factor
+\right)+
 Cons_{cooling, building, room_{type}} +
 Cons_{ventilation, building, room_{type}} +
 Cons_{lighting, building, room_{type}}
@@ -65,6 +66,7 @@ Where:
 - $Cons_{cooling, building, room_{type}}$
 - $Cons_{ventilation, building, room_{type}}$
 - $Cons_{lighting, building, room_{type}}$: electricity consumption for heating, cooling, ventilation and lighting of the room in kWh/m² extrapolated from VPO data, depending on the buildings and room type
+- $conversion_factor$: this is a specific conversion factor that is used when the building's heating is thermal rather than electric. 
 - $EF_{electricity}$: emission factor for electricity consumption (0.097 kg CO₂-eq/kWh (BAFU, 2025))
   
 ***Energy Combustion Emissions sub-module***
@@ -87,7 +89,7 @@ The carbon footprint associated with the Rooms and Energy Combustion Emissions s
 
 ### 5. Limitations
 - The floor location in m² provided by the internal database on rooms may not reflect reality in cases where rooms are shared or loaned.
-- Electricity consumption for heating, cooling, ventilation and lighting of the rooms is extrapolated from a single consumption value per building provided by the VPO to derive a specific value per use (heating, cooling, ventilation and lighting) and per type of room (office, miscellaneous, laboratories, archives, libraries or auditorium) based on the SIA standard.
+- Electricity consumption for heating, cooling, ventilation and lighting of the rooms is extrapolated from a total consumption value per building provided by the VPO. This is combined with the specific technical inventories for certain buildings to derive a value for each use (heating, cooling, ventilation and lighting) and for each room type (office, miscellaneous, laboratory, archive, library or auditorium).
 - The emission factor of 0.097 kg CO₂-eq/kWh represents a Swiss annual average, not the electricity mix at the time the equipment is in use.
 - Fuel consumption for estimating energy combustion emissions from a non-centralised heating system must be entered manually. The quality of the results therefore depends on the quality of this input data.
 
@@ -97,7 +99,6 @@ The carbon footprint associated with the Rooms and Energy Combustion Emissions s
 - Labos1point5 : [Emission factors – June 2021 version](https://apps.labos1point5.org/static/carbon/FacteursEmission_GES1point5_Juin2021.pdf) et [Emission factors goods and services – January 2022 version](https://apps.labos1point5.org/static/carbon/FacteursEmission_BiensEtServices_janvier2022_FR.pdf). For goods and services, you may also consult a more detailed discussion in [De Paepe 2023](https://doi.org/10.1101/2023.04.04.535626).
 - Corporate Footprint Calculator v 1.0, [https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator](https://www.itinero.admin.ch/fr/feuilles-de-route-zero-net#Corporate-Footprint-Calculator)
 - BAFU 2025, [https://nexus.openlca.org/database/BAFU](https://nexus.openlca.org/database/BAFU)
-- SIA Standards: [https://www.sia.ch/en/cms/services/standards-regulations](https://www.sia.ch/en/cms/services/standards-regulations)
 
 
 ### 7. Appendix
