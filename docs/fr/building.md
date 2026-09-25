@@ -51,7 +51,7 @@ L’empreinte carbone de chaque local $CF_{rooms}$ est calculée comme le produi
 
 $$
 CF_{rooms} = Surface \cdot \left(
-\left( Cons_{heating, building, room_{type}}  \cdot conversion_factor
+\left( Cons_{heating, building, room_{type}}  \cdot conversion_{factor}
 \right)+
 Cons_{cooling, building, room_{type}} +
 Cons_{ventilation, building, room_{type}} +
