@@ -16,7 +16,7 @@ Le module Achats vise à capturer ces émissions indirectes (scope 3). Il couvre
 
 #### *2.1 Espace Calculateur CO₂*
 
-Le module inclut l’ensemble des biens et services achetés auprès de fournisseurs externes durant l’année de référence.
+Le module inclut l’ensemble des biens et services commandé et achetés auprès de fournisseurs externes en utilisant le système EPFL durant l’année de référence.
 
 Pour chaque achat, les informations suivantes sont automatiquement intégrées à partir des factures payées, liées au centre financier de chaque unité :
 
