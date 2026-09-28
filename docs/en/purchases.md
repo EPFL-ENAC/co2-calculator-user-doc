@@ -16,7 +16,7 @@ The **Purchases** module is designed to capture these indirect emissions (Scope 
 
 #### *2.1 CO₂ Calculator workspace*
 
-The module includes all goods and services purchased from external suppliers during the reference year.
+The module includes goods and services ordered and purchased from external suppliers via the EPFL system during the reference year.
 
 For each purchase, the following information is automatically populated from paid invoices related to each unit’s financial center:
 
@@ -26,7 +26,7 @@ For each purchase, the following information is automatically populated from pai
 - Quantity
 - Total amount paid
 
-The *Centralised Purchases sub-module* is designed to incorporate predefined items corresponding to centralised and/or shared purchases between several units. Where applicable, the annual consumption for these items must be entered.
+The *Centralised purchases sub-module* is designed to incorporate predefined items corresponding to centralised and/or shared purchases between several units. Where applicable, the annual consumption for these items must be entered.
 
 #### *2.2 CO₂ Project planner workspace*
 
@@ -39,13 +39,13 @@ To explore the carbon footprint of the **Purchases** module, users can manually 
 <a id="factors"></a>
 ### 3.	Emission factors
 
-***Standard Purchases sub-modules***
+***Standard purchases sub-modules***
 
-They include the following sub-modules: *Scientific Equipments, IT Equipments, Consumables and Accessories, Biological, Chemical and Gaseous Products, Services, Vehicles, and Other Purchases*. 
+They include the following sub-modules: *Scientific equipments, IT equipments, Consumables and accessories, Biological, chemical and gaseous products, Services, Vehicles, and Other purchases*. 
 
 Each purchased item is assigned with a specific emission factor (kg CO₂-eq / EUR), derived from the database shared by Labos 1point5 (2021, 2022, De Paepe 2024). This factor is refined to best match the product type or category, notably using an AI tool developed by the SDSC. This item-level approach allows for a more accurate estimate than the use of generic factors. However, for purchases added manually, a matching method is used. Each item categorised via a UNSPSC code is associated with a NACRES code (the purchases nomenclature used in France), to which an emission factor (Labos 1point5) corresponds. This factor is then applied to the item.
 
-***Centralised Purchases sub-module***
+***Centralised purchases sub-module***
 
 Each item is associated with a specific emission factor from the [Ecoinvent](https://ecoinvent.org/) (2026) database.
 
@@ -53,7 +53,7 @@ Each item is associated with a specific emission factor from the [Ecoinvent](htt
 <a id="methodology"></a>
 ### 4.	Methodology
 
-***Standard Purchases sub-modules***
+***Standard purchases sub-modules***
 
 The carbon footprint of each purchase $CF_{purchase}$ is calculated as the product of the total financial value of the item and the associated emission factor, as follows:
 
@@ -80,7 +80,7 @@ The amount is converted into euros using the average exchange rate for the refer
 
 Monetary emission factors are adjusted using an inflation coefficient to reflect current economic conditions. The factors (expressed in a the base year) are multiplied by the inflation rate between 2019 and the base year as provided by the European Central Bank (ECB). This ensures greater consistency between historical factors and current monetary values.
 
-***Centralised Purchases sub-module***
+***Centralised purchases sub-module***
 
 For a given year, all purchases must be entered manually for a given year. 
 
@@ -99,7 +99,7 @@ Where:
 
 The emission factors used are taken from the ecoinvent database (restricted licence, not for public distribution).
 
-In the CO₂ Project planner, under the Detailed per year section, both principal and standard users can define, for each year, either a budget by purchasing category or a total budget applicable to the entire module. These budgets are used to estimate the carbon emissions attributable to the project using financial emission factors.
+In the CO₂ Project planner, under the Detailed per year section, both principal and standard users can define, for each year, either a budget by purchasing category or by a global budget applicable to the entire module. These budgets are used to estimate the carbon emissions attributable to the project using financial emission factors.
 
 In the CO₂ Explorer, the estimation of the carbon footprint of purchases is based on emission factors derived from the UNSPSC classification. Users select a UNSPSC class and enter the corresponding expenditure amount. The tool then calculates the carbon footprint associated with the purchase and enables users to explore emissions by purchasing category.
 
