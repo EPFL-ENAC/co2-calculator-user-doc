@@ -111,6 +111,7 @@ This module has a high level of uncertainty.
 The carbon footprint associated with the use of research facilities is allocated without distinction between the types of equipment used or the purchases made by the units for their research activities. Indeed, research facilities include equipment whose electricity consumption can vary considerably. In the absence of data that would allow for a precise distinction in their levels of use, this variability is not taken into account in the allocation of the carbon footprint.
 
 Furthermore, the calculation of the carbon footprint associated with the use of EPFL’s research infrastructure is based on the carbon footprints of the **Process Emissions, Buildings, Equipment and Purchasing** modules, which themselves have their own limitations.  
+
 - ***[See Limitations from Process emissions module](./processes.md#5-limites)***
 - ***[See Limitations from Buildings module](./building.md#5-limites)***
 - ***[See Limitations from Equipment module](./equipment.md#5-limites)*** 
