@@ -20,7 +20,7 @@ Plusieurs ressources et dispositifs internes sont disponibles pour accompagner l
 #### Domaines d’action
 - [Énergie et bâtiments](https://www.epfl.ch/about/sustainability/fr/durabilite/energie-et-batiments/)
 - [Numérique responsable](https://www.epfl.ch/about/sustainability/fr/numerique-responsable/)
-- [Green Labs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)
+- [Sustainable Labs](https://www.epfl.ch/about/sustainability/fr/durabilite/green-labs/)
     - [SV Green Labs](https://www.epfl.ch/schools/sv/school-of-life-sciences/about-us/sv-sustainability-office/sv-green-labs-corner/)
     - [STI Green Labs](https://sti.epfl.ch/fr/sti-green-labs-fr/)
     - [SB Green Labs](https://www.epfl.ch/schools/sb/home/sustainability/)
