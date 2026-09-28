@@ -10,7 +10,8 @@ In the CO₂ calculator tool, robust management of application rights and permis
 
 Certain data depending on the modules, workspaces (CO₂ Project Planner and CO₂ Explorer), and user roles is imported from the CO₂ Calculator space. This is detailed below:
 
-<img width="991" height="228" alt="image" src="https://github.com/user-attachments/assets/87055063-8560-4c7b-8848-98b7dce3e097" />
+<img width="991" height="228" alt="image" src="https://github.com/user-attachments/assets/6c296c5e-e0b1-45ed-bec8-800c1b43a8fb" />
+
 
 The *CO₂ Explorer workspace* is accessible to everyone, and no data is reported from the CO₂ Calculator workspace.
 
