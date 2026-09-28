@@ -32,33 +32,40 @@ If you encounter login issues or bugs, you can create a ticket through the EPFL 
 ### 5. What are the steps? Where should I start?
  
 **1. Log in**
+
 - Access the CO₂ Calculator and log in via: [https://co2-calculator.epfl.ch/](https://co2-calculator.epfl.ch). 
 - Select your preferred language and display mode.
 
 **2. Verify your user status (top right corner)**
+
 - Check your role: principal user or standard user.
 - If necessary, delegate your principal user role to a member of your unit through the internal accreditation system.
 
 **3. Configure your calculator**
+
 - Select your unit and the relevant year (top left corner).
 - Start estimating your unit’s carbon footprint.
 - As soon as you modify a module, the home page is automatically replaced by a bar chart displaying preliminary results.
 
 **4. Navigate and enter your data**
+
 - Use the menu on the left to navigate through the tool.
 - Proceed module by module: click **Validate** or **Edit**, then review, complete, or enter your data.
 - Carefully read the description of each module to understand how it works.
 
 **Modules to review:**
+
 - Headcount
 - Buildings
 - EPFL research facilities
 
 **Modules to review and complete:**
+
 - Equipment
 - Professional travel
 
 **Modules requiring data entry:**
+
 - Process emissions
 - External Clouds and AI
  
@@ -67,6 +74,7 @@ Standard users must verify their data in the **Professional Travel** and **Exter
 Click **Documentation** at any time to access additional information and useful resources.
 
 **5. Review results and plan your project**
+
 - Once all modules have been validated, your unit’s results become available on the Results page and can be viewed by all members of the unit.
 - Define your ambitious trajectory towards 2040.
 - Consult the **Documentation** section for more information about how the tool works.
