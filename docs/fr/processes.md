@@ -12,7 +12,7 @@ Les quantités de gaz émises par les émissions de procédés sont saisies manu
 
 <a id="facteurs"></a>
 ### 3.	Facteurs d’émission
-Ce module utilise le Potentiel de Réchauffement Global (PRG) sur un horizon de 100 ans par rapport au CO₂ comme facteur d'émission standard. Ces valeurs sont fournies par le GHG Protocol (GHG Protocol, 2024) et sont adaptées du Cinquième Rapport d'évaluation du GIEC de 2014 (AR5).
+Ce module utilise le Potentiel de Réchauffement Global (PRG) sur un horizon de 100 ans par rapport au CO₂ comme facteur d'émission standard. Ces valeurs sont fournies par le GHG Protocol (GHG Protocol, 2024) et sont adaptées du Sixième Rapport d'évaluation du GIEC de 2020 (AR6).
 
 <a id="methodologie"></a>
 ### 4.	Méthodologie
@@ -33,5 +33,7 @@ Le total des émissions de l'ensemble de chaque élément s'affiche en t CO₂-e
 Le module Émissions de procédés doit être rempli manuellement. La qualité des résultats dépend donc directement de la qualité des données entrées. Ces chiffres peuvent être estimés ou mesurés selon les données à disposition.
 
 ### 6.	Références
-- Greenhouse Gas Protocol (2024) : [IPCC Global Warming Potential Values](https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf) 
+- Greenhouse Gas Protocol (2024) : [IPCC Global Warming Potential Values](https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf)
+- IPCC Sixth Assessment Report (2020): [AR6 GWP values (Section 7.6.1.1)](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/#7.6)
+
 
