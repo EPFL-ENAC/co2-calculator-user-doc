@@ -96,8 +96,8 @@ Plusieurs graphes de synthèse :
 
 
 - Un diagramme en barres empilées montrant les émissions par EPT ;
+  
 <img width="396" height="420" alt="carbon-footprint-per-person-2026-09-25T12-10-22-041Z" src="https://github.com/user-attachments/assets/b7b36d67-0526-4114-8bb9-a8ef51987533" />
-
 
 - Un graphe interactif permettant de visualiser, d’une part, la trajectoire idéale de réduction des émissions de l’institution afin de respecter ses objectifs climatiques et, d’autre part, la trajectoire correspondant à l’unité. Des curseurs permettent d’interagir avec le graphe afin de simuler la mise en œuvre d’actions susceptibles de réduire les émissions.
 <img width="640" height="365" alt="image" src="https://github.com/user-attachments/assets/7d4642fa-4f01-451e-9d17-8bde15caad1f" />
