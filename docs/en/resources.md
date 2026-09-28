@@ -23,7 +23,7 @@ Several internal resources and schemes are available to support units in this pr
 #### Fields of action
 - [Energy and buildings](https://www.epfl.ch/about/sustainability/energy-buildings/)
 - [Sustainable IT Systems](https://www.epfl.ch/about/sustainability/sustainable-it/)
-- [Green Labs](https://www.epfl.ch/about/sustainability/research-innovation/green-labs/)
+- [Sustainable Labs](https://www.epfl.ch/about/sustainability/sustainability/green-labs_draft_ag/)
     - [SV Green Labs](https://www.epfl.ch/schools/sv/school-of-life-sciences/about-us/sv-sustainability-office/sv-green-labs-corner/)
     - [STI Green Labs](https://sti.epfl.ch/sti-green-labs-eng/)
     - [SB Green Labs](https://www.epfl.ch/schools/sb/home/sustainability/)
