@@ -99,8 +99,9 @@ To ensure full transparency, the methodology for each module is documented in th
  
 ### 1. I cannot access certain modules. Is this normal?
 Yes. Within the CO₂ Calculator, two user roles are assigned:
- 
+
 - **Principal user**: The person responsible for the unit is the only one with full access to the tool. They can view the entire unit and access all modules. They can explicitly grant access rights to headcount members within their unit and may delegate the principal user role to one or more individuals directly through the EPFL accreditation system.
+  
 - **Standard user**: For data entry purposes, other unit members only have access to the **External Clouds and AI** and **Professional Travel** modules and can only view their own air and/or train travel records. They can also view the unit’s aggregated results.
  
 [More information about roles in the CO₂ calculator](https://epfl-enac.github.io/co2-calculator-back-office-doc/roles/)
@@ -109,7 +110,7 @@ Yes. Within the CO₂ Calculator, two user roles are assigned:
 To modify a module, make sure to click **Edit Module**.
  
 If you are assigned the principal user role, you have access to all modules. The following modules can be modified:
- 
+
 - Headcount
 - Process emissions
 - Buildings
