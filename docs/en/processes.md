@@ -30,6 +30,6 @@ The **Process emissions** module must be completed manually. The quality of the 
 
 ### 6.	References 
 - Greenhouse Gas Protocol (2024) : [IPCC Global Warming Potential Values](https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf)
-- AR6 GWP values (Section 7.6.1.1): https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/#7.6
+- IPCC Sixth Assessment Report (2020): [AR6 GWP values (Section 7.6.1.1)](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/#7.6)
 
 
