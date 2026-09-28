@@ -96,7 +96,7 @@ The open-source CO₂ calculator tool  is designed to:
 The CO₂ calculator is fully part of the School’s environmental strategy:
 
 - **[EPFL Climate & Sustainability Strategy 2030](https://www.epfl.ch/about/sustainability/strategy/)** ;
-- **[EPFL GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** initiative ;
+- **[EPFL Sustainable Labs](https://www.epfl.ch/about/sustainability/sustainability/green-labs_draft_ag/)** initiative ;
 - Future international and national requirements regarding the evaluation of the environmental impact of research projects
 
 The **[EPFL Climate & Sustainability Strategy 2030](https://www.epfl.ch/about/sustainability/strategy/)** sets ambitious targets by integrating sustainability into the School’s core missions: education, research, and innovation. It also includes measures to reduce environmental impacts related to the institution’s operations. These goals include in particular:
@@ -109,11 +109,11 @@ Since the entry into force, on January 1, 2025, of the Climate and Innovation Ac
 
 In this context, the CO₂ calculator makes it possible to estimate the carbon footprint at the level of research units. The data can then be aggregated at different levels (institutes, faculties).
 
-The **[EPFL GreenLabs](https://www.epfl.ch/about/sustainability/fr/recherche-et-innovation/green-labs/)** initiative, part of this strategy, aims to promote responsible research practices in environmental and social terms, without compromising scientific quality and while respecting planetary boundaries. It seeks to quantify, analyze, and optimize the operational processes of research activities.
+The **[EPFL Sustainable Labs](https://www.epfl.ch/about/sustainability/sustainability/green-labs_draft_ag/)** initiative, part of this strategy, aims to promote responsible research practices in environmental and social terms, without compromising scientific quality and while respecting planetary boundaries. It seeks to quantify, analyze, and optimize the operational processes of research activities.
 
-<img width="451" height="201" alt="image" src="https://github.com/user-attachments/assets/90050d79-1111-489b-a0e8-ca92bfa9cc85" />
+<img width="583" height="1075" alt="Screenshot 2026-09-28 at 16 27 20" src="https://github.com/user-attachments/assets/4df21a40-4a02-4819-ba9a-89012c8e4e42" />
 
-Figure 1: EPFL GreenLabs approach
+    Figure 1: EPFL Sustainable Labs Vision
 
 The CO₂ calculator makes it possible to anticipate future obligations regarding monitoring and reporting carbon emissions related to research activities.
 
