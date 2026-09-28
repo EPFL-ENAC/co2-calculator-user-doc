@@ -267,7 +267,7 @@ Purchase information is automatically imported from paid invoices linked to each
 #### 11.2 Some purchasing data is missing. Can I add it?
  
 Yes. It is possible to add purchase data by category:
- 
+
 - Scientific equipment
 - IT equipment
 - Consumables and accessories
@@ -332,7 +332,7 @@ No. The tool has been designed so that members of a unit can only access the res
 The **grant proposal** section allows users to estimate the carbon footprint associated with a funding application.
  
 Principal users benefit from the partial transfer of completed and validated data from the CO₂ Calculator workspace, particularly for the following modules:
- 
+
 - Process emissions
 - Buildings
 - Equipment
