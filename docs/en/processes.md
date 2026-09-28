@@ -8,7 +8,7 @@ The quantities of gases associated with process and fugitive emissions are enter
 
 <a id="factors"></a>
 ### 3.	Emission factors
-This module uses the 100-year time horizon Global Warming Potential (GWP) relative to CO₂ as its standard emission factor. These values are provided by the GHG Protocol (GHG Protocol, 2024), adapted from the IPCC Fifth Assessment Report, 2014 (AR5).
+This module uses the 100-year time horizon Global Warming Potential (GWP) relative to CO₂ as its standard emission factor. These values are provided by the GHG Protocol (GHG Protocol, 2024), adapted from the IPCC Sixth Assessment Report, 2020 (AR6).
 
 <a id="methodology"></a>
 ### 4.	Methodology
@@ -30,6 +30,6 @@ The **Process emissions** module must be completed manually. The quality of the 
 
 ### 6.	References 
 - Greenhouse Gas Protocol (2024) : [IPCC Global Warming Potential Values](https://ghgprotocol.org/sites/default/files/2024-08/Global-Warming-Potential-Values%20%28August%202024%29.pdf)
-
+- AR6 GWP values (Section 7.6.1.1): https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/#7.6
 
 
