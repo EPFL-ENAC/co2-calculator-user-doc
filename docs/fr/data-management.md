@@ -8,6 +8,13 @@ Dans l’outil calculateur CO₂, une gestion forte des droits et permissions de
 - **Gestionnaire Métier complet** : La personne responsable de la Durabilité EPFL ainsi que la personne en charge de la gestion des données institutionnelles pour la durabilité ont un accès complet aux données de l’outil et du reporting. Cet accès leur est strictement réservé.
 - **Gestionnaire Métier restreint** : Dans les facultés, les personnes des bureaux de durabilité ont le rôle de Gestionnaire Métier restreint, c’est-à-dire qu’elles peuvent faire le suivi des unités se trouvant dans leur faculté.
 
+#### Accréditation du personnel externe
+
+Les externes ne sont pas accrédités automatiquement pour l'utilisation du calculateur CO₂. C'est au responsable d'unité d'accréditer les externes si nécessaire via le système interne d'accréditation EPFL. 
+
+
+#### Remontée des données de l'espace Calculateur CO₂
+
 Certaines données en fonction des modules, espaces (Planificateur de projet CO₂ et Explorateur CO₂) et rôles des utilisatrices et utilisateurs remontent de l'espace Calculateur CO₂. Ceci est détaillé ci-dessous : 
 
 <img width="991" height="233" alt="image" src="https://github.com/user-attachments/assets/8f8735cc-8e5a-4873-9428-cf6312b726bb" />
