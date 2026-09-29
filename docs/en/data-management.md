@@ -8,10 +8,15 @@ In the CO₂ calculator tool, robust management of application rights and permis
 - **Back-office Manager**: The person responsible for EPFL Sustainability and the person in charge of managing institutional sustainability data have full access to the tool’s data and reporting. This access is strictly reserved for them.
 - **Back-office user**: Within the faculties, staff in the sustainability offices have the role of Restricted Professional Manager, meaning they can monitor the units within their faculty. 
 
+#### Accreditation of External Staff
+
+External staff are not automatically accredited to use the CO₂ calculator. It is the unit manager responsibility to accredit external staff as needed through EPFL internal accreditation system.
+
+#### Data retrieval from the CO₂ Calculator workspace 
+
 Certain data depending on the modules, workspaces (CO₂ Project Planner and CO₂ Explorer), and user roles is imported from the CO₂ Calculator space. This is detailed below:
 
 <img width="991" height="228" alt="image" src="https://github.com/user-attachments/assets/6c296c5e-e0b1-45ed-bec8-800c1b43a8fb" />
-
 
 The *CO₂ Explorer workspace* is accessible to everyone, and no data is reported from the CO₂ Calculator workspace.
 
