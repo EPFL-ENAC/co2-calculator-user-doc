@@ -51,7 +51,7 @@ plugins:
             Methodology: Méthodologie
             Modules specification: Spécification des modules
             Headcount: Personnel  
-            Processes: Procédés
+            Processe emissions: Emissions de procédés
             Buildings: Bâtiments
             Equipment: Équipements
             External clouds & IA: Clouds externes et IA 
@@ -91,7 +91,7 @@ nav:
   - Methodology: methodology.md
   - Modules specification:
       - Headcount: headcount.md
-      - Processes: processes.md
+      - Processe emissions: processes.md
       - Buildings: building.md
       - Equipment: equipment.md
       - External clouds & IA: external-cloud.md
