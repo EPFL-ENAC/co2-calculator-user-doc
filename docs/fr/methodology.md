@@ -68,10 +68,10 @@ Par exemple, pour le module **Équipements**, un incubateur qui est utilisé sur
 Selon les données disponibles, il est parfois nécessaire d’effectuer des calculs afin d’obtenir la quantité de l’activité émettrice. Par exemple, dans le cas de l’incubateur ci-dessus, la quantité de kWh a été estimée sur la base de la puissance moyenne en standby en activité, et selon le rapport des heures d’utilisation par semaine. Plus de détails et d’information sur les choix et les méthodes de calcul sont accessibles dans l’onglet « Spécification des modules ».
 
 #### 2.2 Espace Planificateur de projet CO₂
-Le périmètre appliqué à cet espace est le même que celui du calculateur CO2 et dispose des mêmes modules. Ce qui différencie cet espace à celui du calculateur CO2 est que les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone de leur projet. Selon leur droit, ces personnes doivent saisir des données manuellement.
+Le périmètre appliqué à cet espace est le même que celui du calculateur CO₂ et dispose des mêmes modules. Ce qui différencie cet espace à celui du calculateur CO₂ est que les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone de leur projet. Selon leur droit, ces personnes doivent saisir des données manuellement.
 
 #### 2.3 Espace Explorateur CO₂
-Le périmètre appliqué à cet espace est également le même que celui du calculateur CO2 et dispose des mêmes modules. Toutes les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone d’un élément ou d’une action, par exemple pour explorer l’empreinte carbone de l’utilisation d’un équipement spécifique, un voyage professionnel, etc. 
+Le périmètre appliqué à cet espace est également le même que celui du calculateur CO₂ et dispose des mêmes modules. Toutes les utilisatrices et utilisateurs ont accès à tous les modules permettant d’estimer l’empreinte carbone d’un élément ou d’une action, par exemple pour explorer l’empreinte carbone de l’utilisation d’un équipement spécifique, un voyage professionnel, etc. 
 
 
 ### 3. Unité de mesure : kg CO₂-eq et t CO₂-eq
