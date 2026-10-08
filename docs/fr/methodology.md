@@ -54,7 +54,7 @@ Certaines émissions liées aux Locaux dans le module **Bâtiments** peuvent aus
 
 Ce périmètre organisationnel correspond aux installations et activités sur lesquelles les unités de recherche exercent un contrôle, direct ou indirect, et pour lesquelles elles disposent de leviers d’action concrets afin de réduire leurs émissions. Les émissions indirectes associées aux investissements de capital ne sont pas inclus dans le calcul de l’empreinte carbone. 
 
-Pour chacun des sous-modules et modules, l’estimation de l’empreinte carbone (CF) d’une catégorie donnée $$CF_{\text{category}}$$ suit le calcul suivant :
+Pour chacun des sous-modules et modules, l’estimation de l’empreinte carbone (CF) d’une catégorie donnée $CF_{\text{category}}$ suit le calcul suivant :
 
 $$
 CF_{\text{category}} = Q_{\text{category}} \cdot EF_{\text{category}}
