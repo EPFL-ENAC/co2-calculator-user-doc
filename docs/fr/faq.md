@@ -76,14 +76,21 @@ Cliquez sur **Documentation** à tout moment pour obtenir des informations compl
 
 Après avoir rempli l'espace Calculateur CO₂, vous êtes prête et prêt à utiliser les espaces Planificateur de projet CO₂ et Explorateur CO₂.
 
+### 6. Comment déléguer le rôle d'utilisateur·rice principal·e ? 
 
-### 6. Quelle est la méthodologie employée pour les différents modules ? 
+Pour déleguer ou détenir le rôle d'utilisateur·rice principal·e, votre responsable d'unité doit faire les démarches via le système interne d'accréditation (-> Autorisation -> Nom du droit -> Calculateur CO₂ - Détenir le rôle Responsable d'unité). Cette procédure permet de garantir la protection des données dans le calculateur CO₂.
+
+[Plus d'information sur comment donner une autorisation pour un droit](https://www.epfl.ch/campus/services/ressources/accred/gerer-une-personne/ajouter-supprimer-droits/)
+
+
+
+### 7. Quelle est la méthodologie employée pour les différents modules ? 
 Afin d’assurer une transparence totale, chaque méthodologie de chaque module est référencée dans l'onglet Spécification des modules. 
 
-### 7. Comment se passe la gestion de protection des données avec l'outil ?
+### 8. Comment se passe la gestion de protection des données avec l'outil ?
 [Voir onglet sur Gestion des données](./data-management.md).
 
-### 8. Quelles sont les niveaux d’incertitudes ?
+### 9. Quelles sont les niveaux d’incertitudes ?
 - Les niveaux d’incertitudes globales sont documentés dans l'onglet Méthodologie dans le sous-chapitre [6. Limites](./methodology.md#limites).
 - Les niveaux d’incertitudes par module sont consultables dans le sous-chapitre 5. Limites.
 
