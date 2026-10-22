@@ -78,7 +78,7 @@ Après avoir rempli l'espace Calculateur CO₂, vous êtes prête et prêt à ut
 
 ### 6. Comment déléguer le rôle d'utilisateur·rice principal·e ? 
 
-Pour déleguer ou détenir le rôle d'utilisateur·rice principal·e, votre responsable d'unité doit faire les démarches via le système interne d'accréditation (-> Autorisation -> Nom du droit -> Calculateur CO₂ - Détenir le rôle Responsable d'unité). Veuillez noter que bien que le nom indique "Responsable d'unité", ceci donne uniquement le droit d'utilisateur·rice principal·e dans le calculateur afin d'avoir accès à tous les modules mais ne donne pas d'autres droits de responsable d'unité. Cette procédure permet de garantir la protection des données dans le calculateur CO₂.
+Pour déleguer ou détenir le rôle d'utilisateur·rice principal·e, votre responsable d'unité doit faire les démarches via le système interne d'accréditation (-> Autorisation -> Nom du droit -> Calculateur CO₂ - Détenir le rôle Responsable d'unité). Veuillez noter que bien que le nom indique "Responsable d'unité", ceci donne uniquement le droit d'utilisateur·rice principal·e dans le calculateur CO₂ afin d'avoir accès à tous les modules mais ne donne pas d'autres droits de responsable d'unité. Cette procédure permet de garantir la protection des données dans le calculateur CO₂.
 
 [Plus d'information sur comment donner une autorisation pour un droit](https://www.epfl.ch/campus/services/ressources/accred/gerer-une-personne/ajouter-supprimer-droits/)
 
