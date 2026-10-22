@@ -81,15 +81,21 @@ Click **Documentation** at any time to access additional information and useful 
  
 Once you have completed the CO₂ Calculator workspace, you are ready to use the **CO₂ Project Planner** and **CO₂ Explorer** workspaces.
  
-### 6. What methodology is used for the different modules?
+### 6. How do I delegate the principal user role?
+
+To delegate or hold the main user role, your unit head must go through the internal accreditation system (-> Authorization -> Name of the right -> CO₂ Calculator - Hold the Unit Manager role). Please note that although the name indicates "Unit Manager", this only gives the principal user rights in the CO₂ calculator in order to have access to all modules but does not grant other unit manager rights. This procedure ensures data protection in the CO₂ calculator.
+
+[More information on how to grant an authorization for a right](https://www.epfl.ch/campus/services/ressources/en/accreditation-2/manage-a-person/add-remove-permissions-for-rights/)
+
+### 7. What methodology is used for the different modules?
  
 To ensure full transparency, the methodology for each module is documented in the **Module Specifications** section.
  
-### 7. How is data protection managed in the tool?
+### 8. How is data protection managed in the tool?
  
 [See Data management tab](https://epfl-enac.github.io/co2-calculator-user-doc/data-management/)
  
-### 8. What are the uncertainty levels?
+### 9. What are the uncertainty levels?
  
 - Overall uncertainty levels are documented in the Methodology section, subsection [6. Limites](https://epfl-enac.github.io/co2-calculator-user-doc/methodology/#6-limitations).
 - Module-specific uncertainty levels are available in subsection 5. Limitations.
